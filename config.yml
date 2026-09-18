@@ -1,0 +1,10 @@
+title: Algorithm E-Book
+description: A multi-language algorithm reference guide.
+theme: jekyll-theme-minimal
+baseurl: "/algolearn"
+plugins:
+  - jekyll-relative-links
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
