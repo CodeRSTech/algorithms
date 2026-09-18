@@ -172,3 +172,36 @@ p, small, .text-white-50 {
 .highlight .nb, .highlight .nc, .highlight .nf, .highlight .bp { color: #dcdcaa; } /* Built-ins & Functions */
 .highlight .ow { color: #569cd6; font-weight: bold; } /* Operator Word */
 .highlight .kt { color: #4ec9b0; } /* Types */
+
+/* ---------------------------------------------------
+   Rouge Code Syntax Highlighting (Dark Theme)
+----------------------------------------------------- */
+.highlight {
+    background-color: #0d1117;
+    padding: 15px;
+    border-radius: 6px;
+    overflow-x: auto;
+    font-family: "Fira Code", "Courier New", monospace;
+    font-size: 0.9em;
+    border: 1px solid #30363d;
+}
+
+/* Line Numbers Styling */
+.highlight .gl {
+    color: #484f58;
+    border-right: 1px solid #30363d;
+    padding-right: 15px;
+    margin-right: 15px;
+    user-select: none;
+    text-align: right;
+}
+
+/* Syntax Colors */
+.highlight .c, .highlight .c1, .highlight .cm { color: #8b949e; font-style: italic; } /* Comments */
+.highlight .k, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr { color: #ff7b72; font-weight: bold; } /* Keywords (const, let, for) */
+.highlight .n, .highlight .nx, .highlight .ni { color: #c9d1d9; } /* Variables/Names (DP, tracer) */
+.highlight .s, .highlight .s1, .highlight .s2 { color: #a5d6ff; } /* Strings */
+.highlight .m, .highlight .mi, .highlight .mf { color: #79c0ff; } /* Numbers */
+.highlight .p, .highlight .o { color: #c9d1d9; } /* Punctuation & Operators */
+.highlight .nb, .highlight .nc, .highlight .nf { color: #d2a8ff; } /* Functions (Array, setRoot) */
+.highlight .ow { color: #ff7b72; font-weight: bold; } /* Operator Words */
