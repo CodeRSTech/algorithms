@@ -1,0 +1,136 @@
+---
+layout: main
+---
+<!--<article class="container py-5">-->
+<!--  <h1 class="text-light terminal-prompt">{{ page.title }}</h1>-->
+<!--  <div class="post-content mt-4 text-white-50">-->
+<!--    {{ content }}-->
+<!--  </div>-->
+<!--</article>-->
+<style>
+  .swipe-ribbon { scrollbar-width: none; -ms-overflow-style: none; }
+  .swipe-ribbon::-webkit-scrollbar { display: none; }
+</style>
+
+<div class="container-fluid position-relative mt-3">
+  
+  <!-- MOBILE ONLY: Stacked Sticky Navbars -->
+  <div class="d-lg-none sticky-top bg-black border-bottom border-secondary" style="top: 58px; z-index: 1020;">
+    <div class="d-flex flex-nowrap overflow-x-auto py-2 px-3 border-bottom border-dark swipe-ribbon">
+      <span class="text-white-50 small fw-bold me-3 align-self-center">EXPERIMENTS:</span>
+      {% for post in site.posts %}
+        <a href="{{ post.url }}" class="badge bg-secondary text-light text-decoration-none me-2 text-nowrap">{{ post.title }}</a>
+      {% endfor %}
+    </div>
+    <nav id="toc-nav-mobile" class="nav nav-pills flex-nowrap overflow-x-auto py-2 px-3 swipe-ribbon"></nav>
+  </div>
+
+  <div class="row">
+    <!-- DESKTOP LEFT: Other Posts -->
+    <div class="col-lg-2 d-none d-lg-block border-end border-secondary">
+      <div class="sticky-top pt-4" style="top: 80px;">
+        <h6 class="text-uppercase fw-bold text-primary mb-3">R&D Logs</h6>
+        <nav class="nav flex-column">
+          {% for post in site.posts %}
+            <a class="nav-link text-white-50 px-0 py-1" href="{{ post.url }}">{{ post.title }}</a>
+          {% endfor %}
+        </nav>
+      </div>
+    </div>
+
+    <!-- CENTER: Main Content Payload -->
+    <div class="col-lg-8 col-12 px-lg-5 pb-5 pt-4">
+      <h1 class="text-light fw-bold mb-2">{{ page.title }}</h1>
+      <span class="badge bg-primary mb-4">{{ page.category | capitalize }}</span>
+      <div class="text-white-50 content-payload">
+        {{ content }}
+      </div>
+    </div>
+
+    <!-- DESKTOP RIGHT: TOC Scrollspy -->
+    <div class="col-lg-2 d-none d-lg-block border-start border-secondary">
+      <div class="sticky-top pt-4" style="top: 80px;">
+        <h6 class="text-uppercase fw-bold text-primary mb-3">Contents</h6>
+        <!-- Native Bootstrap ID target -->
+        <nav id="toc-nav" class="nav nav-pills flex-column"></nav>
+      </div>
+    </div>
+  </div>
+</div>
+<!--
+  REALITY CHECK: Jekyll Native TOC (Kramdown) vs. Vanilla JS TOC Architecture
+  
+  Decision: Client-Side Vanilla JS Dynamic TOC Engine
+  
+  Rationale:
+  - GitHub Pages runs Jekyll in "safe mode", which aggressively blocks most custom Ruby gems and server-side TOC generation plugins.
+  - Kramdown's native TOC generates a single rigid HTML block, making it difficult to cleanly split, duplicate, and map across dual separate responsive containers (the desktop sidebar and the mobile horizontal swipe ribbon) without writing brittle, unmaintainable Liquid string-parsing workarounds.
+  - Vanilla JS keeps your actual Markdown source files 100% clean and portable, while dynamically harvesting `<h3>` elements at runtime to build and inject fully-styled Bootstrap nav elements simultaneously across all viewports.
+-->
+<!-- Dynamic TOC & Scrollspy Engine -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const contentArea = document.querySelector('.content-payload');
+    const headings = contentArea.querySelectorAll('h3');
+    const desktopToc = document.getElementById('toc-nav');
+    const mobileToc = document.getElementById('toc-nav-mobile');
+    const navLinks = []; 
+
+    headings.forEach(heading => {
+      if (!heading.id) return; 
+      
+      // Inject Desktop Link
+      const dLink = document.createElement('a');
+      dLink.className = 'nav-link text-white-50 px-2 py-1 transition-all';
+      dLink.href = '#' + heading.id;
+      dLink.textContent = heading.textContent;
+      desktopToc.appendChild(dLink);
+      navLinks.push({ link: dLink, target: heading, isMobile: false });
+
+      // Inject Mobile Link
+      const mLink = document.createElement('a');
+      mLink.className = 'nav-link text-white-50 text-nowrap py-1 px-2 transition-all';
+      mLink.href = '#' + heading.id;
+      mLink.textContent = heading.textContent;
+      mobileToc.appendChild(mLink);
+      navLinks.push({ link: mLink, target: heading, isMobile: true });
+    });
+
+    // IntersectionObserver to handle the active highlighting
+    const observerOptions = {
+      root: null,
+      rootMargin: '-100px 0px -70% 0px', // Triggers as the heading nears the top third of the screen
+      threshold: 0
+    };
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          // 1. Reset all links to muted text
+          navLinks.forEach(item => {
+            item.link.classList.remove('text-white', 'fw-bold', 'bg-secondary', 'bg-opacity-25');
+            item.link.classList.add('text-white-50');
+          });
+
+          // 2. Highlight the active links (both desktop and mobile)
+          const activeItems = navLinks.filter(item => item.target === entry.target);
+          activeItems.forEach(item => {
+            item.link.classList.remove('text-white-50');
+            item.link.classList.add('text-white', 'fw-bold', 'bg-secondary', 'bg-opacity-25', 'rounded');
+            
+            // 3. Auto-scroll the mobile ribbon to keep the active link in view
+            if (item.isMobile) {
+              mobileToc.scrollTo({
+                left: item.link.offsetLeft - 20,
+                behavior: 'smooth'
+              });
+            }
+          });
+        }
+      });
+    }, observerOptions);
+
+    // Attach the observer to every heading
+    headings.forEach(heading => observer.observe(heading));
+  });
+</script>
