@@ -1,3 +1,9 @@
+---
+layout: default
+title: N-Queens Problem
+category: Backtracking
+---
+
 # N-Queens Problem
 
 The **eight queens puzzle** is the problem of placing eight chess queens
@@ -115,3 +121,17 @@ Below is a visual aid for `leftDiagonal`, `column`, and `rightDiagonal`.
 - Bitwise Solution
   - [Wikipedia](https://en.wikipedia.org/wiki/Eight_queens_puzzle)
   - [Solution by Greg Trowbridge](http://gregtrowbridge.com/a-bitwise-solution-to-the-n-queens-problem-in-javascript/)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

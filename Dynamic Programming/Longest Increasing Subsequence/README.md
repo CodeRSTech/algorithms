@@ -1,3 +1,9 @@
+---
+layout: default
+title: Longest Increasing Subsequence
+category: Dynamic Programming
+---
+
 # Longest Increasing Subsequence
 
 The longest increasing subsequence problem is to find a subsequence of a
@@ -45,3 +51,17 @@ input sequence.
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/sets/longest-increasing-subsequence)
 - [Wikipedia](https://en.wikipedia.org/wiki/Longest_increasing_subsequence)
 - [Dynamic Programming Approach on YouTube](https://www.youtube.com/watch?v=CE2b_-XfVDk&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

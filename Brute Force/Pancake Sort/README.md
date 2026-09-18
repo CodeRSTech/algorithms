@@ -1,3 +1,9 @@
+---
+layout: default
+title: Pancake Sort
+category: Brute Force
+---
+
 # Pancake Sort
 Pancake Sort,inspired from sorting a stack of pancake using spatula, is a simple sorting algorithm that only have 1 operation called flip. </br> flip (i) : Reverse array from i to N where N is length of array 
 
@@ -8,3 +14,16 @@ Pancake Sort,inspired from sorting a stack of pancake using spatula, is a simple
 ## References
 * [Wikipedia](https://en.wikipedia.org/wiki/Pancake_sorting)
 * [Geeksforgeeks](http://www.geeksforgeeks.org/pancake-sorting/)
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

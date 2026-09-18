@@ -1,3 +1,9 @@
+---
+layout: default
+title: Bellman-Ford's Shortest Path
+category: Dynamic Programming
+---
+
 # Bellman-Ford's Shortest Path
 
 The Bellman–Ford algorithm is an algorithm that computes shortest
@@ -20,3 +26,17 @@ Worst-case space complexity `O(|V|)`
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/graph/bellman-ford)
 - [Wikipedia](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm)
 - [On YouTube by Michael Sambol](https://www.youtube.com/watch?v=obWXjtg0L64&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

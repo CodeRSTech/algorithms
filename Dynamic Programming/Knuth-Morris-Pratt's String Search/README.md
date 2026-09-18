@@ -1,3 +1,9 @@
+---
+layout: default
+title: Knuth-Morris-Pratt's String Search
+category: Dynamic Programming
+---
+
 # Knuth-Morris-Pratt's String Search
 
 The Knuth–Morris–Pratt string searching algorithm (or
@@ -18,3 +24,17 @@ of previously matched characters.
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/string/knuth-morris-pratt)
 - [Wikipedia](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
 - [YouTube](https://www.youtube.com/watch?v=GTJr8OvyEVQ&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

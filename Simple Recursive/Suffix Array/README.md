@@ -1,3 +1,9 @@
+---
+layout: default
+title: Suffix Array
+category: Simple Recursive
+---
+
 # Suffix Array
 a suffix array is just a sorted array of all the suffixes of a given string. The main algorithms include (efficient & inefficient) construction of Suffix Array and how we can use it for substring search & other purposes
 
@@ -12,3 +18,16 @@ a suffix array is just a sorted array of all the suffixes of a given string. The
 
 ## References
 * [Codechef](https://discuss.codechef.com/questions/21385/a-tutorial-on-suffix-arrays)
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

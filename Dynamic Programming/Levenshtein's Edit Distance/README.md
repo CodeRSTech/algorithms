@@ -1,3 +1,9 @@
+---
+layout: default
+title: Levenshtein's Edit Distance
+category: Dynamic Programming
+---
+
 # Levenshtein's Edit Distance
 
 The Levenshtein distance is a string metric for measuring the
@@ -114,3 +120,17 @@ with `Saturday → Sunday` transformation.
 - [Wikipedia](https://en.wikipedia.org/wiki/Levenshtein_distance)
 - [YouTube](https://www.youtube.com/watch?v=We3YDTzNXEk&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
 - [ITNext](https://itnext.io/dynamic-programming-vs-divide-and-conquer-2fea680becbe)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

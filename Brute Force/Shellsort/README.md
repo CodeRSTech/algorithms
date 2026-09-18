@@ -1,3 +1,9 @@
+---
+layout: default
+title: Shellsort
+category: Brute Force
+---
+
 # Shellsort
 
 Shellsort, also known as Shell sort or Shell's method,
@@ -56,3 +62,17 @@ Shell sort uses insertion sort to sort the array.
 - [Tutorials Point](https://www.tutorialspoint.com/data_structures_algorithms/shell_sort_algorithm.htm)
 - [Wikipedia](https://en.wikipedia.org/wiki/Shellsort)
 - [YouTube by Rob Edwards](https://www.youtube.com/watch?v=ddeLSDsYVp8&index=79&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

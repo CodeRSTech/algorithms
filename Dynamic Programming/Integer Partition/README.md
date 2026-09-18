@@ -1,3 +1,9 @@
+---
+layout: default
+title: Integer Partition
+category: Dynamic Programming
+---
+
 # Integer Partition
 
 In number theory and combinatorics, a partition of a positive
@@ -33,3 +39,17 @@ are conjugate partitions.
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/math/integer-partition)
 - [Wikipedia](https://en.wikipedia.org/wiki/Partition_(number_theory))
 - [YouTube](https://www.youtube.com/watch?v=ZaVM057DuzE&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

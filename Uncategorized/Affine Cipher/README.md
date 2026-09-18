@@ -1,3 +1,9 @@
+---
+layout: default
+title: Affine Cipher
+category: Uncategorized
+---
+
 # Affine Cipher
 The affine cipher is a type of monoalphabetic substitution cipher, wherein each letter in an alphabet is mapped to its numeric equivalent, encrypted using a simple mathematical function, and converted back to a letter.
 
@@ -11,3 +17,16 @@ The affine cipher is a type of monoalphabetic substitution cipher, wherein each 
 
 ## References
 * [Practicalcryptography](http://practicalcryptography.com/ciphers/affine-cipher/)
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

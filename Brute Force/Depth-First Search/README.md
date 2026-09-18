@@ -1,3 +1,9 @@
+---
+layout: default
+title: Depth-First Search
+category: Brute Force
+---
+
 # Depth-First Search
 
 Depth-first search (DFS) is an algorithm for traversing or
@@ -27,3 +33,29 @@ along each branch before backtracking.
 - [Wikipedia](https://en.wikipedia.org/wiki/Depth-first_search)
 - [Tree Traversals (Inorder, Preorder and Postorder)](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/)
 - [BFS vs DFS](https://www.geeksforgeeks.org/bfs-vs-dfs-binary-tree/)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**graph.js**
+```javascript
+{% include_relative graph.js %}
+```
+**shortestPath.js**
+```javascript
+{% include_relative shortestPath.js %}
+```
+**tree.js**
+```javascript
+{% include_relative tree.js %}
+```
+**weightedGraph.js**
+```javascript
+{% include_relative weightedGraph.js %}
+```

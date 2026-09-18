@@ -1,3 +1,9 @@
+---
+layout: default
+title: Binary Search Tree
+category: Branch and Bound
+---
+
 # Binary Search Tree
 
 In computer science, **binary search trees** (BST), sometimes called
@@ -262,3 +268,21 @@ O(n)
 - [Wikipedia](https://en.wikipedia.org/wiki/Binary_search_tree)
 - [Inserting to BST on YouTube](https://www.youtube.com/watch?v=wcIRPqTR3Kc&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8&index=9&t=0s)
 - [BST Interactive Visualisations](https://www.cs.usfca.edu/~galles/visualization/BST.html)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**insertion.js**
+```javascript
+{% include_relative insertion.js %}
+```
+**search.js**
+```javascript
+{% include_relative search.js %}
+```

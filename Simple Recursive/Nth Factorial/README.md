@@ -1,3 +1,9 @@
+---
+layout: default
+title: Nth Factorial
+category: Simple Recursive
+---
+
 # nth Factorial
 Finding nth Factorial using recursion.
 
@@ -7,3 +13,16 @@ Finding nth Factorial using recursion.
 
 ## References
 * [codeburst.io](https://codeburst.io/learn-and-understand-recursion-in-javascript-b588218e87ea)
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

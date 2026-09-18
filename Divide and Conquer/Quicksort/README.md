@@ -1,3 +1,9 @@
+---
+layout: default
+title: Quicksort
+category: Divide and Conquer
+---
+
 # Quicksort
 
 Quicksort is a divide and conquer algorithm.
@@ -34,3 +40,23 @@ The horizontal lines are pivot values.
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/sorting/quick-sort)
 - [Wikipedia](https://en.wikipedia.org/wiki/Quicksort)
 - [YouTube](https://www.youtube.com/watch?v=SLauY6PpjW4&index=28&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### Java
+**Code.java**
+```java
+{% include_relative Code.java %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

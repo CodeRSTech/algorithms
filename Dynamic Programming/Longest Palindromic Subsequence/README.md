@@ -1,3 +1,9 @@
+---
+layout: default
+title: Longest Palindromic Subsequence
+category: Dynamic Programming
+---
+
 # Longest Palindromic Subsequence
 Find the length of the longest palindromic subsequence in a given sequence
 
@@ -7,3 +13,16 @@ Find the length of the longest palindromic subsequence in a given sequence
 
 ## References
 * [GeeksForGeeks](http://www.geeksforgeeks.org/dynamic-programming-set-12-longest-palindromic-subsequence/)
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

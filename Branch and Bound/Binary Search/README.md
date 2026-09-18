@@ -1,3 +1,9 @@
+---
+layout: default
+title: Binary Search
+category: Branch and Bound
+---
+
 # Binary Search
 
 In computer science, binary search, also known as half-interval
@@ -22,3 +28,21 @@ next iteration.
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/search/binary-search)
 - [Wikipedia](https://en.wikipedia.org/wiki/Binary_search_algorithm)
 - [YouTube](https://www.youtube.com/watch?v=P3YID7liBug&index=29&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**iterative.js**
+```javascript
+{% include_relative iterative.js %}
+```
+**recursive.js**
+```javascript
+{% include_relative recursive.js %}
+```

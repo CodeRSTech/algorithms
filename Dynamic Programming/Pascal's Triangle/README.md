@@ -1,3 +1,9 @@
+---
+layout: default
+title: Pascal's Triangle
+category: Dynamic Programming
+---
+
 # Pascal's Triangle
 
 In mathematics, **Pascal's triangle** is a triangular array of
@@ -63,3 +69,17 @@ from `C(lineNumber, i - 1)` in `O(1)` time.
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/math/pascal-triangle)
 - [Wikipedia](https://en.wikipedia.org/wiki/Pascal%27s_triangle)
 - [GeeksForGeeks](https://www.geeksforgeeks.org/pascal-triangle/)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

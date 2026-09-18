@@ -1,3 +1,9 @@
+---
+layout: default
+title: Pigeonhole Sort
+category: Divide and Conquer
+---
+
 # Pigeonhole Sort
 Pigeonhole sorting is a sorting algorithm that is suitable for sorting lists of elements where the number of elements (n) and the number of possible key values (N) are approximately the same.
 
@@ -7,3 +13,16 @@ Pigeonhole sorting is a sorting algorithm that is suitable for sorting lists of 
 
 ## References
 * [Wikipedia](https://en.wikipedia.org/wiki/Pigeonhole_sort)
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Longest Common Subsequence
+category: Dynamic Programming
+---
+
 # Longest Common Subsequence
 
 The longest common subsequence (LCS) problem is the problem of finding
@@ -24,3 +30,17 @@ made to a revision-controlled collection of files.
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/sets/longest-common-subsequence)
 - [Wikipedia](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)
 - [YouTube](https://www.youtube.com/watch?v=NnD96abizww&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

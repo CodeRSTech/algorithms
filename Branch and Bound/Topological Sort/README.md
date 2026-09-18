@@ -1,3 +1,9 @@
+---
+layout: default
+title: Topological Sort
+category: Branch and Bound
+---
+
 # Topological Sort
 
 In the field of computer science, a topological sort or
@@ -54,3 +60,17 @@ next dependency has its dependent packages to be installed in prior.
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/graph/topological-sorting)
 - [Wikipedia](https://en.wikipedia.org/wiki/Topological_sorting)
 - [Topological Sorting on YouTube by Tushar Roy](https://www.youtube.com/watch?v=ddTC4Zovtbc&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

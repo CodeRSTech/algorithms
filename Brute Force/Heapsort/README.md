@@ -1,3 +1,9 @@
+---
+layout: default
+title: Heapsort
+category: Brute Force
+---
+
 # Heap Sort
 
 Heapsort is a comparison-based sorting algorithm.
@@ -23,3 +29,17 @@ rather than a linear-time search to find the maximum.
 
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/sorting/heap-sort)
 - [Wikipedia](https://en.wikipedia.org/wiki/Heapsort)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Bipartiteness Test
+category: Brute Force
+---
+
 # Bipartiteness Test
 
 In the mathematical field of graph theory, a **bipartite graph** (or **bigraph**) is a graph whose vertices can be divided into two disjoint and independent sets `U` and `V` such that every edge connects a vertex in `U` to one in `V`. Vertex sets `U` and `V` are usually called the parts of the graph. Equivalently, a bipartite graph is a graph that does not contain any odd-length cycles.
@@ -9,3 +15,17 @@ Alternatively, a similar procedure may be used with breadth-first search in plac
 ## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Bipartite_graph)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

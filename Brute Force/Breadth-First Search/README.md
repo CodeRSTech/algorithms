@@ -1,3 +1,9 @@
+---
+layout: default
+title: Breadth-First Search
+category: Brute Force
+---
+
 # Breadth-First Search
 
 Breadth-first search (BFS) is an algorithm for traversing
@@ -47,3 +53,21 @@ end BFS
 - [Wikipedia](https://en.wikipedia.org/wiki/Breadth-first_search)
 - [Tree Traversals (Inorder, Preorder and Postorder)](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/)
 - [BFS vs DFS](https://www.geeksforgeeks.org/bfs-vs-dfs-binary-tree/)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**shortestPath.js**
+```javascript
+{% include_relative shortestPath.js %}
+```
+**tree.js**
+```javascript
+{% include_relative tree.js %}
+```

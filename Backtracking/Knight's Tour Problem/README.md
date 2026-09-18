@@ -1,3 +1,9 @@
+---
+layout: default
+title: Knight's Tour Problem
+category: Backtracking
+---
+
 # Knight's Tour Problem
 
 A **knight's tour** is a sequence of moves of a knight on a chessboard
@@ -32,3 +38,17 @@ An animation of an open knight's tour on a 5 by 5 board.
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/uncategorized/knight-tour)
 - [Wikipedia](https://en.wikipedia.org/wiki/Knight%27s_tour)
 - [GeeksForGeeks](https://www.geeksforgeeks.org/backtracking-set-1-the-knights-tour-problem/)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

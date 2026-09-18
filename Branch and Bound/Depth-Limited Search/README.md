@@ -1,3 +1,9 @@
+---
+layout: default
+title: Depth-Limited Search
+category: Branch and Bound
+---
+
 # Depth-Limited Search
 Depth-Limited search (DLS) is an algorithm for traversing or searching tree or graph data structures. It's actually specific type of DFS where the search is limited to some depth from start node (root). One starts at the root (selecting some arbitrary node as the root in the case of a graph) and explores as far as possible (within some limit) along each branch before backtracking.
 
@@ -10,3 +16,17 @@ Depth-Limited search (DLS) is an algorithm for traversing or searching tree or g
 
 ## References
 * [Colorado State University Lecture Notes](http://www.cs.colostate.edu/~anderson/cs440/index.html/doku.php?id=notes:week2b)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

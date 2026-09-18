@@ -1,3 +1,9 @@
+---
+layout: default
+title: Fibonacci Sequence
+category: Dynamic Programming
+---
+
 # Fibonacci Sequence
 
 In mathematics, the Fibonacci numbers are the numbers in the following
@@ -19,3 +25,17 @@ The Fibonacci spiral: an approximation of the golden spiral created by drawing c
 
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/math/fibonacci)
 - [Wikipedia](https://en.wikipedia.org/wiki/Fibonacci_number)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

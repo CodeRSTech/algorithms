@@ -1,3 +1,9 @@
+---
+layout: default
+title: Comb Sort
+category: Brute Force
+---
+
 # Comb Sort
 Comb sort is a relatively simple sorting algorithm originally designed by Włodzimierz Dobosiewicz in 1980. Later it was rediscovered by Stephen Lacey and Richard Box in 1991. Comb sort improves on bubble sort. <br /><br />The basic idea is to eliminate turtles, or small values near the end of the list, since in a bubble sort these slow the sorting down tremendously. Rabbits, large values around the beginning of the list, do not pose a problem in bubble sort.
 
@@ -7,3 +13,22 @@ Comb sort is a relatively simple sorting algorithm originally designed by Włodz
 
 ## References
 * [Wikipedia](https://en.wikipedia.org/wiki/Comb_sort)
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### Java
+**Code.java**
+```java
+{% include_relative Code.java %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

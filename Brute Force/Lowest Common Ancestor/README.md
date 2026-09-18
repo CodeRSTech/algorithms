@@ -1,3 +1,9 @@
+---
+layout: default
+title: Lowest Common Ancestor
+category: Brute Force
+---
+
 # Lowest Common Ancestor
 The lowest common ancestor of n1 and n2 in T is the shared ancestor of n1 and n2 that is located farthest from the root.
 
@@ -9,3 +15,17 @@ The lowest common ancestor of n1 and n2 in T is the shared ancestor of n1 and n2
 
 ## References
 * [GeeksForGeeks](http://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

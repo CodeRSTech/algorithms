@@ -1,3 +1,9 @@
+---
+layout: default
+title: Maximum Subarray
+category: Dynamic Programming
+---
+
 # Maximum Subarray
 
 The maximum subarray problem is the task of finding the contiguous
@@ -21,3 +27,17 @@ with the largest sum is `4, −1, 2, 1`, with sum `6`.
 - [Wikipedia](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
 - [YouTube](https://www.youtube.com/watch?v=ohHWQf1HDfU&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
 - [GeeksForGeeks](https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

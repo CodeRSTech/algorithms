@@ -1,3 +1,9 @@
+---
+layout: default
+title: Counting Sort
+category: Divide and Conquer
+---
+
 # Counting Sort
 
 In computer science, **counting sort** is an algorithm for sorting
@@ -66,3 +72,17 @@ zero.
 - [Wikipedia](https://en.wikipedia.org/wiki/Counting_sort)
 - [YouTube](https://www.youtube.com/watch?v=OKd534EWcdk&index=61&t=0s&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
 - [EfficientAlgorithms](https://efficientalgorithms.blogspot.com/2016/09/lenear-sorting-counting-sort.html)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

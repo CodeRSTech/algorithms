@@ -1,3 +1,9 @@
+---
+layout: default
+title: Floyd-Warshall's Shortest Path
+category: Dynamic Programming
+---
+
 # Floyd-Warshall's Shortest Path
 
 In computer science, the **Floyd–Warshall algorithm** is an algorithm for finding
@@ -93,3 +99,17 @@ In the tables below `i` is row numbers and `j` is column numbers.
 - [Wikipedia](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm)
 - [YouTube (by Abdul Bari)](https://www.youtube.com/watch?v=oNI0rf2P9gE&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8&index=74)
 - [YouTube (by Tushar Roy)](https://www.youtube.com/watch?v=LwJdNfdLF9s&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8&index=75)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

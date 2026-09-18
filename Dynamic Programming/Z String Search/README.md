@@ -1,3 +1,9 @@
+---
+layout: default
+title: Z String Search
+category: Dynamic Programming
+---
+
 # Z String Search
 
 The Z-algorithm finds occurrences of a "word" `W`
@@ -61,3 +67,17 @@ Z[] =  x 0 6 0 4 0 2 0
 - [GeeksForGeeks](https://www.geeksforgeeks.org/z-algorithm-linear-time-pattern-searching-algorithm/)
 - [YouTube](https://www.youtube.com/watch?v=CpZh4eF8QBw&t=0s&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8&index=70)
 - [Z Algorithm by Ivan Yurchenko](https://ivanyu.me/blog/2013/10/15/z-algorithm/)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Euclidean Greatest Common Divisor
+category: Simple Recursive
+---
+
 # Euclidean Greatest Common Divisor
 
 In mathematics, the Euclidean algorithm, or Euclid's algorithm,
@@ -56,3 +62,17 @@ The smallest square size, `21`, is the GCD of `1071` and `462`.
 
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/math/euclidean-algorithm)
 - [Wikipedia](https://en.wikipedia.org/wiki/Euclidean_algorithm)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

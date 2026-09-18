@@ -1,3 +1,9 @@
+---
+layout: default
+title: Maze Generation
+category: Uncategorized
+---
+
 # Maze Generation
 
 Maze generation algorithms are automated methods for the creation of mazes.
@@ -15,3 +21,17 @@ The animation shows the maze generation steps for a graph that is not on a recta
 ## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Maze_generation_algorithm)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

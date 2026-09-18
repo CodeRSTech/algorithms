@@ -1,3 +1,9 @@
+---
+layout: default
+title: Shortest Common Supersequence
+category: Dynamic Programming
+---
+
 # Shortest Common Supersequence
 
 The shortest common supersequence (SCS) of two sequences `X` and `Y`
@@ -23,3 +29,17 @@ Output:  "AGXGTXAYB"
 
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/sets/shortest-common-supersequence)
 - [GeeksForGeeks](https://www.geeksforgeeks.org/shortest-common-supersequence/)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

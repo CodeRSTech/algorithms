@@ -1,3 +1,9 @@
+---
+layout: default
+title: Insertion Sort
+category: Brute Force
+---
+
 # Insertion Sort
 
 Insertion sort is a simple sorting algorithm that builds
@@ -20,3 +26,23 @@ sort.
 
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/sorting/insertion-sort)
 - [Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### Java
+**Code.java**
+```java
+{% include_relative Code.java %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

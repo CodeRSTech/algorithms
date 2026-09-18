@@ -1,3 +1,9 @@
+---
+layout: default
+title: Rabin-Karp's String Search
+category: Brute Force
+---
+
 # Rabin-Karp's String Search
 
 In computer science, the Rabin–Karp algorithm or Karp–Rabin algorithm
@@ -55,3 +61,17 @@ strings, single-string searching algorithms are impractical.
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/string/rabin-karp)
 - [Wikipedia](https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm)
 - [YouTube](https://www.youtube.com/watch?v=H4VrKHVG5qI&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

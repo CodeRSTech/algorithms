@@ -1,3 +1,9 @@
+---
+layout: default
+title: Shortest Unsorted Continuous Subarray
+category: Uncategorized
+---
+
 # Shortest Unsorted Continous Subarray
 "Given an integer array, you need to find one continuous subarray that if you only sort this subarray in ascending order, then the whole array will be sorted in ascending order, too.
 
@@ -9,3 +15,16 @@ You need to find the shortest such subarray and output its length."
 
 ## References
 * [LeetCode](https://leetcode.com/articles/shortest-unsorted-continous-subarray/)
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

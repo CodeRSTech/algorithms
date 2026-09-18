@@ -1,3 +1,9 @@
+---
+layout: default
+title: Selection Sort
+category: Brute Force
+---
+
 # Selection Sort
 
 Selection sort is a sorting algorithm, specifically an
@@ -23,3 +29,23 @@ memory is limited.
 
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/sorting/selection-sort)
 - [Wikipedia](https://en.wikipedia.org/wiki/Selection_sort)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### Java
+**code.java**
+```java
+{% include_relative code.java %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

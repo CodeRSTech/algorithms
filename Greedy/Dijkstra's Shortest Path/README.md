@@ -1,3 +1,9 @@
+---
+layout: default
+title: Dijkstra's Shortest Path
+category: Greedy
+---
+
 # Dijkstra's Shortest Path
 
 Dijkstra's algorithm is an algorithm for finding the shortest
@@ -24,3 +30,17 @@ and updates the neighbor's distance if smaller. Mark visited
 - [Wikipedia](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 - [On YouTube by Nathaniel Fan](https://www.youtube.com/watch?v=gdmfOwyQlcI&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
 - [On YouTube by Tushar Roy](https://www.youtube.com/watch?v=lAXZGERcDf4&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Catalan Number
+category: Dynamic Programming
+---
+
 # Catalan Number
  In combinatorial mathematics, the Catalan numbers form a sequence of natural numbers that occur in various counting problems, often involving recursively-defined objects.The Catalan numbers on nonnegative integers n are a set of numbers that arise in tree enumeration problems of the type, 'In how many ways can a regular n-gon be divided into n-2 triangles if different orientations are counted separately?' (Euler's polygon division problem).
 
@@ -13,3 +19,16 @@
 ## References
 * [Wikipedia](https://en.wikipedia.org/wiki/Catalan_number)
 * <a href='http://oldweb.sbc.edu/sites/default/files/Honors/XiaotongJiang.July20_0.pdf'>Sweet Briar College
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

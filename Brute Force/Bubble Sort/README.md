@@ -1,3 +1,9 @@
+---
+layout: default
+title: Bubble Sort
+category: Brute Force
+---
+
 # Bubble Sort
 
 Bubble sort, sometimes referred to as sinking sort, is a
@@ -21,3 +27,29 @@ indicates that the list is sorted.
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/sorting/bubble-sort)
 - [Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort)
 - [YouTube](https://www.youtube.com/watch?v=6Gv8vg0kcHc&index=27&t=0s&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### C++
+**main.cpp**
+```cpp
+{% include_relative main.cpp %}
+```
+
+### Java
+**Code.java**
+```java
+{% include_relative Code.java %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

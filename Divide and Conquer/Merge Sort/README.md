@@ -1,3 +1,9 @@
+---
+layout: default
+title: Merge Sort
+category: Divide and Conquer
+---
+
 # Merge Sort
 
 In computer science, merge sort (also commonly spelled
@@ -33,3 +39,21 @@ emulate merge sort (top-down).
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/sorting/merge-sort)
 - [Wikipedia](https://en.wikipedia.org/wiki/Merge_sort)
 - [YouTube](https://www.youtube.com/watch?v=KF2j-9iSf4Q&index=27&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**bottomUp.js**
+```javascript
+{% include_relative bottomUp.js %}
+```
+**topDown.js**
+```javascript
+{% include_relative topDown.js %}
+```

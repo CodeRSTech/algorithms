@@ -1,3 +1,9 @@
+---
+layout: default
+title: Knapsack Problem
+category: Dynamic Programming
+---
+
 # Knapsack Problem
 
 The knapsack problem or rucksack problem is a problem in
@@ -68,3 +74,17 @@ and ![unbounded knapsack](https://wikimedia.org/api/rest_v1/media/math/render/sv
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/sets/knapsack-problem)
 - [Wikipedia](https://en.wikipedia.org/wiki/Knapsack_problem)
 - [0/1 Knapsack Problem on YouTube](https://www.youtube.com/watch?v=8LusJS5-AGo&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Sieve of Eratosthenes
+category: Dynamic Programming
+---
+
 # Sieve of Eratosthenes
 
 The Sieve of Eratosthenes is an algorithm for finding all prime numbers up to some limit `n`.
@@ -31,3 +37,17 @@ The algorithm has a complexity of `O(n log(log n))`.
 
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/math/sieve-of-eratosthenes)
 - [Wikipedia](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
+
+
+## Implementations
+
+### Python
+```python
+{% include_relative code.py %}
+```
+
+### JavaScript
+**code.js**
+```javascript
+{% include_relative code.js %}
+```
