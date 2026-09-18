@@ -147,3 +147,28 @@ p, small, .text-white-50 {
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
+
+/* ---------------------------------------------------
+   Code Syntax Highlighting (Dark Theme)
+----------------------------------------------------- */
+.highlight {
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+}
+.highlight pre { margin: 0; background: transparent; padding: 0; border: none; }
+.highlight code { font-family: "Courier New", Courier, monospace; font-size: 0.9em; color: #d4d4d4; }
+
+/* Rouge Syntax Classes */
+.highlight .c, .highlight .c1, .highlight .cm, .highlight .cp { color: #6a9955; font-style: italic; } /* Comments */
+.highlight .k, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv { color: #569cd6; font-weight: bold; } /* Keywords */
+.highlight .n, .highlight .nx, .highlight .ni { color: #d4d4d4; } /* Names/Variables */
+.highlight .s, .highlight .s1, .highlight .s2, .highlight .se { color: #ce9178; } /* Strings */
+.highlight .m, .highlight .mi, .highlight .mf { color: #b5cea8; } /* Numbers */
+.highlight .p, .highlight .o { color: #d4d4d4; } /* Punctuation & Operators */
+.highlight .nb, .highlight .nc, .highlight .nf, .highlight .bp { color: #dcdcaa; } /* Built-ins & Functions */
+.highlight .ow { color: #569cd6; font-weight: bold; } /* Operator Word */
+.highlight .kt { color: #4ec9b0; } /* Types */
