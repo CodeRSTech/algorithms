@@ -1,0 +1,12 @@
+brand: "Rishbh"
+links:
+  - title: "Main"
+    url: "/"
+  - title: "Logs"
+    url: "/logs"
+  - title: "Learn Algorithms"
+    url: "/algorithms"
+  - title: "Hardware"
+    url: "/hardware"
+  - title: "Photography"
+    url: "/photography"
