@@ -1,0 +1,13 @@
+<div class="py-5 border-bottom border-secondary">
+  <h1 class="display-4 fw-bold text-light terminal-prompt mb-3">{{ site.data.hero.name }}</h1>
+  <p class="lead text-white-50 mb-4" style="max-width: 800px;">
+    {{ site.data.hero.tagline }}
+  </p>
+  <div class="d-flex gap-3">
+    {% for btn in site.data.hero.buttons %}
+      <a href="{{ btn.url }}" class="btn {{ btn.style }} px-4 py-2 fw-bold rounded-0">
+        <i class="{{ btn.icon }} me-2"></i>{{ btn.text }}
+      </a>
+    {% endfor %}
+  </div>
+</div>
