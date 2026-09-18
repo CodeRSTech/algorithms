@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Insertion Sort
 category: Brute Force
+viz_url: https://algorithm-visualizer.org/brute-force/insertion-sort
 ---
 
 # Insertion Sort

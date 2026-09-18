@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Fibonacci Sequence
 category: Dynamic Programming
+viz_url: https://algorithm-visualizer.org/dynamic-programming/fibonacci-sequence
 ---
 
 # Fibonacci Sequence

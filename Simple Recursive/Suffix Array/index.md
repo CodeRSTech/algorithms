@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Suffix Array
 category: Simple Recursive
+viz_url: https://algorithm-visualizer.org/simple-recursive/suffix-array
 ---
 
 # Suffix Array

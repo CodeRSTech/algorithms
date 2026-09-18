@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Floyd-Warshall's Shortest Path
 category: Dynamic Programming
+viz_url: https://algorithm-visualizer.org/dynamic-programming/floyd-warshalls-shortest-path
 ---
 
 # Floyd-Warshall's Shortest Path

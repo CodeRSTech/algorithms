@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Shortest Unsorted Continuous Subarray
 category: Uncategorized
+viz_url: https://algorithm-visualizer.org/uncategorized/shortest-unsorted-continuous-subarray
 ---
 
 # Shortest Unsorted Continous Subarray

@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: K-Means Clustering
 category: Uncategorized
+viz_url: https://algorithm-visualizer.org/uncategorized/k-means-clustering
 ---
 
 # K-Means Clustering

@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Miller-Rabin's Primality Test
 category: Uncategorized
+viz_url: https://algorithm-visualizer.org/uncategorized/miller-rabins-primality-test
 ---
 
 # Miller-Rabin's Primality Test

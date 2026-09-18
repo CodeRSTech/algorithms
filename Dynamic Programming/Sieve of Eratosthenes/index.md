@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Sieve of Eratosthenes
 category: Dynamic Programming
+viz_url: https://algorithm-visualizer.org/dynamic-programming/sieve-of-eratosthenes
 ---
 
 # Sieve of Eratosthenes

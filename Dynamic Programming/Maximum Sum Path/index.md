@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Maximum Sum Path
 category: Dynamic Programming
+viz_url: https://algorithm-visualizer.org/dynamic-programming/maximum-sum-path
 ---
 
 # Maximum Sum Path

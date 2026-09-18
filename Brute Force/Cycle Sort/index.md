@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Cycle Sort
 category: Brute Force
+viz_url: https://algorithm-visualizer.org/brute-force/cycle-sort
 ---
 
 # Cycle Sort

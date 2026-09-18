@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Bridge Finding
 category: Brute Force
+viz_url: https://algorithm-visualizer.org/brute-force/bridge-finding
 ---
 
 # Bridge Finding

@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Selection Sort
 category: Brute Force
+viz_url: https://algorithm-visualizer.org/brute-force/selection-sort
 ---
 
 # Selection Sort

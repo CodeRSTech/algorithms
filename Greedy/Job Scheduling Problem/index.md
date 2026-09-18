@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Job Scheduling Problem
 category: Greedy
+viz_url: https://algorithm-visualizer.org/greedy/job-scheduling-problem
 ---
 
 # Job Scheduling Algorithm

@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Freivalds' Matrix-Multiplication Verification
 category: Uncategorized
+viz_url: https://algorithm-visualizer.org/uncategorized/freivalds-matrix-multiplication-verification
 ---
 
 # Freivalds Algorithm

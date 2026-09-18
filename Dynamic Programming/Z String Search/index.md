@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Z String Search
 category: Dynamic Programming
+viz_url: https://algorithm-visualizer.org/dynamic-programming/z-string-search
 ---
 
 # Z String Search

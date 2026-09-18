@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Maze Generation
 category: Uncategorized
+viz_url: https://algorithm-visualizer.org/uncategorized/maze-generation
 ---
 
 # Maze Generation

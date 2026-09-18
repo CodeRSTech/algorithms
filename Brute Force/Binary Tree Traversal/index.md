@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Binary Tree Traversal
 category: Brute Force
+viz_url: https://algorithm-visualizer.org/brute-force/binary-tree-traversal
 ---
 
 # Binary Tree Traversal

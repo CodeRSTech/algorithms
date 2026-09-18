@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Knight's Tour Problem
 category: Backtracking
+viz_url: https://algorithm-visualizer.org/backtracking/knights-tour-problem
 ---
 
 # Knight's Tour Problem

@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Sliding Window
 category: Dynamic Programming
+viz_url: https://algorithm-visualizer.org/dynamic-programming/sliding-window
 ---
 
 # Sliding Window

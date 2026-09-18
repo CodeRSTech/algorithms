@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Binary Search Tree
 category: Branch and Bound
+viz_url: https://algorithm-visualizer.org/branch-and-bound/binary-search-tree
 ---
 
 # Binary Search Tree

@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Lowest Common Ancestor
 category: Brute Force
+viz_url: https://algorithm-visualizer.org/brute-force/lowest-common-ancestor
 ---
 
 # Lowest Common Ancestor

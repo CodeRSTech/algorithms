@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Knapsack Problem
 category: Dynamic Programming
+viz_url: https://algorithm-visualizer.org/dynamic-programming/knapsack-problem
 ---
 
 # Knapsack Problem

@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Catalan Number
 category: Dynamic Programming
+viz_url: https://algorithm-visualizer.org/dynamic-programming/catalan-number
 ---
 
 # Catalan Number

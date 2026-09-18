@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Bucket Sort
 category: Divide and Conquer
+viz_url: https://algorithm-visualizer.org/divide-and-conquer/bucket-sort
 ---
 
 # Bucket Sort

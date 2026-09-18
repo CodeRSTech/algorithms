@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Dijkstra's Shortest Path
 category: Greedy
+viz_url: https://algorithm-visualizer.org/greedy/dijkstras-shortest-path
 ---
 
 # Dijkstra's Shortest Path

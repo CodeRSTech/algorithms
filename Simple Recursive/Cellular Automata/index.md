@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Cellular Automata
 category: Simple Recursive
+viz_url: https://algorithm-visualizer.org/simple-recursive/cellular-automata
 ---
 
 # Cellular Automata

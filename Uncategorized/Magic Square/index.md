@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Magic Square
 category: Uncategorized
+viz_url: https://algorithm-visualizer.org/uncategorized/magic-square
 ---
 
 # Magic Square

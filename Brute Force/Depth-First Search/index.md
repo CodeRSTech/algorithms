@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Depth-First Search
 category: Brute Force
+viz_url: https://algorithm-visualizer.org/brute-force/depth-first-search
 ---
 
 # Depth-First Search

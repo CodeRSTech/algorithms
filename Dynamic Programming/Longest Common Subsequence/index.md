@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Longest Common Subsequence
 category: Dynamic Programming
+viz_url: https://algorithm-visualizer.org/dynamic-programming/longest-common-subsequence
 ---
 
 # Longest Common Subsequence

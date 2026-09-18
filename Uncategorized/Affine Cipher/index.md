@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Affine Cipher
 category: Uncategorized
+viz_url: https://algorithm-visualizer.org/uncategorized/affine-cipher
 ---
 
 # Affine Cipher

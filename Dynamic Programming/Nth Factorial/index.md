@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Nth Factorial
 category: Dynamic Programming
+viz_url: https://algorithm-visualizer.org/dynamic-programming/nth-factorial
 ---
 
 # Nth Factorial

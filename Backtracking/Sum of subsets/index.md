@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Sum of subsets
 category: Backtracking
+viz_url: https://algorithm-visualizer.org/backtracking/sum-of-subsets
 ---
 
 

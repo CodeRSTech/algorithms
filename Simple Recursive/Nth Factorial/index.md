@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Nth Factorial
 category: Simple Recursive
+viz_url: https://algorithm-visualizer.org/simple-recursive/nth-factorial
 ---
 
 # nth Factorial

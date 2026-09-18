@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Longest Palindromic Subsequence
 category: Dynamic Programming
+viz_url: https://algorithm-visualizer.org/dynamic-programming/longest-palindromic-subsequence
 ---
 
 # Longest Palindromic Subsequence

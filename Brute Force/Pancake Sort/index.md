@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Pancake Sort
 category: Brute Force
+viz_url: https://algorithm-visualizer.org/brute-force/pancake-sort
 ---
 
 # Pancake Sort

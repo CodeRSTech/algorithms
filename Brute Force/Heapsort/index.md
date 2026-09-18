@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Heapsort
 category: Brute Force
+viz_url: https://algorithm-visualizer.org/brute-force/heapsort
 ---
 
 # Heap Sort

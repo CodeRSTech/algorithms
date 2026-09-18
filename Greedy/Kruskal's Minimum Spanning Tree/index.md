@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Kruskal's Minimum Spanning Tree
 category: Greedy
+viz_url: https://algorithm-visualizer.org/greedy/kruskals-minimum-spanning-tree
 ---
 
 # Kruskal's Minimum Spanning Tree

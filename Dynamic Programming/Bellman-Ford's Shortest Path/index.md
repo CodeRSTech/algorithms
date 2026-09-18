@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Bellman-Ford's Shortest Path
 category: Dynamic Programming
+viz_url: https://algorithm-visualizer.org/dynamic-programming/bellman-fords-shortest-path
 ---
 
 # Bellman-Ford's Shortest Path

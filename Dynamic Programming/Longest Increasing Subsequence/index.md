@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Longest Increasing Subsequence
 category: Dynamic Programming
+viz_url: https://algorithm-visualizer.org/dynamic-programming/longest-increasing-subsequence
 ---
 
 # Longest Increasing Subsequence

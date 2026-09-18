@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Shellsort
 category: Brute Force
+viz_url: https://algorithm-visualizer.org/brute-force/shellsort
 ---
 
 # Shellsort

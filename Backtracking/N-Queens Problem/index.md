@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: N-Queens Problem
 category: Backtracking
+viz_url: https://algorithm-visualizer.org/backtracking/n-queens-problem
 ---
 
 # N-Queens Problem

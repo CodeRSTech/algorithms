@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Flood Fill
 category: Brute Force
+viz_url: https://algorithm-visualizer.org/brute-force/flood-fill
 ---
 
 # Flood Fill

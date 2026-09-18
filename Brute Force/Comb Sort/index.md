@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Comb Sort
 category: Brute Force
+viz_url: https://algorithm-visualizer.org/brute-force/comb-sort
 ---
 
 # Comb Sort

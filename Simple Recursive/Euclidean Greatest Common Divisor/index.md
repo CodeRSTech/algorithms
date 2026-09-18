@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Euclidean Greatest Common Divisor
 category: Simple Recursive
+viz_url: https://algorithm-visualizer.org/simple-recursive/euclidean-greatest-common-divisor
 ---
 
 # Euclidean Greatest Common Divisor

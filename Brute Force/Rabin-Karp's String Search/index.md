@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Rabin-Karp's String Search
 category: Brute Force
+viz_url: https://algorithm-visualizer.org/brute-force/rabin-karps-string-search
 ---
 
 # Rabin-Karp's String Search

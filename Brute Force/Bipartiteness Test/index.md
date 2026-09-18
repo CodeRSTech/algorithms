@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Bipartiteness Test
 category: Brute Force
+viz_url: https://algorithm-visualizer.org/brute-force/bipartiteness-test
 ---
 
 # Bipartiteness Test

@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Stable Matching
 category: Greedy
+viz_url: https://algorithm-visualizer.org/greedy/stable-matching
 ---
 
 # Stable Matching

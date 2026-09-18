@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Breadth-First Search
 category: Brute Force
+viz_url: https://algorithm-visualizer.org/brute-force/breadth-first-search
 ---
 
 # Breadth-First Search

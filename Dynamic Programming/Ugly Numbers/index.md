@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Ugly Numbers
 category: Dynamic Programming
+viz_url: https://algorithm-visualizer.org/dynamic-programming/ugly-numbers
 ---
 
 # Ugly Numbers

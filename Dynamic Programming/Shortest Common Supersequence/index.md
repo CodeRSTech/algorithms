@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Shortest Common Supersequence
 category: Dynamic Programming
+viz_url: https://algorithm-visualizer.org/dynamic-programming/shortest-common-supersequence
 ---
 
 # Shortest Common Supersequence

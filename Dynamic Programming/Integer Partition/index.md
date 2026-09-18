@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Integer Partition
 category: Dynamic Programming
+viz_url: https://algorithm-visualizer.org/dynamic-programming/integer-partition
 ---
 
 # Integer Partition

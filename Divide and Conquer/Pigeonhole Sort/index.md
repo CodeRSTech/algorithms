@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Pigeonhole Sort
 category: Divide and Conquer
+viz_url: https://algorithm-visualizer.org/divide-and-conquer/pigeonhole-sort
 ---
 
 # Pigeonhole Sort

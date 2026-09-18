@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Topological Sort
 category: Branch and Bound
+viz_url: https://algorithm-visualizer.org/branch-and-bound/topological-sort
 ---
 
 # Topological Sort

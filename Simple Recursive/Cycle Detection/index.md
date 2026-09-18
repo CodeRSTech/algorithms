@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Cycle Detection
 category: Simple Recursive
+viz_url: https://algorithm-visualizer.org/simple-recursive/cycle-detection
 ---
 
 # Cycle Detection

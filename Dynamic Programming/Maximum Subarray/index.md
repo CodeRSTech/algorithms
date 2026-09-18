@@ -1,7 +1,8 @@
 ---
-layout: main
+layout: algo
 title: Maximum Subarray
 category: Dynamic Programming
+viz_url: https://algorithm-visualizer.org/dynamic-programming/maximum-subarray
 ---
 
 # Maximum Subarray
