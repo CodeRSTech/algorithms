@@ -5,8 +5,6 @@ category: Divide and Conquer
 viz_url: https://algorithm-visualizer.org/divide-and-conquer/merge-sort
 ---
 
-# Merge Sort
-
 In computer science, merge sort (also commonly spelled
 mergesort) is an efficient, general-purpose,
 comparison-based sorting algorithm. Most implementations
@@ -45,16 +43,19 @@ emulate merge sort (top-down).
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **bottomUp.js**
+
 ```javascript
 {% include_relative bottomUp.js %}
 ```
 **topDown.js**
+
 ```javascript
 {% include_relative topDown.js %}
 ```

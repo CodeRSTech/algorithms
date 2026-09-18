@@ -5,8 +5,6 @@ category: Greedy
 viz_url: https://algorithm-visualizer.org/greedy/dijkstras-shortest-path
 ---
 
-# Dijkstra's Shortest Path
-
 Dijkstra's algorithm is an algorithm for finding the shortest
 paths between nodes in a graph, which may represent, for example,
 road networks.
@@ -36,12 +34,14 @@ and updates the neighbor's distance if smaller. Mark visited
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

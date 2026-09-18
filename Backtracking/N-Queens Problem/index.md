@@ -5,8 +5,6 @@ category: Backtracking
 viz_url: https://algorithm-visualizer.org/backtracking/n-queens-problem
 ---
 
-# N-Queens Problem
-
 The **eight queens puzzle** is the problem of placing eight chess queens
 on an `8×8` chessboard so that no two queens threaten each other.
 Thus, a solution requires that no two queens share the same row,
@@ -127,12 +125,14 @@ Below is a visual aid for `leftDiagonal`, `column`, and `rightDiagonal`.
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

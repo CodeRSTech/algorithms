@@ -5,8 +5,6 @@ category: Backtracking
 viz_url: https://algorithm-visualizer.org/backtracking/knights-tour-problem
 ---
 
-# Knight's Tour Problem
-
 A **knight's tour** is a sequence of moves of a knight on a chessboard
 such that the knight visits every square only once. If the knight
 ends on a square that is one knight's move from the beginning
@@ -44,12 +42,14 @@ An animation of an open knight's tour on a 5 by 5 board.
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

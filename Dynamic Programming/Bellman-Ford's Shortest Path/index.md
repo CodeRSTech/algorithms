@@ -5,8 +5,6 @@ category: Dynamic Programming
 viz_url: https://algorithm-visualizer.org/dynamic-programming/bellman-fords-shortest-path
 ---
 
-# Bellman-Ford's Shortest Path
-
 The Bellman–Ford algorithm is an algorithm that computes shortest
 paths from a single source vertex to all of the other vertices
 in a weighted digraph. It is slower than Dijkstra's algorithm
@@ -32,12 +30,14 @@ Worst-case space complexity `O(|V|)`
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

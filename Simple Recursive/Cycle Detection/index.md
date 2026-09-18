@@ -5,7 +5,6 @@ category: Simple Recursive
 viz_url: https://algorithm-visualizer.org/simple-recursive/cycle-detection
 ---
 
-# Cycle Detection
 "Floyd's cycle-finding algorithm is a pointer algorithm that uses only two pointers, which move through the sequence at different speeds"
 
 ## References
@@ -14,12 +13,14 @@ viz_url: https://algorithm-visualizer.org/simple-recursive/cycle-detection
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

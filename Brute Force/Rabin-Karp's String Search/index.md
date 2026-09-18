@@ -5,8 +5,6 @@ category: Brute Force
 viz_url: https://algorithm-visualizer.org/brute-force/rabin-karps-string-search
 ---
 
-# Rabin-Karp's String Search
-
 In computer science, the Rabin–Karp algorithm or Karp–Rabin algorithm
 is a string searching algorithm created by Richard M. Karp and
 Michael O. Rabin (1987) that uses hashing to find any one of a set
@@ -67,12 +65,14 @@ strings, single-string searching algorithms are impractical.
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

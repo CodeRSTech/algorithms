@@ -5,8 +5,6 @@ category: Brute Force
 viz_url: https://algorithm-visualizer.org/brute-force/shellsort
 ---
 
-# Shellsort
-
 Shellsort, also known as Shell sort or Shell's method,
 is an in-place comparison sort. It can be seen as either a
 generalization of sorting by exchange (bubble sort) or sorting
@@ -68,12 +66,14 @@ Shell sort uses insertion sort to sort the array.
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

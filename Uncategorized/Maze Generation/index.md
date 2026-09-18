@@ -5,8 +5,6 @@ category: Uncategorized
 viz_url: https://algorithm-visualizer.org/uncategorized/maze-generation
 ---
 
-# Maze Generation
-
 Maze generation algorithms are automated methods for the creation of mazes.
 
 ## Graph theory based methods
@@ -27,12 +25,14 @@ The animation shows the maze generation steps for a graph that is not on a recta
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

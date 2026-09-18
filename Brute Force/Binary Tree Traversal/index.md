@@ -5,7 +5,6 @@ category: Brute Force
 viz_url: https://algorithm-visualizer.org/brute-force/binary-tree-traversal
 ---
 
-# Binary Tree Traversal
 In computer science, tree traversal (also known as tree search) is a form of graph traversal and refers to the process of visiting (checking and/or updating) each node in a tree data structure, exactly once. Such traversals are classified by the order in which the nodes are visited.
 
 ## Applications
@@ -25,20 +24,24 @@ In computer science, tree traversal (also known as tree search) is a form of gra
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **inOrder.js**
+
 ```javascript
 {% include_relative inOrder.js %}
 ```
 **postOrder.js**
+
 ```javascript
 {% include_relative postOrder.js %}
 ```
 **preOrder.js**
+
 ```javascript
 {% include_relative preOrder.js %}
 ```

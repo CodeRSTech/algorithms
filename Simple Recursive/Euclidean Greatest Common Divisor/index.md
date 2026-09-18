@@ -5,8 +5,6 @@ category: Simple Recursive
 viz_url: https://algorithm-visualizer.org/simple-recursive/euclidean-greatest-common-divisor
 ---
 
-# Euclidean Greatest Common Divisor
-
 In mathematics, the Euclidean algorithm, or Euclid's algorithm,
 is an efficient method for computing the greatest common divisor
 (GCD) of two numbers, the largest number that divides both of
@@ -68,12 +66,14 @@ The smallest square size, `21`, is the GCD of `1071` and `462`.
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

@@ -5,7 +5,6 @@ category: Uncategorized
 viz_url: https://algorithm-visualizer.org/uncategorized/k-means-clustering
 ---
 
-# K-Means Clustering
 K-means clustering is a method to partition _n_ observations into _k_ clusters in which each observation belongs to 
 the cluster with the nearest mean (cluster centers or cluster centroid).
 
@@ -23,12 +22,14 @@ partition the _n_ observations into _k(≤ n)_ sets so as to minimize the within
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

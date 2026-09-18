@@ -5,8 +5,6 @@ category: Brute Force
 viz_url: https://algorithm-visualizer.org/brute-force/breadth-first-search
 ---
 
-# Breadth-First Search
-
 Breadth-first search (BFS) is an algorithm for traversing
 or searching tree or graph data structures. It starts at
 the tree root (or some arbitrary node of a graph, sometimes
@@ -59,16 +57,19 @@ end BFS
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **shortestPath.js**
+
 ```javascript
 {% include_relative shortestPath.js %}
 ```
 **tree.js**
+
 ```javascript
 {% include_relative tree.js %}
 ```

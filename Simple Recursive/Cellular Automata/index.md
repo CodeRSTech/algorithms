@@ -5,7 +5,6 @@ category: Simple Recursive
 viz_url: https://algorithm-visualizer.org/simple-recursive/cellular-automata
 ---
 
-# Cellular Automata
 Uses a grid of cells and looks at each cell and the state (ex: on/off) of each of the surrounding neighbor cells and changes the state of the current cell according to a set of rules based on the neighbor cells' states.
 
 ## References
@@ -14,12 +13,14 @@ Uses a grid of cells and looks at each cell and the state (ex: on/off) of each o
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

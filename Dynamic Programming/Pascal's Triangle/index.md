@@ -5,8 +5,6 @@ category: Dynamic Programming
 viz_url: https://algorithm-visualizer.org/dynamic-programming/pascals-triangle
 ---
 
-# Pascal's Triangle
-
 In mathematics, **Pascal's triangle** is a triangular array of
 the [binomial coefficients](https://en.wikipedia.org/wiki/Binomial_coefficient).
 
@@ -75,12 +73,14 @@ from `C(lineNumber, i - 1)` in `O(1)` time.
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

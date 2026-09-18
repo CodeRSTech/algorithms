@@ -5,8 +5,6 @@ category: Brute Force
 viz_url: https://algorithm-visualizer.org/brute-force/selection-sort
 ---
 
-# Selection Sort
-
 Selection sort is a sorting algorithm, specifically an
 in-place comparison sort. It has O(n2) time complexity,
 making it inefficient on large lists, and generally
@@ -35,18 +33,21 @@ memory is limited.
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### Java
 **code.java**
+
 ```java
 {% include_relative code.java %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

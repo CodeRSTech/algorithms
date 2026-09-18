@@ -5,8 +5,6 @@ category: Divide and Conquer
 viz_url: https://algorithm-visualizer.org/divide-and-conquer/radix-sort
 ---
 
-# Radix Sort
-
 In computer science, **radix sort** is a non-comparative integer sorting
 algorithm that sorts data with integer keys by grouping keys by the individual
 digits which share the same significant position and value. A positional notation
@@ -49,12 +47,14 @@ comparison-based sorts (and worse if keys are much longer than `log n`).
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **leastSignificantDigit.js**
+
 ```javascript
 {% include_relative leastSignificantDigit.js %}
 ```

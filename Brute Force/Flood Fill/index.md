@@ -5,7 +5,6 @@ category: Brute Force
 viz_url: https://algorithm-visualizer.org/brute-force/flood-fill
 ---
 
-# Flood Fill
 Flood fill, also called seed fill, is an algorithm that determines the area connected to a given node in a multi-dimensional array
 
 ## References
@@ -16,12 +15,14 @@ Flood fill, also called seed fill, is an algorithm that determines the area conn
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

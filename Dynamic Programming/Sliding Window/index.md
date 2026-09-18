@@ -5,7 +5,6 @@ category: Dynamic Programming
 viz_url: https://algorithm-visualizer.org/dynamic-programming/sliding-window
 ---
 
-# Sliding Window
 Finding the largest sum of three contiguous number
 
 ## Complexity
@@ -17,12 +16,14 @@ Finding the largest sum of three contiguous number
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

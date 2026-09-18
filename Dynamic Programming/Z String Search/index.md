@@ -5,8 +5,6 @@ category: Dynamic Programming
 viz_url: https://algorithm-visualizer.org/dynamic-programming/z-string-search
 ---
 
-# Z String Search
-
 The Z-algorithm finds occurrences of a "word" `W`
 within a main "text string" `T` in linear time `O(|W| + |T|)`.
 
@@ -73,12 +71,14 @@ Z[] =  x 0 6 0 4 0 2 0
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

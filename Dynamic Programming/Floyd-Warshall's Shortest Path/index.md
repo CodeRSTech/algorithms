@@ -5,8 +5,6 @@ category: Dynamic Programming
 viz_url: https://algorithm-visualizer.org/dynamic-programming/floyd-warshalls-shortest-path
 ---
 
-# Floyd-Warshall's Shortest Path
-
 In computer science, the **Floyd–Warshall algorithm** is an algorithm for finding
 shortest paths in a weighted graph with positive or negative edge weights (but
 with no negative cycles). A single execution of the algorithm will find the
@@ -105,12 +103,14 @@ In the tables below `i` is row numbers and `j` is column numbers.
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

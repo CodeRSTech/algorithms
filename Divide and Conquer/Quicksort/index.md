@@ -5,8 +5,6 @@ category: Divide and Conquer
 viz_url: https://algorithm-visualizer.org/divide-and-conquer/quicksort
 ---
 
-# Quicksort
-
 Quicksort is a divide and conquer algorithm.
 Quicksort first divides a large array into two smaller
 sub-arrays: the low elements and the high elements.
@@ -46,18 +44,21 @@ The horizontal lines are pivot values.
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### Java
 **Code.java**
+
 ```java
 {% include_relative Code.java %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

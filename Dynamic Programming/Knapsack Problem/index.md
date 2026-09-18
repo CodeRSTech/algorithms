@@ -5,8 +5,6 @@ category: Dynamic Programming
 viz_url: https://algorithm-visualizer.org/dynamic-programming/knapsack-problem
 ---
 
-# Knapsack Problem
-
 The knapsack problem or rucksack problem is a problem in
 combinatorial optimization: Given a set of items, each with
 a weight and a value, determine the number of each item to
@@ -80,12 +78,14 @@ and ![unbounded knapsack](https://wikimedia.org/api/rest_v1/media/math/render/sv
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

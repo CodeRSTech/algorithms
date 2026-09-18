@@ -5,7 +5,6 @@ category: Greedy
 viz_url: https://algorithm-visualizer.org/greedy/boyer-moores-majority-vote
 ---
 
-# Boyer–Moore's Majority Vote
 The majority vote problem is to determine in any given sequence of choices whether there is a choice with more occurrences than half of the total number of choices in the sequence and if so, to determine this choice.
 
 ## Complexity
@@ -19,12 +18,14 @@ The majority vote problem is to determine in any given sequence of choices wheth
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

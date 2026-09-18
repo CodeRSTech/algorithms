@@ -5,8 +5,6 @@ category: Uncategorized
 viz_url: https://algorithm-visualizer.org/uncategorized/miller-rabins-primality-test
 ---
 
-# Miller-Rabin's Primality Test
-
 The Miller–Rabin primality test or Rabin–Miller primality test is a primality test: an algorithm which determines whether a given number is prime, similar to the Fermat primality test and the Solovay–Strassen primality test.
 
 ## Complexity
@@ -21,12 +19,14 @@ The Miller–Rabin primality test or Rabin–Miller primality test is a primalit
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

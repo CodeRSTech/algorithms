@@ -5,8 +5,6 @@ category: Dynamic Programming
 viz_url: https://algorithm-visualizer.org/dynamic-programming/sieve-of-eratosthenes
 ---
 
-# Sieve of Eratosthenes
-
 The Sieve of Eratosthenes is an algorithm for finding all prime numbers up to some limit `n`.
 
 It is attributed to Eratosthenes of Cyrene, an ancient Greek mathematician.
@@ -43,12 +41,14 @@ The algorithm has a complexity of `O(n log(log n))`.
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

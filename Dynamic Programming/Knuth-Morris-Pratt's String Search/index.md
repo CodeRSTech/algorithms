@@ -5,8 +5,6 @@ category: Dynamic Programming
 viz_url: https://algorithm-visualizer.org/dynamic-programming/knuth-morris-pratts-string-search
 ---
 
-# Knuth-Morris-Pratt's String Search
-
 The Knuth–Morris–Pratt string searching algorithm (or
 KMP algorithm) searches for occurrences of a "word" `W`
 within a main "text string" `T` by employing the
@@ -30,12 +28,14 @@ of previously matched characters.
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

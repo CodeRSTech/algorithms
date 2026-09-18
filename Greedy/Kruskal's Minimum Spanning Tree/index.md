@@ -5,8 +5,6 @@ category: Greedy
 viz_url: https://algorithm-visualizer.org/greedy/kruskals-minimum-spanning-tree
 ---
 
-# Kruskal's Minimum Spanning Tree
-
 Kruskal's algorithm is a minimum-spanning-tree algorithm which
 finds an edge of the least possible weight that connects any two
 trees in the forest. It is a greedy algorithm in graph theory
@@ -60,12 +58,14 @@ are two possibilities of minimum spanning tree of the given graph.
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

@@ -5,8 +5,6 @@ category: Dynamic Programming
 viz_url: https://algorithm-visualizer.org/dynamic-programming/fibonacci-sequence
 ---
 
-# Fibonacci Sequence
-
 In mathematics, the Fibonacci numbers are the numbers in the following
 integer sequence, called the Fibonacci sequence, and characterized by
 the fact that every number after the first two is the sum of the two
@@ -31,12 +29,14 @@ The Fibonacci spiral: an approximation of the golden spiral created by drawing c
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

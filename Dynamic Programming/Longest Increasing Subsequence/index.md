@@ -5,8 +5,6 @@ category: Dynamic Programming
 viz_url: https://algorithm-visualizer.org/dynamic-programming/longest-increasing-subsequence
 ---
 
-# Longest Increasing Subsequence
-
 The longest increasing subsequence problem is to find a subsequence of a
 given sequence in which the subsequence's elements are in sorted order,
 lowest to highest, and in which the subsequence is as long as possible.
@@ -57,12 +55,14 @@ input sequence.
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

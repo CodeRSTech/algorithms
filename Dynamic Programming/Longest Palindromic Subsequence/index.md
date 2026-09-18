@@ -5,7 +5,6 @@ category: Dynamic Programming
 viz_url: https://algorithm-visualizer.org/dynamic-programming/longest-palindromic-subsequence
 ---
 
-# Longest Palindromic Subsequence
 Find the length of the longest palindromic subsequence in a given sequence
 
 ## Complexity
@@ -18,12 +17,14 @@ Find the length of the longest palindromic subsequence in a given sequence
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

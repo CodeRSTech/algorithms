@@ -5,8 +5,6 @@ category: Dynamic Programming
 viz_url: https://algorithm-visualizer.org/dynamic-programming/levenshteins-edit-distance
 ---
 
-# Levenshtein's Edit Distance
-
 The Levenshtein distance is a string metric for measuring the
 difference between two sequences. Informally, the Levenshtein
 distance between two words is the minimum number of
@@ -126,12 +124,14 @@ with `Saturday → Sunday` transformation.
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

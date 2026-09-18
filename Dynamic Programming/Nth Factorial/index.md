@@ -5,7 +5,6 @@ category: Dynamic Programming
 viz_url: https://algorithm-visualizer.org/dynamic-programming/nth-factorial
 ---
 
-# Nth Factorial
 Finding the nth Factorial using dynamic programming.
 
 ## Complexity
@@ -18,12 +17,14 @@ Finding the nth Factorial using dynamic programming.
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

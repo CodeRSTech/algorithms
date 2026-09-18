@@ -5,8 +5,6 @@ category: Branch and Bound
 viz_url: https://algorithm-visualizer.org/branch-and-bound/binary-search
 ---
 
-# Binary Search
-
 In computer science, binary search, also known as half-interval
 search, logarithmic search, or binary chop, is a search algorithm
 that finds the position of a target value within a sorted
@@ -34,16 +32,19 @@ next iteration.
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **iterative.js**
+
 ```javascript
 {% include_relative iterative.js %}
 ```
 **recursive.js**
+
 ```javascript
 {% include_relative recursive.js %}
 ```

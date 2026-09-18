@@ -20,12 +20,14 @@ An array of jobs along with their deadline and profit (if job completes within d
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

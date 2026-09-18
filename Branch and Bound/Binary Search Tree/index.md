@@ -5,8 +5,6 @@ category: Branch and Bound
 viz_url: https://algorithm-visualizer.org/branch-and-bound/binary-search-tree
 ---
 
-# Binary Search Tree
-
 In computer science, **binary search trees** (BST), sometimes called
 ordered or sorted binary trees, are a particular type of container:
 data structures that store "items" (such as numbers, names etc.)
@@ -274,16 +272,19 @@ O(n)
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **insertion.js**
+
 ```javascript
 {% include_relative insertion.js %}
 ```
 **search.js**
+
 ```javascript
 {% include_relative search.js %}
 ```

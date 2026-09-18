@@ -5,8 +5,6 @@ category: Brute Force
 viz_url: https://algorithm-visualizer.org/brute-force/depth-first-search
 ---
 
-# Depth-First Search
-
 Depth-first search (DFS) is an algorithm for traversing or
 searching tree or graph data structures. One starts at
 the root (selecting some arbitrary node as the root in
@@ -39,24 +37,29 @@ along each branch before backtracking.
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **graph.js**
+
 ```javascript
 {% include_relative graph.js %}
 ```
 **shortestPath.js**
+
 ```javascript
 {% include_relative shortestPath.js %}
 ```
 **tree.js**
+
 ```javascript
 {% include_relative tree.js %}
 ```
 **weightedGraph.js**
+
 ```javascript
 {% include_relative weightedGraph.js %}
 ```

@@ -5,8 +5,6 @@ category: Brute Force
 viz_url: https://algorithm-visualizer.org/brute-force/bubble-sort
 ---
 
-# Bubble Sort
-
 Bubble sort, sometimes referred to as sinking sort, is a
 simple sorting algorithm that repeatedly steps through
 the list to be sorted, compares each pair of adjacent
@@ -33,24 +31,28 @@ indicates that the list is sorted.
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### C++
 **main.cpp**
+
 ```cpp
 {% include_relative main.cpp %}
 ```
 
 ### Java
 **Code.java**
+
 ```java
 {% include_relative Code.java %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

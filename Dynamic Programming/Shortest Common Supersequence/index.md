@@ -5,8 +5,6 @@ category: Dynamic Programming
 viz_url: https://algorithm-visualizer.org/dynamic-programming/shortest-common-supersequence
 ---
 
-# Shortest Common Supersequence
-
 The shortest common supersequence (SCS) of two sequences `X` and `Y`
 is the shortest sequence which has `X` and `Y` as subsequences.
 
@@ -35,12 +33,14 @@ Output:  "AGXGTXAYB"
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

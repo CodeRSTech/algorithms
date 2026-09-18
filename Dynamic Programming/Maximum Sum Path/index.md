@@ -5,7 +5,6 @@ category: Dynamic Programming
 viz_url: https://algorithm-visualizer.org/dynamic-programming/maximum-sum-path
 ---
 
-# Maximum Sum Path
 Finding the maximum sum in a path from (0, 0) to (N-1, M-1) when can only move to right or down
 
 ## Complexity
@@ -17,12 +16,14 @@ Finding the maximum sum in a path from (0, 0) to (N-1, M-1) when can only move t
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

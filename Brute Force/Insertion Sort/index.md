@@ -5,8 +5,6 @@ category: Brute Force
 viz_url: https://algorithm-visualizer.org/brute-force/insertion-sort
 ---
 
-# Insertion Sort
-
 Insertion sort is a simple sorting algorithm that builds
 the final sorted array (or list) one item at a time.
 It is much less efficient on large lists than more
@@ -32,18 +30,21 @@ sort.
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### Java
 **Code.java**
+
 ```java
 {% include_relative Code.java %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

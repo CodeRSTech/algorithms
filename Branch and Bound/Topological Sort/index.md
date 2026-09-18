@@ -5,8 +5,6 @@ category: Branch and Bound
 viz_url: https://algorithm-visualizer.org/branch-and-bound/topological-sort
 ---
 
-# Topological Sort
-
 In the field of computer science, a topological sort or
 topological ordering of a directed graph is a linear ordering
 of its vertices such that for every directed edge `uv` from
@@ -66,12 +64,14 @@ next dependency has its dependent packages to be installed in prior.
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

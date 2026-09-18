@@ -5,8 +5,6 @@ category: Dynamic Programming
 viz_url: https://algorithm-visualizer.org/dynamic-programming/integer-partition
 ---
 
-# Integer Partition
-
 In number theory and combinatorics, a partition of a positive
 integer `n`, also called an **integer partition**, is a way of
 writing `n` as a sum of positive integers.
@@ -45,12 +43,14 @@ are conjugate partitions.
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

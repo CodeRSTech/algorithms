@@ -5,8 +5,6 @@ category: Divide and Conquer
 viz_url: https://algorithm-visualizer.org/divide-and-conquer/counting-sort
 ---
 
-# Counting Sort
-
 In computer science, **counting sort** is an algorithm for sorting
 a collection of objects according to keys that are small integers;
 that is, it is an integer sorting algorithm. It operates by
@@ -78,12 +76,14 @@ zero.
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

@@ -5,8 +5,6 @@ category: Greedy
 viz_url: https://algorithm-visualizer.org/greedy/prims-minimum-spanning-tree
 ---
 
-# Prim's Minimum Spanning Tree
-
 In computer science, **Prim's algorithm** is a greedy algorithm that
 finds a minimum spanning tree for a weighted undirected graph.
 
@@ -58,12 +56,14 @@ are two possibilities of minimum spanning tree of the given graph.
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

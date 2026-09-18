@@ -5,8 +5,6 @@ category: Dynamic Programming
 viz_url: https://algorithm-visualizer.org/dynamic-programming/maximum-subarray
 ---
 
-# Maximum Subarray
-
 The maximum subarray problem is the task of finding the contiguous
 subarray within a one-dimensional array, `a[1...n]`, of numbers
 which has the largest sum, where,
@@ -33,12 +31,14 @@ with the largest sum is `4, −1, 2, 1`, with sum `6`.
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```

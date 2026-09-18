@@ -5,8 +5,6 @@ category: Dynamic Programming
 viz_url: https://algorithm-visualizer.org/dynamic-programming/longest-common-subsequence
 ---
 
-# Longest Common Subsequence
-
 The longest common subsequence (LCS) problem is the problem of finding
 the longest subsequence common to all sequences in a set of sequences
 (often just two sequences). It differs from the longest common substring
@@ -36,12 +34,14 @@ made to a revision-controlled collection of files.
 ## Implementations
 
 ### Python
+
 ```python
 {% include_relative code.py %}
 ```
 
 ### JavaScript
 **code.js**
+
 ```javascript
 {% include_relative code.js %}
 ```
