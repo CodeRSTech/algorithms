@@ -1,10 +1,29 @@
 ---
 layout: main
 ---
+<!-- MathJax for rendering LaTeX equations -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
+  };
+</script>
+
+<style>
+  /* Force MathJax text to be white/light-gray for dark mode */
+  .MathJax, .mjx-chtml {
+      color: #e0e0e0 !important;
+  }
+</style>
+
 <article class="post">
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">Category: {{ page.category }}</p>
+    <!-- Removed duplicate h1 title to let the Markdown title show -->
+    <p class="post-meta" style="color: #888; border-bottom: 1px solid #333; padding-bottom: 10px;">Category: {{ page.category }}</p>
   </header>
 
   <div class="post-content">
