@@ -1,14 +1,10 @@
 ---
 layout: main
 ---
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.12.0/styles/default.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.12.0/highlight.min.js"></script>
+<!-- 1. External Rouge/Pygments Syntax Theme (Monokai) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/monokai.css" media="all">
 
-<!-- and it's easy to individually load additional languages -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.12.0/languages/go.min.js"></script>
-
-<script>hljs.highlightAll();</script>
-<!-- Robust MathJax v2 for Jekyll -->
+<!-- 2. Single, Robust MathJax v2 Configuration -->
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     tex2jax: {
@@ -23,33 +19,78 @@ layout: main
 </script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML-full"></script>
 
-<article class="post">
-  <header class="post-header">
-    <p class="post-meta" style="color: #888; border-bottom: 1px solid #333; padding-bottom: 10px; margin-top: 0;">Category: {{ page.category }}</p>
-  </header>
+<!-- 3. Clean up Rouge's default line number table borders -->
+<style>
+  .highlight table { border-spacing: 0; border: none; margin-bottom: 0; }
+  .highlight td { padding: 0; border: none; }
+  .highlight .gl { padding-right: 15px; color: #555; border-right: 1px solid #333; margin-right: 15px; }
+  .highlight pre { margin: 0; }
+</style>
 
-  <div class="post-content">
-    <!-- MathJax v2 Configuration -->
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        tex2jax: {
-          inlineMath: [['$','$'], ['\\(','\\)']],
-          displayMath: [['$$','$$'], ['\\[','\\]']],
-          processEscapes: true
-        },
-        "HTML-CSS": { styles: { ".MathJax": { "color": "#e0e0e0 !important" } } }
-      });
-    </script>
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML-full"></script>
+<div class="container-fluid mt-4">
+  <div class="row">
 
-    <!-- Attribution Box -->
-    <div style="padding: 15px; background-color: rgba(255,255,255,0.05); border-left: 4px solid #58a6ff; margin-bottom: 20px; font-size: 0.9em;">
-      <strong>Attribution:</strong> The conceptual explanations and original code structures below are adapted from the <a href="https://github.com/algorithm-visualizer/algorithms" target="_blank">Algorithm Visualizer</a> project.<br>
-      {% if page.viz_url %}
-      &#128279; <a href="{{ page.viz_url }}" target="_blank"><strong>View the interactive visualization for {{ page.title }} here.</strong></a>
-      {% endif %}
+    <!-- LEFT NAVBAR: Two-Column Dynamic Routing -->
+    <div class="col-md-4 col-lg-3 mb-4">
+      <div class="row">
+
+        <!-- Column 1: Categories -->
+        <div class="col-6 border-end border-secondary">
+          <h6 class="text-muted text-uppercase mb-3" style="font-size: 0.8em; letter-spacing: 1px;">Categories</h6>
+          <div class="nav flex-column">
+            {% assign algos = site.pages | where: "layout", "algo" %}
+            {% assign categories = algos | group_by: "category" | sort: "name" %}
+
+            {% for cat in categories %}
+              <a href="{{ cat.items[0].url | relative_url }}" class="nav-link px-0 py-1 {% if page.category == cat.name %}text-light fw-bold{% else %}text-secondary{% endif %}" style="font-size: 0.9em;">
+                {{ cat.name }}
+              </a>
+            {% endfor %}
+          </div>
+        </div>
+
+        <!-- Column 2: Algorithms in Active Category -->
+        <div class="col-6 ps-3">
+          <h6 class="text-muted text-uppercase mb-3" style="font-size: 0.8em; letter-spacing: 1px;">{{ page.category }}</h6>
+          <div class="nav flex-column">
+            {% assign current_algos = algos | where: "category", page.category | sort: "title" %}
+
+            {% for algo in current_algos %}
+              <a href="{{ algo.url | relative_url }}" class="nav-link px-0 py-1 {% if page.url == algo.url %}text-primary fw-bold{% else %}text-secondary{% endif %}" style="font-size: 0.9em;">
+                {{ algo.title }}
+              </a>
+            {% endfor %}
+          </div>
+        </div>
+
+      </div>
     </div>
 
-    {{ content }}
+    <!-- MAIN CONTENT: Algorithm Post -->
+    <div class="col-md-8 col-lg-9 ps-md-4">
+      <article class="post">
+
+        <header class="post-header mb-4">
+          <h1 class="post-title fw-bold">{{ page.title }}</h1>
+        </header>
+
+        <!-- Attribution & Visualizer Banner -->
+        <div style="padding: 15px; background-color: rgba(255,255,255,0.05); border-left: 4px solid #58a6ff; margin-bottom: 30px; font-size: 0.9em; border-radius: 0 4px 4px 0;">
+          <strong class="text-light">Attribution:</strong> <span class="text-secondary">The conceptual explanations and original code structures below are adapted from the <a href="https://github.com/algorithm-visualizer/algorithms" target="_blank" class="text-primary text-decoration-none">Algorithm Visualizer</a> project.</span><br>
+          {% if page.viz_url %}
+          <div class="mt-2">
+            &#128279; <a href="{{ page.viz_url }}" target="_blank" class="text-info text-decoration-none"><strong>View the interactive visualization for {{ page.title }} here.</strong></a>
+          </div>
+          {% endif %}
+        </div>
+
+        <!-- Rendered Markdown Body -->
+        <div class="post-content text-light">
+          {{ content }}
+        </div>
+
+      </article>
+    </div>
+
   </div>
-</article>
+</div>
