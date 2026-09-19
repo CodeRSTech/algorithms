@@ -3,34 +3,7 @@ layout: main
 ---
 <!-- Inject Lightbox CDN for this layout only -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
-
-<style>
-  /* Responsive CSS Masonry */
-  .gallery-masonry { 
-    column-count: 3; 
-    column-gap: 15px; 
-    padding: 20px;
-  }
-  .gallery-masonry a { 
-    display: block; 
-    margin-bottom: 15px; 
-    break-inside: avoid; /* Prevents images from splitting across columns */
-  }
-  .gallery-masonry img { 
-    width: 100%; 
-    height: auto; 
-    display: block; 
-    border-radius: 4px;
-    transition: transform 0.2s ease-in-out;
-  }
-  .gallery-masonry img:hover {
-    transform: scale(1.02);
-  }
-  
-  /* Mobile Breakpoints */
-  @media (max-width: 991px) { .gallery-masonry { column-count: 2; } }
-  @media (max-width: 575px) { .gallery-masonry { column-count: 1; } }
-</style>
+<link href="/assets/css/gallery_masonry.css" rel="stylesheet">
 
 <div class="gallery-masonry mt-4">
   {{ content }}
