@@ -183,3 +183,10 @@ p, small, .text-white-50 {
   padding-left: 16px;
   white-space: pre;
 }
+
+.post-content img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block;
+    margin: 1.5rem auto;
+}
