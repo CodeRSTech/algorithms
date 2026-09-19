@@ -43,7 +43,7 @@ layout: main
             {% assign cat_id = cat.name | slugify %}
             <div class="accordion-item bg-transparent border-0 mb-1">
 
-              <!-- Category Header (Changed from h2 to div to fix giant text) -->
+              <!-- Category Header (Changed from h2 to div to fix giant text)
               <div class="accordion-header" id="heading-{{ cat_id }}">
                 <button class="accordion-button {% unless page.category == cat.name %}collapsed{% endunless %} bg-transparent shadow-none p-2"
                         type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ cat_id }}"
@@ -56,7 +56,7 @@ layout: main
                 </button>
               </div>
 
-              <!-- Collapsible Algorithm List -->
+              <!-- Collapsible Algorithm List
               <div id="collapse-{{ cat_id }}" class="accordion-collapse collapse {% if page.category == cat.name %}show{% endif %}"
                    aria-labelledby="heading-{{ cat_id }}" data-bs-parent="#algoAccordion">
                 <div class="accordion-body p-0 pt-1 pb-2 ps-3">
