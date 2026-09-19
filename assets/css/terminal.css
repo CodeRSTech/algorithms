@@ -190,3 +190,35 @@ p, small, .text-white-50 {
     display: block;
     margin: 1.5rem auto;
 }
+
+/* ---------------------------------------------------
+   Markdown Table Styling
+----------------------------------------------------- */
+.post-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+.post-content th,
+.post-content td {
+    padding: 12px 15px;
+    border: 1px solid #30363d;
+}
+
+.post-content th {
+    background-color: rgba(255, 255, 255, 0.05);
+    font-weight: bold;
+    color: #58a6ff; /* Matches your accent color */
+}
+
+/* Ensure the table styles don't accidentally break Pygments line numbers */
+.highlight table,
+.highlight th,
+.highlight td {
+    border: none !important;
+    background-color: transparent !important;
+}
+.highlight td {
+    padding: 0 !important;
+}
