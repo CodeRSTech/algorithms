@@ -17,9 +17,9 @@ indicates that the list is sorted.
 
 ## Complexity
 
-| Name                  | Best            | Average             | Worst               | Memory    | Stable    | Comments  |
-| --------------------- | :-------------: | :-----------------: | :-----------------: | :-------: | :-------: | :-------- |
-| **Bubble sort**       | n               | n<sup>2</sup>       | n<sup>2</sup>       | 1         | Yes       |           |
+| Name                  | Best | Average | Worst | Memory | Stable | Comments  |
+| --------------------- |:----:|:-------:|:-----:|:------:|:------:| :-------- |
+| **Bubble sort**       | $n$  |  $n^2$  | $n^2$ |  $1$   |  Yes   |           |
 
 ## References
 
