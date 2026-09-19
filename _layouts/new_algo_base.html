@@ -4,7 +4,7 @@ layout: main
 <!-- 1. Rouge/Pygments Syntax Theme (RRT) -->
 <link rel="stylesheet" href="{{ '/assets/css/rrt.css' | relative_url }}">
 
-<!-- 2. Single, Robust MathJax v2 Configuration -->
+<!-- 2. Single, Robust MathJax v2 Configuration 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     tex2jax: {
@@ -16,21 +16,21 @@ layout: main
       styles: { ".MathJax": { "color": "#e0e0e0 !important" } }
     }
   });
-</script>
+</script> -->
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML-full"></script>
 
-<!-- 3. Clean up Rouge's default line number table borders -->
+<!-- 3. Clean up Rouge's default line number table borders
 <style>
   .highlight table { border-spacing: 0; border: none; margin-bottom: 0; }
   .highlight td { padding: 0; border: none; }
   .highlight .gl { padding-right: 15px; color: #555; border-right: 1px solid #333; margin-right: 15px; }
   .highlight pre { margin: 0; }
-</style>
+</style> -->
 
 <div class="container-fluid mt-4">
   <div class="row">
 
-    <!-- LEFT NAVBAR: Responsive & Compact Accordion -->
+    <!-- LEFT NAVBAR: Responsive & Compact Accordion
     <div class="col-md-4 col-lg-3 mb-4">
       <div class="p-3 border border-secondary rounded" style="background-color: #0d1117;">
         <h6 class="text-muted text-uppercase mb-3" style="font-size: 0.75em; letter-spacing: 1px;">Algorithm Index</h6>
@@ -78,7 +78,7 @@ layout: main
         </div>
 
       </div>
-    </div>
+    </div> -->
 
     <!-- MAIN CONTENT: Algorithm Post -->
     <div class="col-md-8 col-lg-9 ps-md-4">
@@ -88,14 +88,14 @@ layout: main
           <h1 class="post-title fw-bold">{{ page.title }}</h1>
         </header>
 
-        <!-- Attribution & Visualizer Banner -->
+        <!-- Attribution & Visualizer Banner
         <div style="padding: 15px; background-color: rgba(255,255,255,0.05); border-left: 4px solid #58a6ff; margin-bottom: 30px; font-size: 0.9em; border-radius: 0 4px 4px 0;">
           <strong class="text-light">Attribution:</strong> <span class="text-secondary">The conceptual explanations and original code structures below are adapted from the <a href="https://github.com/algorithm-visualizer/algorithms" target="_blank" class="text-primary text-decoration-none">Algorithm Visualizer</a> project.</span><br>
           {% if page.viz_url %}
           <div class="mt-2">
             &#128279; <a href="{{ page.viz_url }}" target="_blank" class="text-info text-decoration-none"><strong>View the interactive visualization for {{ page.title }} here.</strong></a>
           </div>
-          {% endif %}
+          {% endif %} ——>
         </div>
 
         <!-- Rendered Markdown Body -->
