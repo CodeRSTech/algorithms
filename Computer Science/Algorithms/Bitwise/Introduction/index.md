@@ -11,19 +11,19 @@ Since computers store all data in binary form,
 bitwise operations help us manipulate data at the lowest level using operations, 
 like <b>AND</b> `&`, <b>OR</b> `|`, <b>XOR</b> `^`, <b>NOT</b> `~`, and bit shifting.
 
-| Operator                                          | Logical                                                                | Bitwise | Example                                            |
-|---------------------------------------------------|------------------------------------------------------------------------|---------|----------------------------------------------------|
-| AND<br><small>((Conjunction)</small>             | $\land$ or $\cdot$ <small>or</small> `and`                             | `&`     | $A \land B$ <br>$A \cdot B$                       |
-| OR <br><small>(Disjunction) </small>             | $\lor$ <small>or</small> $+$ <small>or</small> `or`                    | `\|`    | $A \lor B$ <br>$A + B$                            |
-| NOT <br><small>(Negation) </small>               | $\neg$ <small>or</small> $\overline{\text{X}}$ <small>or</small> `not` | `~`     | $\neg A$ <br>$\overline{A}$ <br>$A'$             |
-| NAND <br><small>(Inverted AND) </small>          | $\overline{\land}$                                                     | `~&`    | $\overline{A \land B}$ <br>$\overline{A \cdot B}$ |
-| NOR <br><small>Inverted OR) </small>             | $\overline{\lor}$                                                      | `~`     | $\overline{A \lor B}$ <br>$\overline{A + B}$      |
-| XOR <br><small>(Exclusive OR) </small>           | $\oplus$                                                               | `^`     | $A \oplus B$                                       |
-| XNOR <br><small>(Exclusive NOR) </small>         | $\odot$ <small>or</small> $\overline{\oplus}$                          |         | $A \odot B$ <br>$\overline{A \oplus B}$           |
-| Implies <br><small>(Conditional) </small>        | $\rightarrow$ <small>or</small> $\implies$                             |         | $A \rightarrow B$ <br>$A \implies B$              |
-| Equivalent <br><small>(Biconditional) </small>   | $\leftrightarrow$ <small>or</small> $\iff$                             |         | $A \leftrightarrow B$ <br>$A \iff B$              |
-| Tautology <br><small>(Always True) </small>      | $\top$                                                                 |         | $\top$                                             |
-| Contradiction <br><small>(Always False) </small> | $\bot$                                                                 |         | $\bot$                                             |
+| Operator                                       | Logical                                                                        | Bitwise | Example                                           |
+|------------------------------------------------|--------------------------------------------------------------------------------|---------|---------------------------------------------------|
+| AND<br><small>Conjunction</small>              | $\land$ <small>or</small><br> $\cdot$ <small>or</small><br> `and`              | `&`     | $A \land B$ <br>$A \cdot B$                       |
+| OR <br><small>Disjunction </small>             | $\lor$ <small>or</small><br> $+$ <small>or</small><br> `or`                    | `\|`    | $A \lor B$ <br>$A + B$                            |
+| NOT <br><small>Negation </small>               | $\neg$ <small>or</small><br> $\overline{\text{X}}$ <small>or</small><br> `not` | `~`     | $\neg A$ <br>$\overline{A}$ <br>$A'$              |
+| NAND <br><small>Inverted AND </small>          | $\overline{\land}$                                                             | `~&`    | $\overline{A \land B}$ <br>$\overline{A \cdot B}$ |
+| NOR <br><small>Inverted OR)</small>            | $\overline{\lor}$                                                              | `~`     | $\overline{A \lor B}$ <br>$\overline{A + B}$      |
+| XOR <br><small>Exclusive OR </small>           | $\oplus$                                                                       | `^`     | $A \oplus B$                                      |
+| XNOR <br><small>Exclusive NOR </small>         | $\odot$ <small>or</small><br> $\overline{\oplus}$                              |         | $A \odot B$ <br>$\overline{A \oplus B}$           |
+| Implies <br><small>Conditional </small>        | $\rightarrow$ <small>or</small><br> $\implies$                                 |         | $A \rightarrow B$ <br>$A \implies B$              |
+| Equivalent <br><small>Biconditional </small>   | $\leftrightarrow$ <small>or</small><br> $\iff$                                 |         | $A \leftrightarrow B$ <br>$A \iff B$              |
+| Tautology <br><small>Always True </small>      | $\top$                                                                         |         | $\top$                                            |
+| Contradiction <br><small>Always False </small> | $\bot$                                                                         |         | $\bot$                                            |
 
  - They are commonly used in optimization, performance-critical code, masking, toggling bits, and low-level programming.
  - They are used to perform fast calculations and binary manipulation.
