@@ -13,6 +13,9 @@ A comparative guide to data structures and algorithms.
 * [N-Queens Problem](./Backtracking/N-Queens%20Problem/)
 * [Sum of subsets](./Backtracking/Sum%20of%20subsets/)
 
+## Bitwise
+* [Introduction](./Bitwise/Introduction/)
+
 ## Branch and Bound
 * [Binary Search](./Branch%20and%20Bound/Binary%20Search/)
 * [Binary Search Tree](./Branch%20and%20Bound/Binary%20Search%20Tree/)
