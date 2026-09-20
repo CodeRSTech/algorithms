@@ -39,8 +39,8 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Build with Jekyll
-        # Uses standard Bundler rather than the restricted GitHub Pages action
-        run: bundle exec jekyll build --source ./ --destination ./_site --baseurl "${{ steps.pages.outputs.base_path }}"
+        # Removed the empty baseurl override so it strictly uses your _config.yml
+        run: bundle exec jekyll build --source ./ --destination ./_site
         env:
           JEKYLL_ENV: production
 
