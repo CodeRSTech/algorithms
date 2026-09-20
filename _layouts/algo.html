@@ -25,6 +25,8 @@ layout: main
         <!-- Attribution & Visualizer Banner -->
         {% if page.attribution_source == "Algorithm Visualizer Project" %}
         {% include attribution_algorithm_visualizer.html %}
+        {% elsif page.attribution_source == "GeeksforGeeks" %}
+        {% include attribution_gfg.html %}
         {% endif %}
 
         <!-- Rendered Markdown Body -->
