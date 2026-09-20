@@ -9,14 +9,14 @@ gfg_url: https://www.geeksforgeeks.org/boyer-moore-majority-vote-algorithm/](htt
 Bitwise operators are special operators in programming that work directly on binary bits (0 $AND$ 1). Since computers store all data in binary form, bitwise operations help us manipulate data at the lowest level using operations like AND, OR, XOR, NOT, $AND$ bit shifting.
 
  - They are commonly used in optimization, performance-critical code, masking, toggling bits, $AND$ low-level programming.
- - They are used to perform fast calculations $AND$ binary manipulation.
- - They help in setting, clearing, checking, $AND$ toggling bits.
- - Bitwise operations are often faster for low-level $AND$ bit-manipulation tasks.
+ - They are used to perform fast calculations and binary manipulation.
+ - They help in setting, clearing, checking, and toggling bits.
+ - Bitwise operations are often faster for low-level and bit-manipulation tasks.
  - Bitwise operations enable packing multiple flags into a single variable, reducing memory usage.
 
 Bitwise Operators / Basics of Bit manipulation
 
-Bit manipulation works on binary bits (0 $AND$ 1) using bitwise operators, making it fast $AND$ efficient. These operations are executed by the CPU’s Arithmetic Logic Unit (ALU) $AND$ are commonly used for optimization, efficient flag handling, $AND$ performance-critical tasks.
+Bit manipulation works on binary bits (0 and 1) using bitwise operators, making it fast and efficient. These operations are executed by the CPU’s Arithmetic Logic Unit (ALU) and are commonly used for optimization, efficient flag handling, and performance-critical tasks.
 
 The main bitwise operators are:
 
@@ -37,7 +37,7 @@ truth_table_of_bitwise_and_operator
 
 Example:
 
- - Take two bit values $X$ $AND$ $Y$, where `X` = `7` = $(111)_2$ $AND$ $Y$ = 4 = (100)2 . Take Bitwise $AND$ of both $X$ & y
+ - Take two bit values $X$ and $Y$, where `X` = `7` = $(111)_2$ and $Y$ = 4 = $(100$)_2$ . Take Bitwise $AND$ of both $X$ & y
  - Bitwise $AND$ of 7 & 4
  - Bitwise $AND$ of (7 & 4)
 
@@ -48,7 +48,7 @@ truth_table_of_bitwise_or_operator
 
 Example:
 
-    Take two bit values $X$ $AND$ Y, where $X$ = 7= (111)2 $AND$ $Y$ = 4 = (100)2 . Take Bitwise $OR$ of both X, y
+    Take two bit values $X$ and Y, where $X$ = 7= $(1111)_2$ and  $Y$ = 4 = $(100$)_2$ . Take Bitwise $OR$ of both X, y
      [Click to enlarge] 
     Bitwise $OR$ of (7 | 4)
 
@@ -61,31 +61,6 @@ Example:
 
     We used the similar concept of bitwise operator that are show in the image.
 
-import java.io.*;
-
-​
-
-class GFG {
-
-    public static void main(String[] args)
-
-    {
-
-        int a = 12, b = 25;
-
-        int result = a | b;
-
-        System.out.println(result);
-
-    }
-
-}
-
-
-Output
-
-29
-
 ## Bitwise $XOR$ Operator (^)
 
 The ^ operator (also known as the $XOR$ operator) stands for Exclusive Or. Here, if bits in the compared position do $NOT$ match their resulting bit is 1. i.e, The result of the bitwise $XOR$ operator is 1 if the corresponding bits of two operands are opposite, otherwise 0.
@@ -93,7 +68,7 @@ truth_table_of_bitwise_xor_operator
 
 Example:
 
-    Take two bit values $X$ $AND$ Y, where $X$ = 7= (111)2 $AND$ $Y$ = 4 = (100)2 . Take Bitwise $AND$ of both $X$ & y
+    Take two bit values $X$ and  Y, where $X$ = 7= $(1111)_2$ and  $Y$ = 4 = $(100$)_2$ . Take Bitwise and  of both $X$ & y
      [Click to enlarge] 
     Bitwise $OR$ of (7 ^ 4)
 
@@ -106,181 +81,63 @@ Example:
 
     We used the similar concept of bitwise operator that are show in the image.
 
-import java.io.*;
-
-​
-
-class GFG {
-
-    public static void main(String[] args)
-
-    {
-
-        int a = 12, b = 25;
-
-        int result = a ^ b;
-
-        System.out.println(result);
-
-    }
-
-}
-
-
-Output
-
-21
-
 ## Bitwise $NOT$ Operator (`~`)
 
 All the above three bitwise operators are binary operators (i.e, requiring two operands in order to operate). Unlike other bitwise operators, this one requires only one operand to operate.
 truth_table_of_bitwise_not_operator
 
-    The bitwise $NOT$ Operator takes a single value $AND$ returns its one’s complement.
-    The one’s complement of a binary number is obtained by toggling all bits in it, i.e, transforming the 0 bit to 1 $AND$ the 1 bit to 0.
+    The bitwise $NOT$ Operator takes a single value and  returns its one’s complement.
+    The one’s complement of a binary number is obtained by toggling all bits in it, i.e, transforming the 0 bit to 1 and  the 1 bit to 0.
 
 Example: 
 
-    Take a 4-bit value X, where $X$ = 9 = (1001)₂. Take the Bitwise $NOT$ of X.
+    Take a 4-bit value X, where $X$ = 9 = $(1001)₂. Take the Bitwise $NOT$ of X.
      [Click to enlarge] 
 
-    Explanation: The bitwise $NOT$ operator (~) flips every individual bit in the binary representation of a number. Based on the truth table, every 1 becomes a 0, $AND$ every 0 becomes a 1.
+    Explanation: The bitwise $NOT$ operator (~) flips every individual bit in the binary representation of a number. Based on the truth table, every 1 becomes a 0, and  every 0 becomes a 1.
 
     The resulting binary string is 0110₂, which is equal to the decimal number 6.
 
     Note: The output of ~ changes depending on how many bits your system uses. In a 4-bit system, ~9 (1001) becomes 0110 (6). But in an 8-bit system, 9 is stored with leading zeros as 0000 1001. Flipping it yields 1111 0110, giving a completely different decimal result.
 
-public class GFG {
-
-    public static void main(String[] args) {
-
-        
-
-        int a = 9;
-
-        
-
-        System.out.print("Value of a without using $NOT$ operator: " + a);
-
-        System.out.print("\nInverting using $NOT$ operator (with sign bit): " + (~a));
-
-               
-
-    // Why is the output -10?
-
-    // 1. A 32-bit int for 9 is padded with zeros: 0000...00001001
-
-    // 2. The '~' operator flips EVERY bit:        1111...11110110
-
-    // 3. Because the first bit is 1, the computer reads it as a negative number.
-
-    // 4. In Two's Complement math, this evaluates to -10. 
-
-    // Shortcut formula: ~x = -(x + 1)
-
-​
-
-    }
-
-}
-
-
-Output
-
-Value of a without using $NOT$ operator: 0
-Inverting using $NOT$ operator (with sign bit): -1
-
 ## $Left\ Shift$ (`<<`)
 
-The $Left\ Shift$ operator is denoted by the double left arrow key (<<). The general syntax for $Left\ Shift$ is shift-expression << k. The left-shift operator causes the bits in shift expression to be shifted to the left by the number of positions specified by k. The bit positions that the shift operation has vacated are zero-filled.
+The $Left\ Shift$ operator is denoted by the double left arrow key (<<). The general syntax for $Left\ Shift$ is shift-expression `<<` k. The left-shift operator causes the bits in shift expression to be shifted to the left by the number of positions specified by k. The bit positions that the shift operation has vacated are zero-filled.
 
     Note: Every time we shift a number towards the left by 1 bit it multiply that number by 2.
 
-logical_left_shift
+logical_left_shift_image
 
 Example:
 
     Input: $Left\ Shift$ of 5 by 1.
-    Binary representation of 5 = 00101 $AND$ $Left\ Shift$ of 001012 by 1 (i.e, 00101 << 1)
+    Binary representation of 5 = 00101 and  $Left\ Shift$ of 001012 by 1 (i.e, 00101 `<<` 1)
      
      [Click to enlarge] 
     $Left\ Shift$ of 5 by 1
 
     Output: 10
-    Explanation: All bit of 5 will be shifted by 1 to left side $AND$ this result in 010102, Which is equivalent to 10
+    Explanation: All bit of 5 will be shifted by 1 to left side and  this result in 010102, Which is equivalent to 10
 
     Input: $Left\ Shift$ of 5 by 2.
-    Binary representation of 5 = 00101 $AND$ $Left\ Shift$ of 001012 by 1 (i.e, 00101 << 2)
+    Binary representation of 5 = 00101 and  $Left\ Shift$ of 001012 by 1 (i.e, 00101 `<<` 2)
      [Click to enlarge] 
     $Left\ Shift$ of 5 by 2
 
     Output: 20
-    Explanation: All bit of 5 will be shifted by 1 to left side $AND$ this result in 101002, Which is equivalent to 20
+    Explanation: All bit of 5 will be shifted by 1 to left side and  this result in 101002, Which is equivalent to 20
 
     Input: $Left\ Shift$ of 5 by 3.
-    Binary representation of 5 = 00101 $AND$ $Left\ Shift$ of 001012 by 1 (i.e, 00101 << 3)
+    Binary representation of 5 = 00101 and  $Left\ Shift$ of 001012 by 1 (i.e, 00101 `<<` 3)
      [Click to enlarge] 
     $Left\ Shift$ of 5 by 3
 
     Output: 40
-    Explanation: All bit of 5 will be shifted by 1 to left side $AND$ this result in 010002, Which is equivalent to 40
+    Explanation: All bit of 5 will be shifted by 1 to left side and  this result in 010002, Which is equivalent to 40
 
-import java.io.*;
+## $Right\ Shift$ (`>>`)
 
-​
-
-class GFG {
-
-  public static void main(String[] args)
-
-  {
-
-    int num1 = 1024;
-
-​
-
-    String bt1 = Integer.toBinaryString(num1);
-
-    bt1 = String.format("%32s", bt1).replace(' ', '0');
-
-    System.out.println(bt1);
-
-​
-
-    int num2 = num1 << 1;
-
-    String bt2 = Integer.toBinaryString(num2);
-
-    bt2 = String.format("%32s", bt2).replace(' ', '0');
-
-    System.out.println(bt2);
-
-​
-
-    int num3 = num1 << 2;
-
-    String bitset13 = Integer.toBinaryString(num3);
-
-    bitset13 = String.format("%16s", bitset13)
-
-      .replace(' ', '0');
-
-    System.out.println(bitset13);
-
-  }
-
-}
-
-
-Output
-
-00000000000000000000010000000000
-00000000000000000000100000000000
-0001000000000000
-
-Right-Shift (>>)
-
-The $Right\ Shift$ operator is denoted by the double right arrow key (>>). The general syntax for the $Right\ Shift$ is "shift-expression >> k". The right-shift operator causes the bits in shift expression to be shifted to the right by the number of positions specified by k. For unsigned numbers, the bit positions that the shift operation has vacated are zero-filled. For signed numbers, the sign bit is used to fill the vacated bit positions. In other words, if the number is positive, 0 is used, $AND$ if the number is negative, 1 is used.
+The $Right\ Shift$ operator is denoted by the double right arrow key (`>>`). The general syntax for the $Right\ Shift$ is "shift-expression `>>` k". The right-shift operator causes the bits in shift expression to be shifted to the right by the number of positions specified by k. For unsigned numbers, the bit positions that the shift operation has vacated are zero-filled. For signed numbers, the sign bit is used to fill the vacated bit positions. In other words, if the number is positive, 0 is used, and  if the number is negative, 1 is used.
 
     Note: Every time we shift a number towards the right by 1 bit it divides that number by 2.
 
@@ -289,42 +146,42 @@ logical_right_shift
 Example:
 
     Input: $Right\ Shift$ of 5 by 1.
-    Binary representation of 5 = 00101 $AND$ $Right\ Shift$ of 00101 by 1 (i.e, 00101 >> 1)
+    Binary representation of 5 = 00101 and  $Right\ Shift$ of 00101 by 1 (i.e, 00101 `>>` 1)
      [Click to enlarge] 
     $Right\ Shift$ of 5 by 1
 
     Output: 2
-    Explanation: All bit of 5 will be shifted by 1 to Rightside $AND$ this result in 00010Which is equivalent to 2
+    Explanation: All bit of 5 will be shifted by 1 to Rightside and  this result in 00010Which is equivalent to 2
 
     Input: $Right\ Shift$ of 5 by 2.
-    Binary representation of 5 = 00101 $AND$ $Right\ Shift$ of 00101 by 2 (i.e, 00101 >> 2)
+    Binary representation of 5 = 00101 and  $Right\ Shift$ of 00101 by 2 (i.e, 00101 `>>` 2)
      [Click to enlarge] 
     $Right\ Shift$ of 5 by 2
 
     Output: 1
-    Explanation: All bit of 5 will be shifted by 2 to Right side $AND$ this result in 00001, Which is equivalent to 1
+    Explanation: All bit of 5 will be shifted by 2 to Right side and  this result in 00001, Which is equivalent to 1
 
     Input: $Right\ Shift$ of 5 by 3.
-    Binary representation of 5 = 00101 $AND$ $Right\ Shift$ of 00101 by 3 (i.e, 00101 >> 3)
+    Binary representation of 5 = 00101 and  $Right\ Shift$ of 00101 by 3 (i.e, 00101 `>>` 3)
      [Click to enlarge] 
     $Right\ Shift$ of 5 by 3
 
     Output: 0
-    Explanation: All bit of 5 will be shifted by 3 to Right side $AND$ this result in 00000, Which is equivalent to 0
+    Explanation: All bit of 5 will be shifted by 3 to Right side and  this result in 00000, Which is equivalent to 0
 
 Application of Bit Operators
 
     Bit operations are used for the optimization of embedded systems.
     The Exclusive-or operator can be used to confirm the integrity of a file, making sure it has $NOT$ been corrupted, especially after it has been in transit.
-    Bitwise operations are used in Data encryption $AND$ compression.
+    Bitwise operations are used in Data encryption and  compression.
     Bits are used in the area of networking, framing the packets of numerous bits which are sent to another system generally through any type of serial interface.
-    Digital Image Processors use bitwise operations to enhance image pixels $AND$ to extract different sections of a microscopic image.
+    Digital Image Processors use bitwise operations to enhance image pixels and  to extract different sections of a microscopic image.
 
 ## Practice Problems on Bitwise Algorithm
 
-Solve these questions to improve your understanding of bitwise operators $AND$ bit manipulation techniques.
+Solve these questions to improve your understanding of bitwise operators and  bit manipulation techniques.
 
-    Note: All the above Bitwise Practice Problems are optimized $AND$ run in O(1) Time Complexity with O(1) Auxiliary Space.
+    Note: All the above Bitwise Practice Problems are optimized and  run in O(1) Time Complexity with O(1) Auxiliary Space.
 
 ### 1. Set a bit in the number
 
@@ -335,45 +192,6 @@ If we want to set a bit at $n^{th}$ position in the number 'num', it can be done
 
     Note: If the bit would be already set then it would remain unchanged.
 
-import java.io.*;
-
-​
-
-class GFG {
-
-    public static void main(String[] args)
-
-    {
-
-        int num = 4, pos = 1;
-
-        num = set(num, pos);
-
-        System.out.println(num);
-
-    }
-
-    public static int set(int num, int pos)
-
-    {
-
-        // First step is shift '1', second
-
-        // step is bitwise OR
-
-        num |= (1 << pos);
-
-        return num;
-
-    }
-
-}
-
-
-Output
-
-6
-
 ### 2. unset/clear a bit at $n^{th}$ position in the number
 
 Suppose we want to unset a bit at $n^{th}$ position in number 'num' then we have to do this with the help of "AND" (&) operator.
@@ -381,52 +199,9 @@ Suppose we want to unset a bit at $n^{th}$ position in number 'num' then we have
     First, we $Left\ Shift$ '1' to n position via (1<<n) then we use bitwise $NOT$ operator '~' to unset this shifted '1'.
     Now after clearing this left shifted '1' i.e making it to '0' we will 'AND'(&) with the number 'num' that will unset bit at $n^{th}$ position.
 
-/*package whatever //do $NOT$ write package name here */
-
-​
-
-import java.io.*;
-
-​
-
-class GFG {
-
-    public static void main(String[] args)
-
-    {
-
-        int num = 7, pos = 1;
-
-        num = unset(num, pos);
-
-        System.out.println(num);
-
-    }
-
-    public static int unset(int num, int pos)
-
-    {
-
-        // Second step is to bitwise $AND$ this  number with
-
-        // given number
-
-        num = num & (~(1 << pos));
-
-        return num;
-
-    }
-
-}
-
-
-Output
-
-5
-
 ### 3. Toggling a bit at $n^{th}$ position
 
-Toggling means to turn bit 'on'(1) if it was 'off'(0) $AND$ to turn 'off'(0) if it was 'on'(1) previously. We will be using the 'XOR' operator here which is this '^'. The reason behind the 'XOR' operator is because of its properties.
+Toggling means to turn bit 'on'(1) if it was 'off'(0) and  to turn 'off'(0) if it was 'on'(1) previously. We will be using the 'XOR' operator here which is this '^'. The reason behind the 'XOR' operator is because of its properties.
 
 Properties of 'XOR' operator. 
 
@@ -437,114 +212,17 @@ Properties of 'XOR' operator.
 
 If two bits are different then the 'XOR' operator returns a set bit(1) else it returns an unset bit(0).
 
-import java.io.*;
 
-​
-
-class GFG {
-
-    public static void main(String[] args)
-
-    {
-
-        int num = 4, pos = 1;
-
-        num = toggle(num, pos);
-
-        System.out.println(num);
-
-    }
-
-    public static int toggle(int num, int pos)
-
-    {
-
-        // First step is to shift 1,Second step is to XOR
-
-        // with given number
-
-        num ^= (1 << pos);
-
-        return num;
-
-    }
-
-}
-
-
-Output
-
-6
 
 ### 4. Checking if the bit at $n^{th}$ position is Set $OR$ Unset
 
-We used the $Left\ Shift$ (<<) operation on 1 to shift the bits to $n^{th}$ position $AND$ then use the & operation with number given number, $AND$ check if it is not-equals to 0.
-
-import java.io.*;
-
-​
-
-class GFG {
-
-    public static void main(String[] args)
-
-    {
-
-        int num = 5;
-
-        int pos = 0;
-
-        int bit = at_position(num, pos);
-
-        System.out.println(bit);
-
-    }
-
-    public static int at_position(int num, int pos)
-
-    {
-
-        int bit = num & (1 << pos);
-
-        return bit;
-
-    }
-
-}
+We used the $Left\ Shift$ (<<) operation on 1 to shift the bits to $n^{th}$ position and  then use the & operation with number given number, and  check if it is not-equals to 0.
 
 
-Output
-
-1
 
 ### Multiply a number by 2 using the $Left\ Shift$ operator
 
 You can multiply a number by 2 by using the $Left\ Shift$ operator (<< 1), which shifts all bits one position to the left.
-
-import java.io.*;
-
-​
-
-class GFG {
-
-    public static void main(String[] args)
-
-    {
-
-        int num = 12;
-
-        int ans = num << 1;
-
-        System.out.println(ans);
-
-    }
-
-}
-
-
-Output
-
-24
 
 ### 6. Divide a number 2 using the $Right\ Shift$ operator
 
@@ -565,17 +243,17 @@ Say $X$ = n % 4. The $XOR$ value depends on the value if x.
 
 This can be solved based on the following fact:
 
-    If a number N is a power of 2, then the bitwise $AND$ of N $AND$ N-1 will be 0. But this will $NOT$ work if N is 0. So just check these two conditions, if any of these two conditions is true.
+    If a number N is a power of 2, then the bitwise and  of N and  N-1 will be 0. But this will $NOT$ work if N is 0. So just check these two conditions, if any of these two conditions is true.
 
 ### 9. Count Set bits in an integer
 
-Counting set bits means, counting total number of 1’s in the binary representation of an integer. For this problem we go through all the bits of given number $AND$ check whether it is set $OR$ $NOT$ by performing $AND$ operation (with 1).
+Counting set bits means, counting total number of 1’s in the binary representation of an integer. For this problem we go through all the bits of given number and  check whether it is set $OR$ $NOT$ by performing $AND$ operation (with 1).
 
 ### 10. Position of rightmost set bit
 
-The idea is to unset the rightmost bit of number n $AND$ $XOR$ the result with n. Then the rightmost set bit in n will be the position of the only set bit in the result. Note that if n is odd, we can directly return 1 as the first bit is always set for odd numbers.
+The idea is to unset the rightmost bit of number n and $XOR$ the result with n. Then the rightmost set bit in n will be the position of the only set bit in the result. Note that if n is odd, we can directly return 1 as the first bit is always set for odd numbers.
 
-Example: The number 20 in binary is 00010100, $AND$ the position of the rightmost set bit is 3.
+Example: The number 20 in binary is 00010100, and  the position of the rightmost set bit is 3.
 
     00010100    &                (n = 20)
     00010011                     (n-1 = 19)
