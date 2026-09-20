@@ -1,5 +1,5 @@
 ---
-layout: article_algorithm_visualizer
+layout: algo
 title: Knuth-Morris-Pratt's String Search
 category: Dynamic Programming
 attribution_source: Algorithm Visualizer Project

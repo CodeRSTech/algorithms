@@ -1,5 +1,5 @@
 ---
-layout: article_algorithm_visualizer
+layout: algo
 title: Depth-Limited Search
 category: Branch and Bound
 attribution_source: Algorithm Visualizer Project

@@ -1,5 +1,5 @@
 ---
-layout: article_algorithm_visualizer
+layout: algo
 title: Radix Sort
 category: Divide and Conquer
 attribution_source: Algorithm Visualizer Project

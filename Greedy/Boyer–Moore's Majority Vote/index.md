@@ -1,5 +1,5 @@
 ---
-layout: article_algorithm_visualizer
+layout: algo
 title: Boyer–Moore's Majority Vote
 category: Greedy
 attribution_source: Algorithm Visualizer Project

@@ -1,5 +1,5 @@
 ---
-layout: article_algorithm_visualizer
+layout: algo
 title: Euclidean Greatest Common Divisor
 category: Simple Recursive
 attribution_source: Algorithm Visualizer Project

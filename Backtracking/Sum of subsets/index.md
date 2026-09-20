@@ -1,5 +1,5 @@
 ---
-layout: article_algorithm_visualizer
+layout: algo
 title: Sum of subsets
 category: Backtracking
 attribution_source: Algorithm Visualizer Project

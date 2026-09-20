@@ -1,5 +1,5 @@
 ---
-layout: article_algorithm_visualizer
+layout: algo
 title: Catalan Number
 category: Dynamic Programming
 attribution_source: Algorithm Visualizer Project

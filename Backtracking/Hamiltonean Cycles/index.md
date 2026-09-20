@@ -1,5 +1,5 @@
 ---
-layout: article_algorithm_visualizer
+layout: algo
 title: Hamiltonean Cycles
 category: Backtracking
 attribution_source: Algorithm Visualizer Project

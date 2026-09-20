@@ -1,5 +1,5 @@
 ---
-layout: article_algorithm_visualizer
+layout: algo
 title: Bridge Finding
 category: Brute Force
 attribution_source: Algorithm Visualizer Project

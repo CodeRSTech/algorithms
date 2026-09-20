@@ -1,0 +1,39 @@
+---
+layout: main
+---
+<!-- 1. Rouge/Pygments Syntax Theme (RRT) -->
+<link rel="stylesheet" href="{{ '/assets/css/rrt.css' | relative_url }}">
+<!-- 2. Single, Robust MathJax v2 Configuration -->
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML-full"></script>
+<script async src="{{ '/assets/js/mathjax_init.js' | relative_url }}"></script>
+<!-- 3. Clean up Rouge's default line number table borders -->
+<link rel="stylesheet" href="{{ '/assets/css/rogue.css' | relative_url }}">
+
+<div class="container-fluid mt-4">
+  <div class="row">
+    <!-- LEFT NAVBAR: Responsive & Compact Accordion -->
+    {% include left_navbar.html %}
+
+    <!-- MAIN CONTENT: Algorithm Post -->
+    <div class="col-md-8 col-lg-9 ps-md-4">
+      <article class="post">
+
+        <header class="post-header mb-4">
+          <h1 class="post-title fw-bold">{{ page.title }}</h1>
+        </header>
+
+        <!-- Attribution & Visualizer Banner -->
+        {% if page.attribution_source == "Algorithm Visualizer Project" %}
+        {% include attribution_algorithm_visualizer.html %}
+        {% endif %}
+
+        <!-- Rendered Markdown Body -->
+        <div class="post-content text-light">
+          {{ content }}
+        </div>
+
+      </article>
+    </div>
+
+  </div>
+</div>

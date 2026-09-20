@@ -1,5 +1,5 @@
 ---
-layout: article_algorithm_visualizer
+layout: algo
 title: Topological Sort
 category: Branch and Bound
 attribution_source: Algorithm Visualizer Project

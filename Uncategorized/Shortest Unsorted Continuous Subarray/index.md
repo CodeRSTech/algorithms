@@ -1,5 +1,5 @@
 ---
-layout: article_algorithm_visualizer
+layout: algo
 title: Shortest Unsorted Continuous Subarray
 category: Uncategorized
 attribution_source: Algorithm Visualizer Project

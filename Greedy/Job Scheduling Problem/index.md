@@ -1,5 +1,5 @@
 ---
-layout: article_algorithm_visualizer
+layout: algo
 title: Job Scheduling Problem
 category: Greedy
 attribution_source: Algorithm Visualizer Project

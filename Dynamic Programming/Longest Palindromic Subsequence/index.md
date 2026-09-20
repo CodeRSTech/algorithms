@@ -1,5 +1,5 @@
 ---
-layout: article_algorithm_visualizer
+layout: algo
 title: Longest Palindromic Subsequence
 category: Dynamic Programming
 attribution_source: Algorithm Visualizer Project

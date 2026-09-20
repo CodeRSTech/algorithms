@@ -1,5 +1,5 @@
 ---
-layout: article_algorithm_visualizer
+layout: algo
 title: Kruskal's Minimum Spanning Tree
 category: Greedy
 attribution_source: Algorithm Visualizer Project
