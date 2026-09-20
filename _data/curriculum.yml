@@ -1,43 +1,33 @@
-- discipline: "Computer Science"
-  folder: "Computer Science"
-  subjects:
-    - name: "Algorithms"
-      folder: "Algorithms"
-      categories:
-        - name: "Backtracking"
-          folder: "Backtracking"
-        - name: "Bitwise"
-          folder: "Bitwise"
-        - name: "Branch and Bound"
-          folder: "Branch and Bound"
-        - name: "Brute Force"
-          folder: "Brute Force"
-        - name: "Dynamic Programming"
-          folder: "Dynamic Programming"
-        - name: "Greedy"
-          folder: "Greedy"
-        - name: "Divide and Conquer"
-          folder: "Divide and Conquer"
-        - name: "Simple Recursive"
-          folder: "Simple Recursive"
-        - name: "Uncategorized"
-          folder: "Uncategorized"
+---
+layout: main
+title: Learn Reference Guide
+---
 
-    - name: "Data Structures"
-      folder: "Data Structures"
-      categories:
-        - name: "Trees"
-          folder: "Trees"
-        - name: "Graphs"
-          folder: "Graphs"
+# Learn Reference Guide
 
-- discipline: "Mathematics"
-  folder: "Mathematics"
-  subjects:
-    - name: "Linear Algebra"
-      folder: "Linear Algebra"
-      categories:
-        - name: "Vectors"
-          folder: "Vectors"
-        - name: "Matrices"
-          folder: "Matrices"
+A multi-disciplinary learning reference guide.
+
+{% for discipline in site.data.curriculum %}
+<h2>{{ discipline.discipline }}</h2>
+
+{% for subject in discipline.subjects %}
+<!-- Link to the subject's main index page -->
+<h3>
+<a href="{{ site.baseurl }}/{{ discipline.folder | uri_escape }}/{{ subject.folder | uri_escape }}/">
+{{ subject.name }}
+</a>
+</h3>
+
+<ul>
+{% for category in subject.categories %}
+<!-- Link to the specific category index page -->
+<li>
+<a href="{{ site.baseurl }}/{{ discipline.folder | uri_escape }}/{{ subject.folder | uri_escape }}/{{ category.folder | uri_escape }}/">
+{{ category.name }}
+</a>
+</li>
+{% endfor %}
+</ul>
+{% endfor %}
+<hr>
+{% endfor %}
