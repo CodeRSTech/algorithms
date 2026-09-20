@@ -78,21 +78,18 @@ and $x_i \geq 0$ for all $i = 1, 2, \ldots, n$.
 
 ## Implementations
 
-{% tabs knapsack_problem_code %}
+{% tabs knapsack_code %}
+  
+  {% tab knapsack_code Python %}
+  {% highlight python %}
+  {% include_relative code.py %}
+  {% endhighlight %}
+  {% endtab %}
 
-{% tab knapsack_problem_code Python %}
-
-```python
-{% include_relative code.py %}
-```
-
-{% endtab %}
-
-{% tab knapsack_problem_code JavaScript %}
-
-```javascript
-{% include_relative code.js %}
-```
-{% endtab %}
+  {% tab knapsack_code JavaScript %}
+  {% highlight javascript %}
+  {% include_relative code.js %}
+  {% endhighlight %}
+  {% endtab %}
 
 {% endtabs %}
