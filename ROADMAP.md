@@ -1,17 +1,17 @@
-# Algorithms E-Book Roadmap
+# Learn Reference Guide Roadmap
 
-## 1. UI & Layout Enhancements
-- [ ] **Interactive Language Tabs:** Convert sequential code blocks (Python, Java, C++, JS) in `article_algorithm_visualizer.html` into Bootstrap Nav Tabs for seamless, in-place syntax comparison.
-- [ ] **Sequential E-Book Pagination:** Implement "Next" and "Previous" buttons at the bottom of `article_algorithm_visualizer.html` using Jekyll's Liquid templating to dynamically link adjacent algorithms within the same category.
-- [ ] **Dynamic Sidebar Accordion:** Refactor the left sidebar to use a collapsible accordion structure, grouping algorithms by category for improved navigation.
-- [ ] **Sticky Sidebar:** Ensure the left sidebar remains visible during scrolling for easy access to algorithm categories and search functionality.
-- [ ] **Responsive Design:** Optimize main page layout.
-- [ ] **YAML Algorithm directory:** Create a `_data/algorithms.yml` file to store algorithm metadata (title, category, URL, description) for dynamic sidebar generation and search indexing.
-- [ ] **Attribution based pages:** Different articles for each algorithm to have include-able attribution sections for primary sources, references, and external links.
+## 1. UI, Layout & Architecture Enhancements
+- [x] **Hierarchical Curriculum Data:** Create `_data/curriculum.yml` to structure the multi-disciplinary learning guide (Discipline > Subject > Category) for dynamic navigation.
+- [x] **Multi-Source Attributions:** Update article front matter to accept an array of attribution sources and render respective attribution snippets dynamically.
+- [ ] **Interactive Language Tabs:** Implement the `jekyll-tabs` plugin to cleanly display multi-language code implementations (Python, Java, C++, JS) in a tabbed interface instead of sequential code blocks.
+- [ ] **Sequential Pagination:** Implement "Next" and "Previous" buttons using Liquid templating to dynamically link adjacent topics within the same category.
+- [ ] **Dynamic Sidebar Accordion:** Refactor the left sidebar to use a collapsible accordion structure mirroring the `curriculum.yml` hierarchy.
+- [ ] **Sticky Sidebar:** Ensure the left sidebar remains visible during scrolling for easy access to the curriculum tree and search functionality.
+- [ ] **Responsive Design:** Optimize main page layout across varying screen sizes.
 
 ## 2. Search Integration
 - [ ] **Client-Side Search Engine:** Integrate `Simple-Jekyll-Search`.
-- [ ] Generate a `search.json` file to index algorithm titles, categories, and URLs.
+- [ ] Generate a `search.json` file to index topic titles, categories, subjects, disciplines, and URLs.
 - [ ] Add a real-time search input field above the accordion in the left sidebar.
 
 ## 3. CI/CD & Maintenance
