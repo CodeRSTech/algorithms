@@ -14,7 +14,7 @@ Bitwise operators are special operators in programming that work directly on bin
  - Bitwise operations are often faster for low-level and bit-manipulation tasks.
  - Bitwise operations enable packing multiple flags into a single variable, reducing memory usage.
 
-Bitwise Operators / Basics of Bit manipulation
+# Bitwise Operators / Basics of Bit manipulation
 
 Bit manipulation works on binary bits (0 and 1) using bitwise operators, making it fast and efficient. These operations are executed by the CPU’s Arithmetic Logic Unit (ALU) and are commonly used for optimization, efficient flag handling, and performance-critical tasks.
 
