@@ -88,7 +88,8 @@ and $x_i \geq 0$ for all $i = 1, 2, \ldots, n$.
 
 {% endtab %}
 
-{% tab knapsack_probkem JavaScript %}
+{% tab knapsack_problem_code JavaScript %}
+
 ```javascript
 {% include_relative code.js %}
 ```
