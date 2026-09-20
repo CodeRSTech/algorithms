@@ -4,6 +4,7 @@ theme: jekyll-theme-minimal
 baseurl: "/learn"
 plugins:
   - jekyll-relative-links
+  - jekyll-tabs
 exclude:
   - node_modules
 kramdown:
