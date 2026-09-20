@@ -6,7 +6,24 @@ attribution_source: GeeksforGeeks
 gfg_url: https://www.geeksforgeeks.org/boyer-moore-majority-vote-algorithm/](https://www.geeksforgeeks.org/dsa/introduction-to-bitwise-algorithms-data-structures-and-algorithms-tutorial/
 ---
 
-Bitwise operators are special operators in programming that work directly on binary bits (`0` and `1`). Since computers store all data in binary form, bitwise operations help us manipulate data at the lowest level using operations like $AND$, $OR$, $XOR$, $NOT$, $AND$ bit shifting.
+Bitwise operators are special operators in programming that work directly on binary bits (`0` and `1`). 
+Since computers store all data in binary form, 
+bitwise operations help us manipulate data at the lowest level using operations, 
+like <b>AND</b> `&`, <b>OR</b> `|`, <b>XOR</b> `^`, <b>NOT</b> `~`, and bit shifting.
+
+| Logical Operation            | Logical Symbol                          | Bitwise Symbol (python) | Rendered Example                            |
+|------------------------------|-----------------------------------------|-------------------------|---------------------------------------------|
+| AND (Conjunction)            | $\land$ or $\cdot$ or `and`             | `&`                     | $A \land B$ $A \cdot B$                     |
+| OR (Disjunction)             | $\lor$ or $+$ or `or`                   | `\|`                    | $A \lor B$ $A + B$                      |
+| NOT (Negation)               | $\neg$ or $\overline{\text{X}}$ or `not`| `~`                     | $\neg A$ $\overline{A}$ $A'$                |
+| NAND (Inverted AND)          | $\overline{\land}$                      | `~&`                    | $\overline{A \land B}$ $\overline{A \cdot B}$ |
+| NOR (Inverted OR)            | $\overline{\lor}$                       | `~`                     | $\overline{A \lor B}$ $\overline{A + B}$    |
+| XOR (Exclusive OR)           | $\oplus$                                | `^`                     | $A \oplus B$                                |
+| XNOR (Exclusive NOR)         | $\odot$ or $\overline{\oplus}$          |                         | $A \odot B$ $\overline{A \oplus B}$         |
+| Implies (Conditional)        | $\rightarrow$ or $\implies$             |                         | $A \rightarrow B$ $A \implies B$            |
+| Equivalent (Biconditional)   | $\leftrightarrow$ or $\iff$             |                         | $A \leftrightarrow B$ $A \iff B$            |
+| Tautology (Always True)      | $\top$                                  |                         | $\top$                                      |
+| Contradiction (Always False) | $\bot$                                  |                         | $\bot$                                      |
 
  - They are commonly used in optimization, performance-critical code, masking, toggling bits, and low-level programming.
  - They are used to perform fast calculations and binary manipulation.
@@ -20,40 +37,48 @@ Bit manipulation works on binary bits (0 and 1) using bitwise operators, making 
 
 The main bitwise operators are:
 
- - $AND$ (`&`)
- - $OR$ (`|`)
- - $XOR$ (`^`)
- - $NOT$ (`~`)
- - $Left\ Shift$ (<<)
- - $Right\ Shift$ (>>)
+ - <b>AND</b> `&` (`&`)
+ - <b>OR</b> `|` (`|`)
+ - <b>XOR</b> `^` (`^`)
+ - <b>NOT</b> `~` (`~`)
+ - <b>Left Shift<b> (<<)
+ - <b>Right Shift<b> (>>)
 
 bitwise_operator_truth_table
 
 image/table to be added
 
-## Bitwise $AND$ Operator (&)
+## Bitwise <b>AND</b> `&` Operator (&)
 
-The bitwise $AND$ operator is denoted using a single ampersand symbol, i.e. `&`. The `&` operator takes two equal-length bit patterns as parameters. The two-bit integers are compared. If the bits in the compared positions of the bit patterns are 1, then the resulting bit is 1. If not, it is 0.
+The bitwise <b>AND</b> `&` operator is denoted using a single ampersand symbol, i.e. `&`. The `&` operator takes two equal-length bit patterns as parameters. The two-bit integers are compared. If the bits in the compared positions of the bit patterns are 1, then the resulting bit is 1. If not, it is 0.
 truth_table_of_bitwise_and_operator
 
 Example:
 
- - Take two bit values $X$ and $Y$, where `X` = `7` = $(111)_2$ and $Y$ = 4 = $(100$)_2$ . Take Bitwise $AND$ of both $X$ `&` y
- - Bitwise $AND$ of 7 `&` 4
- - Bitwise $AND$ of (7 `&` 4)
+ - Take two bit values $X$ and $Y$, where `X` = `7` = $(111)_2$ and $Y$ = 4 = $(100$)_2$ . Take Bitwise <b>AND</b> `&` of both $X$ `&` y
+ - Bitwise <b>AND</b> `&` of 7 `&` 4
+ - Bitwise <b>AND</b> `&` of (7 `&` 4)
 
-## Bitwise $OR$ Operator (|)
+## Bitwise <b>OR</b> `|` Operator (|)
 
-The | Operator takes two equivalent length bit designs as boundaries; if the two bits in the looked-at position are 0, the next bit is zero. If not, it is 1.
-truth_table_of_bitwise_or_operator
+The | Operator takes two equivalent length bit designs as boundaries; if the two bits in the looked-at position are $0$, the next bit is zero. If not, it is $1$.
+
+Here is the truth table for the bitwise AND operator (& or \land), demonstrating how it acts on individual input bits:
+
+| Input A | Input B | Output (A & B) MathJax Logic | Description |
+|---|---|---|---|
+| 0 | 0 | $0 \land 0 = 0$ | Both bits are 0 |
+| 0 | 1 | $0 \land 1 = 0$ | Only one bit is 1 |
+| 1 | 0 | $1 \land 0 = 0$ | Only one bit is 1 |
+| 1 | 1 | $1 \land 1 = 1$ | Both bits are 1 |
 
 Example:
 
-    Take two bit values $X$ and Y, where $X$ = 7= $(1111)_2$ and  $Y$ = 4 = $(100$)_2$ . Take Bitwise $OR$ of both X, y
+    Take two bit values $X$ and Y, where $X$ = 7= $(1111)_2$ and  $Y$ = 4 = $(100$)_2$ . Take Bitwise <b>OR</b> `|` of both X, y
      [Click to enlarge] 
-    Bitwise $OR$ of (7 | 4)
+    Bitwise <b>OR</b> `|` of (7 | 4)
 
-    Explanation: On the basis of truth table of bitwise $OR$ operator we can conclude that the result of 
+    Explanation: On the basis of truth table of bitwise <b>OR</b> `|` operator we can conclude that the result of 
 
     1 | 1  = 1
     1 | 0 = 1
@@ -62,18 +87,18 @@ Example:
 
     We used the similar concept of bitwise operator that are show in the image.
 
-## Bitwise $XOR$ Operator (^)
+## Bitwise <b>XOR</b> `^` Operator (`^`)
 
-The ^ operator (also known as the $XOR$ operator) stands for Exclusive Or. Here, if bits in the compared position do $NOT$ match their resulting bit is 1. i.e, The result of the bitwise $XOR$ operator is 1 if the corresponding bits of two operands are opposite, otherwise 0.
+The ^ operator (also known as the <b>XOR</b> `^` operator) stands for Exclusive Or. Here, if bits in the compared position do <b>NOT</b> `~` match their resulting bit is 1. i.e, The result of the bitwise <b>XOR</b> `^` operator is 1 if the corresponding bits of two operands are opposite, otherwise 0.
 truth_table_of_bitwise_xor_operator
 
 Example:
 
     Take two bit values $X$ and  Y, where $X$ = 7= $(1111)_2$ and  $Y$ = 4 = $(100$)_2$ . Take Bitwise and  of both $X$ `&` y
      [Click to enlarge] 
-    Bitwise $OR$ of (7 ^ 4)
+    Bitwise <b>OR</b> `|` of (7 ^ 4)
 
-    Explanation: On the basis of truth table of bitwise $XOR$ operator we can conclude that the result of 
+    Explanation: On the basis of truth table of bitwise <b>XOR</b> `^` operator we can conclude that the result of 
 
     1 ^ 1  = 0
     1 ^ 0 = 1
@@ -82,28 +107,28 @@ Example:
 
     We used the similar concept of bitwise operator that are show in the image.
 
-## Bitwise $NOT$ Operator (`~`)
+## Bitwise <b>NOT</b> `~` Operator (`~`)
 
 All the above three bitwise operators are binary operators (i.e, requiring two operands in order to operate). Unlike other bitwise operators, this one requires only one operand to operate.
 truth_table_of_bitwise_not_operator
 
-    The bitwise $NOT$ Operator takes a single value and  returns its one’s complement.
+    The bitwise <b>NOT</b> `~` Operator takes a single value and  returns its one’s complement.
     The one’s complement of a binary number is obtained by toggling all bits in it, i.e, transforming the 0 bit to 1 and  the 1 bit to 0.
 
 Example: 
 
-    Take a 4-bit value X, where $X$ = 9 = $(1001)₂. Take the Bitwise $NOT$ of X.
+    Take a 4-bit value X, where $X$ = 9 = $(1001)₂. Take the Bitwise <b>NOT</b> `~` of X.
      [Click to enlarge] 
 
-    Explanation: The bitwise $NOT$ operator (~) flips every individual bit in the binary representation of a number. Based on the truth table, every 1 becomes a 0, and  every 0 becomes a 1.
+    Explanation: The bitwise <b>NOT</b> `~` operator (~) flips every individual bit in the binary representation of a number. Based on the truth table, every 1 becomes a 0, and  every 0 becomes a 1.
 
     The resulting binary string is 0110₂, which is equal to the decimal number 6.
 
     Note: The output of ~ changes depending on how many bits your system uses. In a 4-bit system, ~9 (1001) becomes 0110 (6). But in an 8-bit system, 9 is stored with leading zeros as 0000 1001. Flipping it yields 1111 0110, giving a completely different decimal result.
 
-## $Left\ Shift$ (`<<`)
+## <b>Left Shift<b> (`<<`)
 
-The $Left\ Shift$ operator is denoted by the double left arrow key (<<). The general syntax for $Left\ Shift$ is shift-expression `<<` k. The left-shift operator causes the bits in shift expression to be shifted to the left by the number of positions specified by k. The bit positions that the shift operation has vacated are zero-filled.
+The <b>Left Shift<b> operator is denoted by the double left arrow key (<<). The general syntax for <b>Left Shift<b> is shift-expression `<<` k. The left-shift operator causes the bits in shift expression to be shifted to the left by the number of positions specified by k. The bit positions that the shift operation has vacated are zero-filled.
 
     Note: Every time we shift a number towards the left by 1 bit it multiply that number by 2.
 
@@ -111,34 +136,34 @@ logical_left_shift_image
 
 Example:
 
-    Input: $Left\ Shift$ of 5 by 1.
-    Binary representation of 5 = 00101 and  $Left\ Shift$ of 001012 by 1 (i.e, 00101 `<<` 1)
+    Input: <b>Left Shift<b> of 5 by 1.
+    Binary representation of 5 = 00101 and  <b>Left Shift<b> of 001012 by 1 (i.e, 00101 `<<` 1)
      
      [Click to enlarge] 
-    $Left\ Shift$ of 5 by 1
+    <b>Left Shift<b> of 5 by 1
 
     Output: 10
     Explanation: All bit of 5 will be shifted by 1 to left side and  this result in 010102, Which is equivalent to 10
 
-    Input: $Left\ Shift$ of 5 by 2.
-    Binary representation of 5 = 00101 and  $Left\ Shift$ of 001012 by 1 (i.e, 00101 `<<` 2)
+    Input: <b>Left Shift<b> of 5 by 2.
+    Binary representation of 5 = 00101 and  <b>Left Shift<b> of 001012 by 1 (i.e, 00101 `<<` 2)
      [Click to enlarge] 
-    $Left\ Shift$ of 5 by 2
+    <b>Left Shift<b> of 5 by 2
 
     Output: 20
     Explanation: All bit of 5 will be shifted by 1 to left side and  this result in 101002, Which is equivalent to 20
 
-    Input: $Left\ Shift$ of 5 by 3.
-    Binary representation of 5 = 00101 and  $Left\ Shift$ of 001012 by 1 (i.e, 00101 `<<` 3)
+    Input: <b>Left Shift<b> of 5 by 3.
+    Binary representation of 5 = 00101 and  <b>Left Shift<b> of 001012 by 1 (i.e, 00101 `<<` 3)
      [Click to enlarge] 
-    $Left\ Shift$ of 5 by 3
+    <b>Left Shift<b> of 5 by 3
 
     Output: 40
     Explanation: All bit of 5 will be shifted by 1 to left side and  this result in 010002, Which is equivalent to 40
 
-## $Right\ Shift$ (`>>`)
+## <b>Right Shift<b> (`>>`)
 
-The $Right\ Shift$ operator is denoted by the double right arrow key (`>>`). The general syntax for the $Right\ Shift$ is "shift-expression `>>` k". The right-shift operator causes the bits in shift expression to be shifted to the right by the number of positions specified by k. For unsigned numbers, the bit positions that the shift operation has vacated are zero-filled. For signed numbers, the sign bit is used to fill the vacated bit positions. In other words, if the number is positive, 0 is used, and  if the number is negative, 1 is used.
+The <b>Right Shift<b> operator is denoted by the double right arrow key (`>>`). The general syntax for the <b>Right Shift<b> is "shift-expression `>>` k". The right-shift operator causes the bits in shift expression to be shifted to the right by the number of positions specified by k. For unsigned numbers, the bit positions that the shift operation has vacated are zero-filled. For signed numbers, the sign bit is used to fill the vacated bit positions. In other words, if the number is positive, 0 is used, and  if the number is negative, 1 is used.
 
     Note: Every time we shift a number towards the right by 1 bit it divides that number by 2.
 
@@ -146,26 +171,26 @@ logical_right_shift
 
 Example:
 
-    Input: $Right\ Shift$ of 5 by 1.
-    Binary representation of 5 = 00101 and  $Right\ Shift$ of 00101 by 1 (i.e, 00101 `>>` 1)
+    Input: <b>Right Shift<b> of 5 by 1.
+    Binary representation of 5 = 00101 and  <b>Right Shift<b> of 00101 by 1 (i.e, 00101 `>>` 1)
      [Click to enlarge] 
-    $Right\ Shift$ of 5 by 1
+    <b>Right Shift<b> of 5 by 1
 
     Output: 2
     Explanation: All bit of 5 will be shifted by 1 to Rightside and  this result in 00010Which is equivalent to 2
 
-    Input: $Right\ Shift$ of 5 by 2.
-    Binary representation of 5 = 00101 and  $Right\ Shift$ of 00101 by 2 (i.e, 00101 `>>` 2)
+    Input: <b>Right Shift<b> of 5 by 2.
+    Binary representation of 5 = 00101 and  <b>Right Shift<b> of 00101 by 2 (i.e, 00101 `>>` 2)
      [Click to enlarge] 
-    $Right\ Shift$ of 5 by 2
+    <b>Right Shift<b> of 5 by 2
 
     Output: 1
     Explanation: All bit of 5 will be shifted by 2 to Right side and  this result in 00001, Which is equivalent to 1
 
-    Input: $Right\ Shift$ of 5 by 3.
-    Binary representation of 5 = 00101 and  $Right\ Shift$ of 00101 by 3 (i.e, 00101 `>>` 3)
+    Input: <b>Right Shift<b> of 5 by 3.
+    Binary representation of 5 = 00101 and  <b>Right Shift<b> of 00101 by 3 (i.e, 00101 `>>` 3)
      [Click to enlarge] 
-    $Right\ Shift$ of 5 by 3
+    <b>Right Shift<b> of 5 by 3
 
     Output: 0
     Explanation: All bit of 5 will be shifted by 3 to Right side and  this result in 00000, Which is equivalent to 0
@@ -173,7 +198,7 @@ Example:
 Application of Bit Operators
 
     Bit operations are used for the optimization of embedded systems.
-    The Exclusive-or operator can be used to confirm the integrity of a file, making sure it has $NOT$ been corrupted, especially after it has been in transit.
+    The Exclusive-or operator can be used to confirm the integrity of a file, making sure it has <b>NOT</b> `~` been corrupted, especially after it has been in transit.
     Bitwise operations are used in Data encryption and  compression.
     Bits are used in the area of networking, framing the packets of numerous bits which are sent to another system generally through any type of serial interface.
     Digital Image Processors use bitwise operations to enhance image pixels and  to extract different sections of a microscopic image.
@@ -188,7 +213,7 @@ Solve these questions to improve your understanding of bitwise operators and  bi
 
 If we want to set a bit at $n^{th}$ position in the number 'num', it can be done using the 'OR' operator( | ).
 
-    First, we $Left\ Shift$ 1 to n position via (1<<n).
+    First, we <b>Left Shift<b> 1 to n position via (1<<n).
     Then, use the "OR" operator to set the bit at that position. "OR" operator is used because it will set the bit even if the bit is unset previously in the binary representation of the number 'num'.
 
     Note: If the bit would be already set then it would remain unchanged.
@@ -197,7 +222,7 @@ If we want to set a bit at $n^{th}$ position in the number 'num', it can be done
 
 Suppose we want to unset a bit at $n^{th}$ position in number 'num' then we have to do this with the help of "AND" (&) operator.
 
-    First, we $Left\ Shift$ '1' to n position via (1<<n) then we use bitwise $NOT$ operator '~' to unset this shifted '1'.
+    First, we <b>Left Shift<b> '1' to n position via (1<<n) then we use bitwise <b>NOT</b> `~` operator '~' to unset this shifted '1'.
     Now after clearing this left shifted '1' i.e making it to '0' we will 'AND'(&) with the number 'num' that will unset bit at $n^{th}$ position.
 
 ### 3. Toggling a bit at $n^{th}$ position
@@ -215,25 +240,25 @@ If two bits are different then the 'XOR' operator returns a set bit(1) else it r
 
 
 
-### 4. Checking if the bit at $n^{th}$ position is Set $OR$ Unset
+### 4. Checking if the bit at $n^{th}$ position is Set <b>OR</b> `|` Unset
 
-We used the $Left\ Shift$ (<<) operation on 1 to shift the bits to $n^{th}$ position and  then use the `&` operation with number given number, and  check if it is not-equals to 0.
+We used the <b>Left Shift<b> (<<) operation on 1 to shift the bits to $n^{th}$ position and  then use the `&` operation with number given number, and  check if it is not-equals to 0.
 
 
 
-### Multiply a number by 2 using the $Left\ Shift$ operator
+### Multiply a number by 2 using the <b>Left Shift<b> operator
 
-You can multiply a number by 2 by using the $Left\ Shift$ operator (<< 1), which shifts all bits one position to the left.
+You can multiply a number by 2 by using the <b>Left Shift<b> operator (<< 1), which shifts all bits one position to the left.
 
-### 6. Divide a number 2 using the $Right\ Shift$ operator
+### 6. Divide a number 2 using the <b>Right Shift<b> operator
 
-You can divide a number by 2 using the $Right\ Shift$ operator (>> 1), which shifts all bits one position to the right.
+You can divide a number by 2 using the <b>Right Shift<b> operator (>> 1), which shifts all bits one position to the right.
 
-### 7. Compute $XOR$ from 1 to n (direct method)
+### 7. Compute <b>XOR</b> `^` from 1 to n (direct method)
 
-The problem Compute $XOR$ from 1 to n can be solved based on the following observations: n%4==0->n, 1->1, 2->n+1, 3-0.
+The problem Compute <b>XOR</b> `^` from 1 to n can be solved based on the following observations: n%4==0->n, 1->1, 2->n+1, 3-0.
 
-Say $X$ = n % 4. The $XOR$ value depends on the value if x.
+Say $X$ = n % 4. The <b>XOR</b> `^` value depends on the value if x.
 
     If, $X$ = 0, then the answer is n.
        $X$ = 1, then answer is 1.
@@ -244,15 +269,15 @@ Say $X$ = n % 4. The $XOR$ value depends on the value if x.
 
 This can be solved based on the following fact:
 
-    If a number N is a power of 2, then the bitwise and  of N and  N-1 will be 0. But this will $NOT$ work if N is 0. So just check these two conditions, if any of these two conditions is true.
+    If a number N is a power of 2, then the bitwise and  of N and  N-1 will be 0. But this will <b>NOT</b> `~` work if N is 0. So just check these two conditions, if any of these two conditions is true.
 
 ### 9. Count Set bits in an integer
 
-Counting set bits means, counting total number of 1’s in the binary representation of an integer. For this problem we go through all the bits of given number and  check whether it is set $OR$ $NOT$ by performing $AND$ operation (with 1).
+Counting set bits means, counting total number of 1’s in the binary representation of an integer. For this problem we go through all the bits of given number and  check whether it is set <b>OR</b> `|` <b>NOT</b> `~` by performing <b>AND</b> `&` operation (with 1).
 
 ### 10. Position of rightmost set bit
 
-The idea is to unset the rightmost bit of number n and $XOR$ the result with n. Then the rightmost set bit in n will be the position of the only set bit in the result. Note that if n is odd, we can directly return 1 as the first bit is always set for odd numbers.
+The idea is to unset the rightmost bit of number n and <b>XOR</b> `^` the result with n. Then the rightmost set bit in n will be the position of the only set bit in the result. Note that if n is odd, we can directly return 1 as the first bit is always set for odd numbers.
 
 Example: The number 20 in binary is 00010100, and  the position of the rightmost set bit is 3.
 
