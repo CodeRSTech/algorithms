@@ -21,9 +21,9 @@ Bit manipulation works on binary bits (0 and 1) using bitwise operators, making 
 The main bitwise operators are:
 
  - $AND$ (`&`)
- - $OR$ (|)
- - $XOR$ (^)
- - $NOT$ (~)
+ - $OR$ (`|`)
+ - $XOR$ (`^`)
+ - $NOT$ (`~`)
  - $Left\ Shift$ (<<)
  - $Right\ Shift$ (>>)
 
@@ -33,14 +33,14 @@ image/table to be added
 
 ## Bitwise $AND$ Operator (&)
 
-The bitwise $AND$ operator is denoted using a single ampersand symbol, i.e. &. The & operator takes two equal-length bit patterns as parameters. The two-bit integers are compared. If the bits in the compared positions of the bit patterns are 1, then the resulting bit is 1. If not, it is 0.
+The bitwise $AND$ operator is denoted using a single ampersand symbol, i.e. `&`. The `&` operator takes two equal-length bit patterns as parameters. The two-bit integers are compared. If the bits in the compared positions of the bit patterns are 1, then the resulting bit is 1. If not, it is 0.
 truth_table_of_bitwise_and_operator
 
 Example:
 
- - Take two bit values $X$ and $Y$, where `X` = `7` = $(111)_2$ and $Y$ = 4 = $(100$)_2$ . Take Bitwise $AND$ of both $X$ & y
- - Bitwise $AND$ of 7 & 4
- - Bitwise $AND$ of (7 & 4)
+ - Take two bit values $X$ and $Y$, where `X` = `7` = $(111)_2$ and $Y$ = 4 = $(100$)_2$ . Take Bitwise $AND$ of both $X$ `&` y
+ - Bitwise $AND$ of 7 `&` 4
+ - Bitwise $AND$ of (7 `&` 4)
 
 ## Bitwise $OR$ Operator (|)
 
@@ -69,7 +69,7 @@ truth_table_of_bitwise_xor_operator
 
 Example:
 
-    Take two bit values $X$ and  Y, where $X$ = 7= $(1111)_2$ and  $Y$ = 4 = $(100$)_2$ . Take Bitwise and  of both $X$ & y
+    Take two bit values $X$ and  Y, where $X$ = 7= $(1111)_2$ and  $Y$ = 4 = $(100$)_2$ . Take Bitwise and  of both $X$ `&` y
      [Click to enlarge] 
     Bitwise $OR$ of (7 ^ 4)
 
@@ -217,7 +217,7 @@ If two bits are different then the 'XOR' operator returns a set bit(1) else it r
 
 ### 4. Checking if the bit at $n^{th}$ position is Set $OR$ Unset
 
-We used the $Left\ Shift$ (<<) operation on 1 to shift the bits to $n^{th}$ position and  then use the & operation with number given number, and  check if it is not-equals to 0.
+We used the $Left\ Shift$ (<<) operation on 1 to shift the bits to $n^{th}$ position and  then use the `&` operation with number given number, and  check if it is not-equals to 0.
 
 
 
@@ -256,7 +256,7 @@ The idea is to unset the rightmost bit of number n and $XOR$ the result with n. 
 
 Example: The number 20 in binary is 00010100, and  the position of the rightmost set bit is 3.
 
-    00010100    &                (n = 20)
+    00010100    `&`                (n = 20)
     00010011                     (n-1 = 19)
     -------------------
     00010000    ^                (XOR result number with n)
