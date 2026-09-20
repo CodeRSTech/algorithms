@@ -1,0 +1,30 @@
+- discipline: "Computer Science"
+  folder: "computer-science"
+  subjects:
+    - name: "Algorithms"
+      folder: "algorithms"
+      categories:
+        - name: "Backtracking"
+          folder: "backtracking"
+        - name: "Brute Force"
+          folder: "brute-force"
+        - name: "Dynamic Programming"
+          folder: "dynamic-programming"
+    - name: "Data Structures"
+      folder: "data-structures"
+      categories:
+        - name: "Trees"
+          folder: "trees"
+        - name: "Graphs"
+          folder: "graphs"
+
+- discipline: "Mathematics"
+  folder: "mathematics"
+  subjects:
+    - name: "Linear Algebra"
+      folder: "linear-algebra"
+      categories:
+        - name: "Vectors"
+          folder: "vectors"
+        - name: "Matrices"
+          folder: "matrices"
