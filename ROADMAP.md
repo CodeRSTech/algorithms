@@ -1,8 +1,8 @@
 # Algorithms E-Book Roadmap
 
 ## 1. UI & Layout Enhancements
-- [ ] **Interactive Language Tabs:** Convert sequential code blocks (Python, Java, C++, JS) in `algo.html` into Bootstrap Nav Tabs for seamless, in-place syntax comparison.
-- [ ] **Sequential E-Book Pagination:** Implement "Next" and "Previous" buttons at the bottom of `algo.html` using Jekyll's Liquid templating to dynamically link adjacent algorithms within the same category.
+- [ ] **Interactive Language Tabs:** Convert sequential code blocks (Python, Java, C++, JS) in `article_algorithm_visualizer.html` into Bootstrap Nav Tabs for seamless, in-place syntax comparison.
+- [ ] **Sequential E-Book Pagination:** Implement "Next" and "Previous" buttons at the bottom of `article_algorithm_visualizer.html` using Jekyll's Liquid templating to dynamically link adjacent algorithms within the same category.
 - [ ] **Dynamic Sidebar Accordion:** Refactor the left sidebar to use a collapsible accordion structure, grouping algorithms by category for improved navigation.
 - [ ] **Sticky Sidebar:** Ensure the left sidebar remains visible during scrolling for easy access to algorithm categories and search functionality.
 - [ ] **Responsive Design:** Optimize main page layout.

@@ -1,5 +1,5 @@
 ---
-layout: algo
+layout: article_algorithm_visualizer
 title: Knuth-Morris-Pratt's String Search
 category: Dynamic Programming
 viz_url: https://algorithm-visualizer.org/dynamic-programming/knuth-morris-pratts-string-search

@@ -1,5 +1,5 @@
 ---
-layout: algo
+layout: article_algorithm_visualizer
 title: Suffix Array
 category: Simple Recursive
 viz_url: https://algorithm-visualizer.org/simple-recursive/suffix-array

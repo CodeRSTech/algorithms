@@ -1,5 +1,5 @@
 ---
-layout: algo
+layout: article_algorithm_visualizer
 title: Levenshtein's Edit Distance
 category: Dynamic Programming
 viz_url: https://algorithm-visualizer.org/dynamic-programming/levenshteins-edit-distance

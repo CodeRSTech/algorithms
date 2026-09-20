@@ -1,5 +1,5 @@
 ---
-layout: algo
+layout: article_algorithm_visualizer
 title: Stable Matching
 category: Greedy
 viz_url: https://algorithm-visualizer.org/greedy/stable-matching

@@ -1,5 +1,5 @@
 ---
-layout: algo
+layout: article_algorithm_visualizer
 title: Heapsort
 category: Brute Force
 viz_url: https://algorithm-visualizer.org/brute-force/heapsort

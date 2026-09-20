@@ -1,5 +1,5 @@
 ---
-layout: algo
+layout: article_algorithm_visualizer
 title: PageRank
 category: Brute Force
 viz_url: https://algorithm-visualizer.org/brute-force/pagerank

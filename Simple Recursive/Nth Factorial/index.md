@@ -1,5 +1,5 @@
 ---
-layout: algo
+layout: article_algorithm_visualizer
 title: Nth Factorial
 category: Simple Recursive
 viz_url: https://algorithm-visualizer.org/simple-recursive/nth-factorial

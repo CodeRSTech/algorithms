@@ -1,5 +1,5 @@
 ---
-layout: algo
+layout: article_algorithm_visualizer
 title: Shortest Unsorted Continuous Subarray
 category: Uncategorized
 viz_url: https://algorithm-visualizer.org/uncategorized/shortest-unsorted-continuous-subarray

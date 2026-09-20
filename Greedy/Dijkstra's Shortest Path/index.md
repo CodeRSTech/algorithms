@@ -1,5 +1,5 @@
 ---
-layout: algo
+layout: article_algorithm_visualizer
 title: Dijkstra's Shortest Path
 category: Greedy
 viz_url: https://algorithm-visualizer.org/greedy/dijkstras-shortest-path

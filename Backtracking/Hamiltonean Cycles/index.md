@@ -1,5 +1,5 @@
 ---
-layout: algo
+layout: article_algorithm_visualizer
 title: Hamiltonean Cycles
 category: Backtracking
 viz_url: https://algorithm-visualizer.org/backtracking/hamiltonean-cycles

@@ -1,5 +1,5 @@
 ---
-layout: algo
+layout: article_algorithm_visualizer
 title: Depth-Limited Search
 category: Branch and Bound
 viz_url: https://algorithm-visualizer.org/branch-and-bound/depth-limited-search

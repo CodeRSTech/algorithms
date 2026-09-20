@@ -1,5 +1,5 @@
 ---
-layout: algo
+layout: article_algorithm_visualizer
 title: Tarjan's Strongly Connected Components
 category: Brute Force
 viz_url: https://algorithm-visualizer.org/brute-force/tarjans-strongly-connected-components

@@ -1,5 +1,5 @@
 ---
-layout: algo
+layout: article_algorithm_visualizer
 title: Flood Fill
 category: Brute Force
 viz_url: https://algorithm-visualizer.org/brute-force/flood-fill

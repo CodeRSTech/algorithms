@@ -1,5 +1,5 @@
 ---
-layout: algo
+layout: article_algorithm_visualizer
 title: Radix Sort
 category: Divide and Conquer
 viz_url: https://algorithm-visualizer.org/divide-and-conquer/radix-sort

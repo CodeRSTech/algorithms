@@ -1,5 +1,5 @@
 ---
-layout: algo
+layout: article_algorithm_visualizer
 title: Caesar Cipher
 category: Uncategorized
 viz_url: https://algorithm-visualizer.org/uncategorized/caesar-cipher

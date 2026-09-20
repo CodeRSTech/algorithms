@@ -1,5 +1,5 @@
 ---
-layout: algo
+layout: article_algorithm_visualizer
 title: N-Queens Problem
 category: Backtracking
 viz_url: https://algorithm-visualizer.org/backtracking/n-queens-problem
