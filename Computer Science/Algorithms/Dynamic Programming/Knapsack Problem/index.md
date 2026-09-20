@@ -81,15 +81,15 @@ and $x_i \geq 0$ for all $i = 1, 2, \ldots, n$.
 {% tabs knapsack_code %}
   
   {% tab knapsack_code Python %}
-  {% highlight python linenos %}
+  ```python
   {% include_relative code.py %}
-  {% endhighlight %}
+  ```
   {% endtab %}
 
   {% tab knapsack_code JavaScript %}
-  {% highlight javascript linenos %}
+  ```javascript
   {% include_relative code.js %}
-  {% endhighlight %}
+  ```
   {% endtab %}
 
 {% endtabs %}
