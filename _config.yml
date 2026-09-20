@@ -1,7 +1,7 @@
-title: Algorithm E-Book
-description: A multi-language algorithm reference guide.
+title: Learn
+description: A multi-disciplinary learning reference guide.
 theme: jekyll-theme-minimal
-baseurl: "/algorithms"
+baseurl: "/learn"
 plugins:
   - jekyll-relative-links
 exclude:
