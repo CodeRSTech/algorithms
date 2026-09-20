@@ -30,10 +30,10 @@
               <div class="nav flex-column border-start border-secondary ps-2 ms-2">
                 {% assign current_algos = algos | where: "category", cat.name | sort: "title" %}
                 {% for algo in current_algos %}
-                  <a href="{{ algo.url | relative_url }}"
-                     class="nav-link px-2 py-1 {% if page.url == algo.url %}fw-bold{% else %}text-muted{% endif %}"
-                     style="font-size: 0.85em; color: {% if page.url == algo.url %}#c9d1d9{% else %}inherit{% endif %};">
-                    {{ algo.title }}
+                  <a href="{{ article_algorithm_visualizer.url | relative_url }}"
+                     class="nav-link px-2 py-1 {% if page.url == article_algorithm_visualizer.url %}fw-bold{% else %}text-muted{% endif %}"
+                     style="font-size: 0.85em; color: {% if page.url == article_algorithm_visualizer.url %}#c9d1d9{% else %}inherit{% endif %};">
+                    {{ article_algorithm_visualizer.title }}
                   </a>
                 {% endfor %}
               </div>
