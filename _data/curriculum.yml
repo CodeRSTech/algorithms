@@ -2,7 +2,7 @@
   folder: "Computer Science"
   subjects:
     - name: "Algorithms"
-      folder: "algorithms"
+      folder: "Algorithms"
       categories:
         - name: "Backtracking"
           folder: "Backtracking"
