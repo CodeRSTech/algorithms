@@ -2,6 +2,7 @@
 layout: article_algorithm_visualizer
 title: Quicksort
 category: Divide and Conquer
+attribution_source: Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/divide-and-conquer/quicksort
 ---
 

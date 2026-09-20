@@ -2,6 +2,7 @@
 layout: article_algorithm_visualizer
 title: Floyd-Warshall's Shortest Path
 category: Dynamic Programming
+attribution_source: Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/dynamic-programming/floyd-warshalls-shortest-path
 ---
 

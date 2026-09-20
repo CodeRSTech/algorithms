@@ -2,6 +2,7 @@
 layout: article_algorithm_visualizer
 title: Heapsort
 category: Brute Force
+attribution_source: Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/brute-force/heapsort
 ---
 

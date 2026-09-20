@@ -2,6 +2,7 @@
 layout: article_algorithm_visualizer
 title: Miller-Rabin's Primality Test
 category: Uncategorized
+attribution_source: Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/uncategorized/miller-rabins-primality-test
 ---
 

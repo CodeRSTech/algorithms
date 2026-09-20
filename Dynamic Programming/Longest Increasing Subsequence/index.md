@@ -2,6 +2,7 @@
 layout: article_algorithm_visualizer
 title: Longest Increasing Subsequence
 category: Dynamic Programming
+attribution_source: Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/dynamic-programming/longest-increasing-subsequence
 ---
 

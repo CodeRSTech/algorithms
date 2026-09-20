@@ -2,6 +2,7 @@
 layout: article_algorithm_visualizer
 title: Euclidean Greatest Common Divisor
 category: Simple Recursive
+attribution_source: Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/simple-recursive/euclidean-greatest-common-divisor
 ---
 

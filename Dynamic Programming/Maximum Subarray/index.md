@@ -2,6 +2,7 @@
 layout: article_algorithm_visualizer
 title: Maximum Subarray
 category: Dynamic Programming
+attribution_source: Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/dynamic-programming/maximum-subarray
 ---
 

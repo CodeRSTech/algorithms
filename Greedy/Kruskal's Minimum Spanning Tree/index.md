@@ -2,6 +2,7 @@
 layout: article_algorithm_visualizer
 title: Kruskal's Minimum Spanning Tree
 category: Greedy
+attribution_source: Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/greedy/kruskals-minimum-spanning-tree
 ---
 

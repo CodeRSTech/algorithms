@@ -2,6 +2,7 @@
 layout: article_algorithm_visualizer
 title: Topological Sort
 category: Branch and Bound
+attribution_source: Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/branch-and-bound/topological-sort
 ---
 

@@ -2,6 +2,7 @@
 layout: article_algorithm_visualizer
 title: Levenshtein's Edit Distance
 category: Dynamic Programming
+attribution_source: Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/dynamic-programming/levenshteins-edit-distance
 ---
 

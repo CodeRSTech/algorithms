@@ -2,6 +2,7 @@
 layout: article_algorithm_visualizer
 title: Breadth-First Search
 category: Brute Force
+attribution_source: Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/brute-force/breadth-first-search
 ---
 
