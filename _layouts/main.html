@@ -16,7 +16,9 @@
 <!-- Native Scrollspy applied directly to the body -->
 <body class="bg-dark text-light" data-bs-spy="scroll" data-bs-target="#toc-nav">
   {% include navbar.html %}
-  <div class="container-fluid px-3 px-md-5">
+  <!-- Reduced from px-3 (1rem) to px-1 (0.25rem) or px-2 (0.5rem) on mobile -->
+  <!-- Reduced from px-md-5 (3rem) to px-md-4 (1.5rem) on desktop -->
+  <div class="container-fluid px-2 px-md-4">
     {{ content }}
   </div>
   <!-- Essential Bootstrap Bundle for Mobile Toggler and Native Scrollspy -->
