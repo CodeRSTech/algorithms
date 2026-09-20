@@ -28,15 +28,18 @@ of previously matched characters.
 
 ## Implementations
 
-### Python
+{% tabs knapsack_code %}
+  
+  {% tab kmp_code Python %}
+  {% highlight python %}
+  {% include_relative code.py %}
+  {% endhighlight %}
+  {% endtab %}
 
-```python
-{% include_relative code.py %}
-```
+  {% tab kmp_code JavaScript %}
+  {% highlight javascript %}
+  {% include_relative code.js %}
+  {% endhighlight %}
+  {% endtab %}
 
-### JavaScript
-**code.js**
-
-```javascript
-{% include_relative code.js %}
-```
+{% endtabs %}
