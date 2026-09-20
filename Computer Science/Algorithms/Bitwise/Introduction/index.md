@@ -11,19 +11,19 @@ Since computers store all data in binary form,
 bitwise operations help us manipulate data at the lowest level using operations, 
 like <b>AND</b> `&`, <b>OR</b> `|`, <b>XOR</b> `^`, <b>NOT</b> `~`, and bit shifting.
 
-| Logical Operation            | Logical Symbol                          | Bitwise Symbol (python) | Rendered Example                            |
-|------------------------------|-----------------------------------------|-------------------------|---------------------------------------------|
-| AND (Conjunction)            | $\land$ or $\cdot$ or `and`             | `&`                     | $A \land B$ $A \cdot B$                     |
-| OR (Disjunction)             | $\lor$ or $+$ or `or`                   | `\|`                    | $A \lor B$ $A + B$                      |
-| NOT (Negation)               | $\neg$ or $\overline{\text{X}}$ or `not`| `~`                     | $\neg A$ $\overline{A}$ $A'$                |
-| NAND (Inverted AND)          | $\overline{\land}$                      | `~&`                    | $\overline{A \land B}$ $\overline{A \cdot B}$ |
-| NOR (Inverted OR)            | $\overline{\lor}$                       | `~`                     | $\overline{A \lor B}$ $\overline{A + B}$    |
-| XOR (Exclusive OR)           | $\oplus$                                | `^`                     | $A \oplus B$                                |
-| XNOR (Exclusive NOR)         | $\odot$ or $\overline{\oplus}$          |                         | $A \odot B$ $\overline{A \oplus B}$         |
-| Implies (Conditional)        | $\rightarrow$ or $\implies$             |                         | $A \rightarrow B$ $A \implies B$            |
-| Equivalent (Biconditional)   | $\leftrightarrow$ or $\iff$             |                         | $A \leftrightarrow B$ $A \iff B$            |
-| Tautology (Always True)      | $\top$                                  |                         | $\top$                                      |
-| Contradiction (Always False) | $\bot$                                  |                         | $\bot$                                      |
+| Operator                     | Symbol                                   | Bitwise Symbol   |  Example                            |
+|------------------------------|------------------------------------------|------------------|---------------------------------------------|
+| AND (Conjunction)            | $\land$ or $\cdot$ or `and`              | `&`              | $A \land B$ $A \cdot B$                     |
+| OR (Disjunction)             | $\lor$ or $+$ or `or`                    | `\|`             | $A \lor B$ $A + B$                      |
+| NOT (Negation)               | $\neg$ or $\overline{\text{X}}$ or `not` | `~`              | $\neg A$ $\overline{A}$ $A'$                |
+| NAND (Inverted AND)          | $\overline{\land}$                       | `~&`             | $\overline{A \land B}$ $\overline{A \cdot B}$ |
+| NOR (Inverted OR)            | $\overline{\lor}$                        | `~`              | $\overline{A \lor B}$ $\overline{A + B}$    |
+| XOR (Exclusive OR)           | $\oplus$                                 | `^`              | $A \oplus B$                                |
+| XNOR (Exclusive NOR)         | $\odot$ or $\overline{\oplus}$           |                  | $A \odot B$ $\overline{A \oplus B}$         |
+| Implies (Conditional)        | $\rightarrow$ or $\implies$              |                  | $A \rightarrow B$ $A \implies B$            |
+| Equivalent (Biconditional)   | $\leftrightarrow$ or $\iff$              |                  | $A \leftrightarrow B$ $A \iff B$            |
+| Tautology (Always True)      | $\top$                                   |                  | $\top$                                      |
+| Contradiction (Always False) | $\bot$                                   |                  | $\bot$                                      |
 
  - They are commonly used in optimization, performance-critical code, masking, toggling bits, and low-level programming.
  - They are used to perform fast calculations and binary manipulation.
