@@ -5,19 +5,6 @@ layout: main
 <link rel="stylesheet" href="{{ '/assets/css/rrt.css' | relative_url }}">
 <!-- 2. Single, Robust MathJax v2 Configuration -->
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML-full"></script>
-<!-- <script async src="{{ '/assets/js/mathjax_init.js' | relative_url }}"></script> -->
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [['$','$'], ['\\(','\\)']],
-      displayMath: [['$$','$$'], ['\\[','\\]']],
-      processEscapes: true
-    },
-    "HTML-CSS": {
-      styles: { ".MathJax": { "color": "#e0e0e0 !important" } }
-    }
-  });
-</script>
 <!-- 3. Clean up Rouge's default line number table borders -->
 <link rel="stylesheet" href="{{ '/assets/css/rogue.css' | relative_url }}">
 
