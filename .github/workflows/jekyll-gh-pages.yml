@@ -33,7 +33,7 @@ jobs:
 
       - name: Build with Jekyll
         # Dynamically and safely pulls "/learn" from GitHub's environment
-        run: bundle exec jekyll build --source ./ --destination ./_site --baseurl "${{ steps.pages.outputs.base_path }} --trace"
+        run: bundle exec jekyll build --source ./ --destination ./_site --baseurl --trace"${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
 
