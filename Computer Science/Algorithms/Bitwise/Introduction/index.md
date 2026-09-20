@@ -55,7 +55,7 @@ truth_table_of_bitwise_and_operator
 
 Example:
 
- - Take two bit values $X$ and $Y$, where `X` = `7` = $(111)_2$ and $Y$ = 4 = $(100$)_2$ . Take Bitwise <b>AND</b> `&` of both $X$ `&` y
+ - Take two bit values $X$ and $Y$, where `X` = `7` = $(111)_2$ and $Y$ = 4 = $(100)_2$ . Take Bitwise <b>AND</b> `&` of both, i.e. $X$ `&` Y
  - Bitwise <b>AND</b> `&` of 7 `&` 4
  - Bitwise <b>AND</b> `&` of (7 `&` 4)
 
@@ -65,12 +65,12 @@ The | Operator takes two equivalent length bit designs as boundaries; if the two
 
 Here is the truth table for the bitwise AND operator (& or \land), demonstrating how it acts on individual input bits:
 
-| Input A | Input B | Output (A & B) MathJax Logic | Description |
-|---|---|---|---|
-| 0 | 0 | $0 \land 0 = 0$ | Both bits are 0 |
-| 0 | 1 | $0 \land 1 = 0$ | Only one bit is 1 |
-| 1 | 0 | $1 \land 0 = 0$ | Only one bit is 1 |
-| 1 | 1 | $1 \land 1 = 1$ | Both bits are 1 |
+| Input <br><small>`A`</small> | Input <br><small>`B`</small> | Output <br><small>`A & B`</small> | Description       |
+|----------------------------|----------------------------|---------------------------------|-------------------|
+| 0                          | 0                          | $0 \land 0 = 0$                 | Both bits are 0   |
+| 0                          | 1                          | $0 \land 1 = 0$                 | Only one bit is 1 |
+| 1                          | 0                          | $1 \land 0 = 0$                 | Only one bit is 1 |
+| 1                          | 1                          | $1 \land 1 = 1$                 | Both bits are 1   |
 
 Example:
 
