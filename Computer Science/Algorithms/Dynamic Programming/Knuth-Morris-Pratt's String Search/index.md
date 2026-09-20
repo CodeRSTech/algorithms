@@ -28,7 +28,7 @@ of previously matched characters.
 
 ## Implementations
 
-{% tabs knapsack_code %}
+{% tabs kmp_code %}
   
   {% tab kmp_code Python %}
   {% highlight python linenos %}
