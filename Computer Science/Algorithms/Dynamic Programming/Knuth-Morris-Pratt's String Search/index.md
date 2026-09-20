@@ -31,13 +31,13 @@ of previously matched characters.
 {% tabs knapsack_code %}
   
   {% tab kmp_code Python %}
-  {% highlight python %}
+  {% highlight python linenos %}
   {% include_relative code.py %}
   {% endhighlight %}
   {% endtab %}
 
   {% tab kmp_code JavaScript %}
-  {% highlight javascript %}
+  {% highlight javascript linenos %}
   {% include_relative code.js %}
   {% endhighlight %}
   {% endtab %}
