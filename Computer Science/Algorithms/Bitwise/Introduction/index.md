@@ -6,7 +6,7 @@ attribution_source: GeeksforGeeks
 gfg_url: https://www.geeksforgeeks.org/boyer-moore-majority-vote-algorithm/](https://www.geeksforgeeks.org/dsa/introduction-to-bitwise-algorithms-data-structures-and-algorithms-tutorial/
 ---
 
-Bitwise operators are special operators in programming that work directly on binary bits (0 and 1). Since computers store all data in binary form, bitwise operations help us manipulate data at the lowest level using operations like AND, OR, XOR, NOT, $AND$ bit shifting.
+Bitwise operators are special operators in programming that work directly on binary bits (`0` and `1`). Since computers store all data in binary form, bitwise operations help us manipulate data at the lowest level using operations like $AND$, $OR$, $XOR$, $NOT$, $AND$ bit shifting.
 
  - They are commonly used in optimization, performance-critical code, masking, toggling bits, and low-level programming.
  - They are used to perform fast calculations and binary manipulation.
