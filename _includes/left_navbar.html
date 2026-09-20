@@ -28,7 +28,7 @@
                aria-labelledby="heading-{{ cat_id }}" data-bs-parent="#algoAccordion">
             <div class="accordion-body p-0 pt-1 pb-2 ps-3">
               <div class="nav flex-column border-start border-secondary ps-2 ms-2">
-                {% assign current_algos = algos | where: "category", cat.name | sort: "title" %}
+                {% assign current_algos = article_algorithm_visualizer | where: "category", cat.name | sort: "title" %}
                 {% for algo in current_algos %}
                   <a href="{{ article_algorithm_visualizer.url | relative_url }}"
                      class="nav-link px-2 py-1 {% if page.url == article_algorithm_visualizer.url %}fw-bold{% else %}text-muted{% endif %}"
