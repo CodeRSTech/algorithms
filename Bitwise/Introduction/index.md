@@ -28,7 +28,8 @@ The main bitwise operators are:
  - $Right\ Shift$ (>>)
 
 bitwise_operator_truth_table
----image/table to be added ---
+
+image/table to be added
 
 ## Bitwise $AND$ Operator (&)
 
