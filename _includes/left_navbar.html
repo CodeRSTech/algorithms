@@ -3,8 +3,8 @@
     <h6 class="text-muted text-uppercase mb-3" style="font-size: 0.75em; letter-spacing: 1px;">Algorithm Index</h6>
 
     <div class="accordion accordion-flush" id="algoAccordion">
-      {% assign algos = site.pages | where: "layout", "algo" %}
-      {% assign categories = algos | group_by: "category" | sort: "name" %}
+      {% assign algos = site.pages | where: "layout", "article_base" %}
+      {% assign categories = article_base | group_by: "category" | sort: "name" %}
 
       {% for cat in categories %}
         {% assign cat_id = cat.name | slugify %}
