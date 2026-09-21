@@ -8,8 +8,8 @@ viz_url: https://algorithm-visualizer.org/branch-and-bound/topological-sort
 
 In the field of computer science, a topological sort or
 topological ordering of a directed graph is a linear ordering
-of its vertices such that for every directed edge `uv` from
-vertex `u` to vertex `v`, `u` comes before `v` in the ordering.
+of its vertices such that for every directed edge $uv$ from
+vertex $u$ to vertex $v$, $u$ comes before $v$ in the ordering.
 
 For instance, the vertices of the graph may represent tasks to
 be performed, and the edges may represent constraints that one
@@ -44,35 +44,37 @@ The graph shown above has many valid topological sorts, including:
 
 The canonical application of topological sorting is in
 **scheduling a sequence of jobs** or tasks based on their dependencies. The jobs
-are represented by vertices, and there is an edge from `x` to `y` if
-job `x` must be completed before job `y` can be started (for
+are represented by vertices, and there is an edge from $x$ to $y$ if
+job $x$ must be completed before job $y$ can be started (for
 example, when washing clothes, the washing machine must finish
 before we put the clothes in the dryer). Then, a topological sort
 gives an order in which to perform the jobs.
 
 Other application is **dependency resolution**. Each vertex is a package
-and each edge is a dependency of package `a` on package 'b'. Then topological
+and each edge is a dependency of package $a$ on package 'b'. Then topological
 sorting will provide a sequence of installing dependencies in a way that every
 next dependency has its dependent packages to be installed in prior.
+
+## Implementations
+
+{% tabs code %}
+
+{% tab code Python %}
+{% highlight python linenos %}
+{% include_relative code.py %}
+{% endhighlight %}
+{% endtab %}
+
+{% tab code JavaScript %}
+{% highlight javascript linenos %}
+{% include_relative code.js %}
+{% endhighlight %}
+{% endtab %}
+
+{% endtabs %}
 
 ## References
 
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/graph/topological-sorting)
 - [Wikipedia](https://en.wikipedia.org/wiki/Topological_sorting)
 - [Topological Sorting on YouTube by Tushar Roy](https://www.youtube.com/watch?v=ddTC4Zovtbc&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
-
-
-## Implementations
-
-### Python
-
-```python
-{% include_relative code.py %}
-```
-
-### JavaScript
-**code.js**
-
-```javascript
-{% include_relative code.js %}
-```
