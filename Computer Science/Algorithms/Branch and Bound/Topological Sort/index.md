@@ -6,10 +6,12 @@ attribution_source: Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/branch-and-bound/topological-sort
 ---
 
-In the field of computer science, a topological sort or
-topological ordering of a directed graph is a linear ordering
-of its vertices such that for every directed edge $uv$ from
-vertex $u$ to vertex $v$, $u$ comes before $v$ in the ordering.
+In computer science, a `topological sort` or
+`topological ordering` of a directed graph is a linear ordering
+of its vertices such that, 
+for every directed edge $uv$ from
+vertex $u$ to $v$, 
+$u$ comes before $v$ in the ordering.
 
 For instance, the vertices of the graph may represent tasks to
 be performed, and the edges may represent constraints that one
@@ -21,7 +23,7 @@ no directed cycles, that is, if it is a [directed acyclic graph](https://en.wiki
 (DAG). Any DAG has at least one topological ordering, and algorithms are
 known for constructing a topological ordering of any DAG in linear time.
 
-![Directed Acyclic Graph](https://upload.wikimedia.org/wikipedia/commons/c/c6/Topological_Ordering.svg)
+![Directed Acyclic Graph](https://upload.wikimedia.org/wikipedia/commons/c/c6/Topological_Ordering.svg){: .invert-svg }
 
 A topological ordering of a directed acyclic graph: every edge goes from
 earlier in the ordering (upper left) to later in the ordering (lower right).
@@ -29,7 +31,7 @@ A directed graph is acyclic if and only if it has a topological ordering.
 
 ## Example
 
-![Topologic Sorting](https://upload.wikimedia.org/wikipedia/commons/0/03/Directed_acyclic_graph_2.svg)
+![Topologic Sorting](https://upload.wikimedia.org/wikipedia/commons/0/03/Directed_acyclic_graph_2.svg){: .invert-svg }
 
 The graph shown above has many valid topological sorts, including:
 
@@ -51,7 +53,7 @@ before we put the clothes in the dryer). Then, a topological sort
 gives an order in which to perform the jobs.
 
 Other application is **dependency resolution**. Each vertex is a package
-and each edge is a dependency of package $a$ on package 'b'. Then topological
+and each edge is a dependency of package $a$ on package $b$. Then topological
 sorting will provide a sequence of installing dependencies in a way that every
 next dependency has its dependent packages to be installed in prior.
 
