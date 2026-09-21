@@ -26,23 +26,36 @@ In computer science, tree traversal (also known as tree search) is a form of gra
 
 ### Python
 
-```python
+{% tabs python %}
+
+{% tab python Python %}
+{% highlight python linenos %}
 {% include_relative code.py %}
-```
+{% endhighlight %}
+{% endtab %}
+
+{% endtabs %}
 
 ### JavaScript
-**inOrder.js**
 
-```javascript
+{% tabs javascript %}
+
+{% tab javascript inOrder %}
+{% highlight javascript linenos %}
 {% include_relative inOrder.js %}
-```
-**postOrder.js**
+{% endhighlight %}
+{% endtab %}**postOrder.js**
 
-```javascript
+{% tab javascript postOrder %}
+{% highlight javascript linenos %}
 {% include_relative postOrder.js %}
-```
-**preOrder.js**
+{% endhighlight %}
+{% endtab %}**preOrder.js**
 
-```javascript
+{% tab javascript preOrder %}
+{% highlight python linenos %}
 {% include_relative preOrder.js %}
-```
+{% endhighlight %}
+{% endtab %}
+
+{% endtabs %}
