@@ -25,7 +25,6 @@ viz_url: https://algorithm-visualizer.org/dynamic-programming/catalan-number
 
 {% tabs code %}
 
-
 {% tab code Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
