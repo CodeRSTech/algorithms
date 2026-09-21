@@ -29,7 +29,9 @@ viz_url: https://algorithm-visualizer.org/backtracking/sum-of-subsets
 {% endtab %}
 
 {% tab code Java %}
-{% highlight java lineos %}
+{% highlight java linenos %}
 {% include_relative Code.java %}
 {% endhighlight %}
 {% endtab %}
+
+{% endtabs %}
