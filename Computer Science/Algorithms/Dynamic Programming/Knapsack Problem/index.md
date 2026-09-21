@@ -83,11 +83,11 @@ and $x_i \geq 0$ for all $i = 1, 2, \ldots, n$.
 {% tab code Python %}
 {% include_relative code.py %}
 {% endhighlight %}
-{% endtab %}{% endtab %}
+{% endtab %}
 
 {% code JavaScript %}
 {% include_relative code.js %}
 {% endhighlight %}
-{% endtab %}{% endtab %}
+{% endtab %}
 
 {% endtabs %}
