@@ -6,8 +6,8 @@ attribution_source: Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/dynamic-programming/shortest-common-supersequence
 ---
 
-The shortest common supersequence (SCS) of two sequences `X` and `Y`
-is the shortest sequence which has `X` and `Y` as subsequences.
+The shortest common supersequence (SCS) of two sequences $X$ and $Y$
+is the shortest sequence which has $X$ and $Y$ as subsequences.
 
 In other words assume we're given two strings str1 and str2, find
 the shortest string that has both str1 and str2 as subsequences.
@@ -33,15 +33,18 @@ Output:  "AGXGTXAYB"
 
 ## Implementations
 
-### Python
+{% tabs code %}
 
-```python
+{% tab code Python %}
+{% highlight python linenos %}
 {% include_relative code.py %}
-```
+{% endhighlight %}
+{% endtab %}
 
-### JavaScript
-**code.js**
-
-```javascript
+{% tab code JavaScript %}
+{% highlight javascript linenos %}
 {% include_relative code.js %}
-```
+{% endhighlight %}
+{% endtab %}
+
+{% endtabs %}
