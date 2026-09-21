@@ -32,13 +32,13 @@ Worst-case space complexity $O(|V|)$
 
 {% tabs code %}
   
-{% tabcode Python %}
+{% tab code Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tabcode JavaScript %}
+{% tab code JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}
