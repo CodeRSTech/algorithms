@@ -81,15 +81,13 @@ and $x_i \geq 0$ for all $i = 1, 2, \ldots, n$.
 {% tabs code %}
   
 {% tab code Python %}
-  ```python
 {% include_relative code.py %}
-  {% endhighlight %}
+{% endhighlight %}
 {% endtab %}{% endtab %}
 
 {% code JavaScript %}
-  ```javascript
 {% include_relative code.js %}
-  {% endhighlight %}
+{% endhighlight %}
 {% endtab %}{% endtab %}
 
 {% endtabs %}
