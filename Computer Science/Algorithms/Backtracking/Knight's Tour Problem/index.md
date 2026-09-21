@@ -42,15 +42,19 @@ An animation of an open knight's tour on a 5 by 5 board.
 
 ## Implementations
 
-### Python
+{% tabs code %}
 
-```python
+
+{% tab code Python %}
+{% highlight python linenos %}
 {% include_relative code.py %}
-```
+{% endhighlight %}
+{% endtab %}
 
-### JavaScript
-**code.js**
-
-```javascript
+{% tab code JavaScript %}
+{% highlight javascript linenos %}
 {% include_relative code.js %}
-```
+{% endhighlight %}
+{% endtab %}
+
+{% endtabs %}
