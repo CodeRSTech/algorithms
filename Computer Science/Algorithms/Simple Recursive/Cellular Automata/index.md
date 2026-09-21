@@ -13,15 +13,18 @@ Uses a grid of cells and looks at each cell and the state (ex: on/off) of each o
 
 ## Implementations
 
-### Python
+{% tabs code %}
 
-```python
+{% tab code Python %}
+{% highlight python linenos %}
 {% include_relative code.py %}
-```
+{% endhighlight %}
+{% endtab %}
 
-### JavaScript
-**code.js**
-
-```javascript
+{% tab code JavaScript %}
+{% highlight javascript linenos %}
 {% include_relative code.js %}
-```
+{% endhighlight %}
+{% endtab %}
+
+{% endtabs %}

@@ -17,15 +17,18 @@ Freivalds' algorithm is a probabilistic randomized algorithm used to verify matr
 
 ## Implementations
 
-### Python
+{% tabs code %}
 
-```python
+{% tab code Python %}
+{% highlight python linenos %}
 {% include_relative code.py %}
-```
+{% endhighlight %}
+{% endtab %}
 
-### JavaScript
-**code.js**
-
-```javascript
+{% tab code JavaScript %}
+{% highlight javascript linenos %}
 {% include_relative code.js %}
-```
+{% endhighlight %}
+{% endtab %}
+
+{% endtabs %}
