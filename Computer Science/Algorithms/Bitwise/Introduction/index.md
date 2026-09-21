@@ -74,7 +74,7 @@ Here is the truth table for the bitwise AND operator (& or \land), demonstrating
 
 Example:
 
-    Take two bit values $X$ and Y, where $X$ = 7= $(1111)_2$ and  $Y$ = 4 = $(100$)_2$ . Take Bitwise <b>OR</b> `|` of both X, y
+    Take two bit values $X$ and Y, where $X$ = 7= $(1111)_2$ and  $Y$ = 4 = $(100)_2$ . Take Bitwise <b>OR</b> `|` of both X, y
      [Click to enlarge] 
     Bitwise <b>OR</b> `|` of (7 | 4)
 
@@ -87,25 +87,25 @@ Example:
 
     We used the similar concept of bitwise operator that are show in the image.
 
-## Bitwise <b>XOR</b> `^` Operator (`^`)
+## Bitwise <b>XOR</b> `^` Operator
 
 The ^ operator (also known as the <b>XOR</b> `^` operator) stands for Exclusive Or. Here, if bits in the compared position do <b>NOT</b> `~` match their resulting bit is 1. i.e, The result of the bitwise <b>XOR</b> `^` operator is 1 if the corresponding bits of two operands are opposite, otherwise 0.
 truth_table_of_bitwise_xor_operator
 
 Example:
 
-    Take two bit values $X$ and  Y, where $X$ = 7= $(1111)_2$ and  $Y$ = 4 = $(100$)_2$ . Take Bitwise and  of both $X$ `&` y
-     [Click to enlarge] 
-    Bitwise <b>OR</b> `|` of (7 ^ 4)
-
-    Explanation: On the basis of truth table of bitwise <b>XOR</b> `^` operator we can conclude that the result of 
-
-    1 ^ 1  = 0
-    1 ^ 0 = 1
-    0 ^ 1 = 1
-    0 ^ 0 = 0
-
-    We used the similar concept of bitwise operator that are show in the image.
+>    Take two bit values $X$ and  Y, where $X$ = 7= $(1111)_2$ and  $Y$ = 4 = $(100)_2$ . Take Bitwise AND of both $X$ & $Y$
+>    -missing-image- 
+>    Bitwise <b>OR</b> `|` of (7 ^ 4)
+>
+>    Explanation: On the basis of truth table of bitwise <b>XOR</b> `^` operator we can conclude that the result of 
+>
+>    1 ^ 1  = 0
+>    1 ^ 0 = 1
+>    0 ^ 1 = 1
+>    0 ^ 0 = 0
+>
+>    We used the similar concept of bitwise operator that are show in the image.
 
 ## Bitwise <b>NOT</b> `~` Operator (`~`)
 
