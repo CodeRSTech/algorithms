@@ -28,15 +28,16 @@ much better than the linear time required to find items by key
 in an (unsorted) array, but slower than the corresponding
 operations on hash tables.
 
-A binary search tree of size 9 and depth 3, with 8 at the root.
+A binary search tree of size $9$ and depth $3$, with $8$ at the root.
 The leaves are not drawn.
 
 ![Binary Search Tree](https://upload.wikimedia.org/wikipedia/commons/d/da/Binary_search_tree.svg)
 
 ## Pseudocode for Basic Operations
 
-### Insertion
+{% tabs basic_operations %}
 
+{% tab basic_operations Insert %}
 ```text
 insert(value)
   Pre: value has passed custom type checks for type T
@@ -48,7 +49,9 @@ insert(value)
   end if
 end insert
 ```
+{% endtab %}
 
+{% tab basic_operations Insert Node %}
 ```text
 insertNode(current, value)
   Pre: current is the node to start from
@@ -68,9 +71,9 @@ insertNode(current, value)
   end if
 end insertNode
 ```
+{% endtab %}
 
-### Searching
-
+{% tab basic_operations Searching %}
 ```text
 contains(root, value)
   Pre: root is the root node of the tree, value is what we would like to locate
@@ -87,10 +90,9 @@ contains(root, value)
   end if
 end contains
 ```
+{% endtab %}
 
-
-### Deletion
-
+{% tab basic_operations Deletion %}
 ```text
 remove(value)
   Pre: value is the value of the node to remove, root is the node of the BST
@@ -127,9 +129,9 @@ remove(value)
   return true
 end remove
 ```
+{% endtab %}
 
-### Find Parent of Node
-
+{% tab basic_operations Find Parent of Node %}
 ```text
 findParent(value, root)
   Pre: value is the value of the node we want to find the parent of
@@ -157,9 +159,9 @@ findParent(value, root)
   end if
 end findParent
 ```
+{% endtab %}
 
-### Find Node
-
+{% tab basic_operations Find Node %}
 ```text
 findNode(root, value)
   Pre: value is the value of the node we want to find the parent of
@@ -177,9 +179,9 @@ findNode(root, value)
   end if
 end findNode
 ```
+{% endtab %}
 
-### Find Minimum
-
+{% tab basic_operations Find Minimum %}
 ```text
 findMin(root)
   Pre: root is the root node of the BST
@@ -191,9 +193,9 @@ findMin(root)
   findMin(root.left)
 end findMin
 ```
+{% endtab %}
 
-### Find Maximum
-
+{% tab basic_operations Find Maximum %}
 ```text
 findMax(root)
   Pre: root is the root node of the BST
@@ -205,11 +207,13 @@ findMax(root)
   findMax(root.right)
 end findMax
 ```
+{% endtab %}
 
-### Traversal
+{% endtabs %}
 
-#### InOrder Traversal
+{% tabs traversal %}
 
+{% tab traversal InOrder %}
 ```text
 inorder(root)
   Pre: root is the root node of the BST
@@ -221,9 +225,9 @@ inorder(root)
   end if
 end inorder
 ```
+{% endtab %}
 
-#### PreOrder Traversal
-
+{% tab traversal PreOrder %}
 ```text
 preorder(root)
   Pre: root is the root node of the BST
@@ -235,9 +239,9 @@ preorder(root)
   end if
 end preorder
 ```
+{% endtab %}
 
-#### PostOrder Traversal
-
+{% tab traversal PostOrder %}
 ```text
 postorder(root)
   Pre: root is the root node of the BST
@@ -249,18 +253,21 @@ postorder(root)
   end if
 end postorder
 ```
+{% endtab %}
+
+{% endtabs %}
 
 ## Complexities
 
 ### Time Complexity
 
-| Access    | Search    | Insertion | Deletion  |
-| :-------: | :-------: | :-------: | :-------: |
-| O(log(n)) | O(log(n)) | O(log(n)) | O(log(n)) |
+|    Access    |    Search    |  Insertion   |   Deletion   |
+|:------------:|:------------:|:------------:|:------------:|
+| $O(\log(n))$ | $O(\log(n))$ | $O(\log(n))$ | $O(\log(n))$ |
 
 ### Space Complexity
 
-O(n)
+$O(n)$
 
 ## References
 
@@ -272,20 +279,38 @@ O(n)
 
 ## Implementations
 
-### Python
+### Insertion
 
-```python
-{% include_relative code.py %}
-```
+{% tabs insertion %}
 
-### JavaScript
-**insertion.js**
+{% tab code Python %}
+{% highlight python linenos %}
+{% include_relative insertion.py %}
+{% endhighlight %}
+{% endtab %}
 
-```javascript
+{% tab insertion JavaScript %}
+{% highlight javascript linenos %}
 {% include_relative insertion.js %}
-```
-**search.js**
+{% endhighlight %}
+{% endtab %}
 
-```javascript
-{% include_relative search.js %}
-```
+{% endtabs %}
+
+### Search
+
+{% tabs search %}
+
+{% tab search Python %}
+{% highlight search linenos %}
+{% include_relative insertion.py %}
+{% endhighlight %}
+{% endtab %}
+
+{% tab search JavaScript %}
+{% highlight search linenos %}
+{% include_relative insertion.js %}
+{% endhighlight %}
+{% endtab %}
+
+{% endtabs %}
