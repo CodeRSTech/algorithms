@@ -32,20 +32,24 @@ next iteration.
 
 ## Implementations
 
-### Python
+{% tabs code %}
 
-```python
+{% tab code Python %}
+{% highlight python linenos %}
 {% include_relative code.py %}
-```
+{% endhighlight %}
+{% endtab %}
 
-### JavaScript
-**iterative.js**
-
-```javascript
+{% tab code JS (Iterative) %}
+{% highlight javascript linenos %}
 {% include_relative iterative.js %}
-```
-**recursive.js**
+{% endhighlight %}
+{% endtab %}
 
-```javascript
+{% tab code JS (Recursive) %}
+{% highlight javascript linenos %}
 {% include_relative recursive.js %}
-```
+{% endhighlight %}
+{% endtab %}
+
+{% endtabs %}
