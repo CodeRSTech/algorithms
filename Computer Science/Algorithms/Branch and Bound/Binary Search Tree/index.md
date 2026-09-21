@@ -38,7 +38,7 @@ The leaves are not drawn.
 {% tabs basic_operations %}
 
 {% tab basic_operations Insert %}
-```text
+```algorithm
 insert(value)
   Pre: value has passed custom type checks for type T
   Post: value has been placed in the correct location in the tree
@@ -52,7 +52,7 @@ end insert
 {% endtab %}
 
 {% tab basic_operations Insert Node %}
-```text
+```pascal
 insertNode(current, value)
   Pre: current is the node to start from
   Post: value has been placed in the correct location in the tree
@@ -74,7 +74,7 @@ end insertNode
 {% endtab %}
 
 {% tab basic_operations Searching %}
-```text
+```ada
 contains(root, value)
   Pre: root is the root node of the tree, value is what we would like to locate
   Post: value is either located or not
@@ -93,7 +93,7 @@ end contains
 {% endtab %}
 
 {% tab basic_operations Deletion %}
-```text
+```pseudo
 remove(value)
   Pre: value is the value of the node to remove, root is the node of the BST
       count is the number of items in the BST
@@ -132,7 +132,7 @@ end remove
 {% endtab %}
 
 {% tab basic_operations Find Parent of Node %}
-```text
+```pseudocode
 findParent(value, root)
   Pre: value is the value of the node we want to find the parent of
        root is the root node of the BST and is != ø
