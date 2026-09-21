@@ -16,7 +16,7 @@ nodes first, before moving to the next level neighbors.
 
 ## Pseudocode
 
-```text
+```pascal
 BFS(root)
   Pre: root is the node of the BST
   Post: the nodes in the BST have been visited in breadth first order
@@ -54,23 +54,34 @@ end BFS
 - [Tree Traversals (Inorder, Preorder and Postorder)](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/)
 - [BFS vs DFS](https://www.geeksforgeeks.org/bfs-vs-dfs-binary-tree/)
 
-
 ## Implementations
 
-### Python
+### Shortest Path
 
-```python
+{% tabs shortest_path %}
+
+{% tab shortest_path Python %}
+{% highlight python linenos %}
 {% include_relative code.py %}
-```
+{% endhighlight %}
+{% endtab %}
 
-### JavaScript
-**shortestPath.js**
-
-```javascript
+{% tab shortest_path JavaScript%}
+{% highlight javascript linenos %}
 {% include_relative shortestPath.js %}
-```
-**tree.js**
+{% endhighlight %}
+{% endtab %}
 
-```javascript
+{% endtabs %}
+
+### Tree
+
+{% tabs tree %}
+
+{% tab tree JS shortest path %}
+{% highlight javascript linenos %}
 {% include_relative tree.js %}
-```
+{% endhighlight %}
+{% endtab %}
+
+{% endtabs %}
