@@ -127,7 +127,6 @@ Below is a visual aid for `leftDiagonal`, `column`, and `rightDiagonal`.
 
 {% tabs code %}
 
-
 {% tab code Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}

@@ -44,7 +44,6 @@ An animation of an open knight's tour on a 5 by 5 board.
 
 {% tabs code %}
 
-
 {% tab code Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
