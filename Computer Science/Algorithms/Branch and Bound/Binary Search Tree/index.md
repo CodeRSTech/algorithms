@@ -31,7 +31,7 @@ operations on hash tables.
 A binary search tree of size $9$ and depth $3$, with $8$ at the root.
 The leaves are not drawn.
 
-![Binary Search Tree](https://upload.wikimedia.org/wikipedia/commons/d/da/Binary_search_tree.svg)
+![Binary Search Tree](https://upload.wikimedia.org/wikipedia/commons/d/da/Binary_search_tree.svg){: .invert-svg }
 
 ## Pseudocode
 
