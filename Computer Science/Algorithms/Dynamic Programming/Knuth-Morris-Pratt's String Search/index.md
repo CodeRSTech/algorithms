@@ -28,15 +28,15 @@ of previously matched characters.
 
 ## Implementations
 
-{% tabs kmp_code %}
+{% tabs code %}
   
-  {% tab kmp_code Python %}
+  {% tab code Python %}
   {% highlight python linenos %}
   {% include_relative code.py %}
   {% endhighlight %}
   {% endtab %}
 
-  {% tab kmp_code JavaScript %}
+  {% tab code JavaScript %}
   {% highlight javascript linenos %}
   {% include_relative code.js %}
   {% endhighlight %}

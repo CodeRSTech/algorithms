@@ -30,15 +30,18 @@ Worst-case space complexity `O(|V|)`
 
 ## Implementations
 
-### Python
+{% tabs code %}
+  
+  {% tab code Python %}
+  {% highlight python linenos %}
+  {% include_relative code.py %}
+  {% endhighlight %}
+  {% endtab %}
 
-```python
-{% include_relative code.py %}
-```
+  {% tab code JavaScript %}
+  {% highlight javascript linenos %}
+  {% include_relative code.js %}
+  {% endhighlight %}
+  {% endtab %}
 
-### JavaScript
-**code.js**
-
-```javascript
-{% include_relative code.js %}
-```
+{% endtabs %}
