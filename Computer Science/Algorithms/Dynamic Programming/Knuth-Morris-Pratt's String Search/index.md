@@ -7,8 +7,8 @@ viz_url: https://algorithm-visualizer.org/dynamic-programming/knuth-morris-pratt
 ---
 
 The Knuth–Morris–Pratt string searching algorithm (or
-KMP algorithm) searches for occurrences of a "word" `W`
-within a main "text string" `T` by employing the
+KMP algorithm) searches for occurrences of a "word" $W$
+within a main "text string" $T$ by employing the
 observation that when a mismatch occurs, the word itself
 embodies sufficient information to determine where the
 next match could begin, thus bypassing re-examination
@@ -16,8 +16,8 @@ of previously matched characters.
 
 ## Complexity
 
-- **Time:** `O(|W| + |T|)` (much faster comparing to trivial `O(|W| * |T|)`)
-- **Space:** `O(|W|)`
+- **Time:** $O(|W| + |T|)$ (much faster comparing to trivial $O(|W| \times |T|)$)
+- **Space:** $O(|W|)$
 
 ## References
 
@@ -30,16 +30,16 @@ of previously matched characters.
 
 {% tabs code %}
   
-  {% tab code Python %}
-  {% highlight python linenos %}
-  {% include_relative code.py %}
-  {% endhighlight %}
-  {% endtab %}
+{% tab code Python %}
+{% highlight python linenos %}
+{% include_relative code.py %}
+{% endhighlight %}
+{% endtab %}
 
-  {% tab code JavaScript %}
-  {% highlight javascript linenos %}
-  {% include_relative code.js %}
-  {% endhighlight %}
-  {% endtab %}
+{% tab code JavaScript %}
+{% highlight javascript linenos %}
+{% include_relative code.js %}
+{% endhighlight %}
+{% endtab %}
 
 {% endtabs %}

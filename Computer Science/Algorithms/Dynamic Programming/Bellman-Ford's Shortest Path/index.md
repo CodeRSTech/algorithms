@@ -17,9 +17,9 @@ numbers.
 
 ## Complexity
 
-Worst-case performance `O(|V||E|)`
-Best-case performance	`O(|E|)`
-Worst-case space complexity `O(|V|)`
+Worst-case performance $O(|V||E|)$
+Best-case performance	$O(|E|)$
+Worst-case space complexity $O(|V|)$
 
 ## References
 
@@ -32,16 +32,16 @@ Worst-case space complexity `O(|V|)`
 
 {% tabs code %}
   
-  {% tab code Python %}
-  {% highlight python linenos %}
-  {% include_relative code.py %}
-  {% endhighlight %}
-  {% endtab %}
+{% tabcode Python %}
+{% highlight python linenos %}
+{% include_relative code.py %}
+{% endhighlight %}
+{% endtab %}
 
-  {% tab code JavaScript %}
-  {% highlight javascript linenos %}
-  {% include_relative code.js %}
-  {% endhighlight %}
-  {% endtab %}
+{% tabcode JavaScript %}
+{% highlight javascript linenos %}
+{% include_relative code.js %}
+{% endhighlight %}
+{% endtab %}
 
 {% endtabs %}

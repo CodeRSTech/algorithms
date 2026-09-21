@@ -80,16 +80,16 @@ and $x_i \geq 0$ for all $i = 1, 2, \ldots, n$.
 
 {% tabs knapsack_code %}
   
-  {% tab knapsack_code Python %}
+{% tabknapsack_code Python %}
   ```python
-  {% include_relative code.py %}
+{% include_relative code.py %}
   ```
-  {% endtab %}
+{% endtab %}
 
-  {% tab knapsack_code JavaScript %}
+{% tabknapsack_code JavaScript %}
   ```javascript
-  {% include_relative code.js %}
+{% include_relative code.js %}
   ```
-  {% endtab %}
+{% endtab %}
 
 {% endtabs %}

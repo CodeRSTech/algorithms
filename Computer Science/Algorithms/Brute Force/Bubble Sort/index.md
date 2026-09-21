@@ -33,28 +33,28 @@ indicates that the list is sorted.
 
 {% tabs code %}
   
-  {% tab code Python %}
-  {% highlight python linenos %}
-  {% include_relative code.py %}
-  {% endhighlight %}
-  {% endtab %}
+{% tabcode Python %}
+{% highlight python linenos %}
+{% include_relative code.py %}
+{% endhighlight %}
+{% endtab %}
 
-  {% tab code C++ %}
-  {% highlight cpp linenos %}
-  {% include_relative code.cpp %}
-  {% endhighlight %}
-  {% endtab %}
+{% tabcode C++ %}
+{% highlight cpp linenos %}
+{% include_relative code.cpp %}
+{% endhighlight %}
+{% endtab %}
 
-  {% tab code Java %}
-  {% highlight java linenos %}
-  {% include_relative code.java %}
-  {% endhighlight %}
-  {% endtab %}
+{% tabcode Java %}
+{% highlight java linenos %}
+{% include_relative code.java %}
+{% endhighlight %}
+{% endtab %}
 
-  {% tab code JavaScript %}
-  {% highlight javascript linenos %}
-  {% include_relative code.js %}
-  {% endhighlight %}
-  {% endtab %}
+{% tabcode JavaScript %}
+{% highlight javascript linenos %}
+{% include_relative code.js %}
+{% endhighlight %}
+{% endtab %}
 
 {% endtabs %}
