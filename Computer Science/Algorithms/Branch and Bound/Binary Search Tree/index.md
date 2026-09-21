@@ -33,7 +33,9 @@ The leaves are not drawn.
 
 ![Binary Search Tree](https://upload.wikimedia.org/wikipedia/commons/d/da/Binary_search_tree.svg)
 
-## Pseudocode for Basic Operations
+## Pseudocode
+
+### Basic Operations
 
 {% tabs basic_operations %}
 
@@ -48,28 +50,6 @@ insert(value)
     insertNode(root, value)
   end if
 end insert
-```
-{% endtab %}
-
-{% tab basic_operations Insert Node %}
-```pascal
-insertNode(current, value)
-  Pre: current is the node to start from
-  Post: value has been placed in the correct location in the tree
-  if value < current.value
-    if current.left = ø
-      current.left ← node(value)
-    else
-      InsertNode(current.left, value)
-    end if
-  else
-    if current.right = ø
-      current.right ← node(value)
-    else
-      InsertNode(current.right, value)
-    end if
-  end if
-end insertNode
 ```
 {% endtab %}
 
@@ -131,56 +111,6 @@ end remove
 ```
 {% endtab %}
 
-{% tab basic_operations Find Parent of Node %}
-```pascal
-findParent(value, root)
-  Pre: value is the value of the node we want to find the parent of
-       root is the root node of the BST and is != ø
-  Post: a reference to the prent node of value if found; otherwise ø
-  if value = root.value
-    return ø
-  end if
-  if value < root.value
-    if root.left = ø
-      return ø
-    else if root.left.value = value
-      return root
-    else
-      return findParent(value, root.left)
-    end if
-  else
-    if root.right = ø
-      return ø
-    else if root.right.value = value
-      return root
-    else
-      return findParent(value, root.right)
-    end if
-  end if
-end findParent
-```
-{% endtab %}
-
-{% tab basic_operations Find Node %}
-```pascal
-findNode(root, value)
-  Pre: value is the value of the node we want to find the parent of
-       root is the root node of the BST
-  Post: a reference to the node of value if found; otherwise ø
-  if root = ø
-    return ø
-  end if
-  if root.value = value
-    return root
-  else if value < root.value
-    return findNode(root.left, value)
-  else
-    return findNode(root.right, value)
-  end if
-end findNode
-```
-{% endtab %}
-
 {% tab basic_operations Find Minimum %}
 ```pascal
 findMin(root)
@@ -210,6 +140,86 @@ end findMax
 {% endtab %}
 
 {% endtabs %}
+
+### Node Operations
+
+{% tabs node_operations %}
+
+{% tab node_operations Insert Node %}
+```pascal
+insertNode(current, value)
+  Pre: current is the node to start from
+  Post: value has been placed in the correct location in the tree
+  if value < current.value
+    if current.left = ø
+      current.left ← node(value)
+    else
+      InsertNode(current.left, value)
+    end if
+  else
+    if current.right = ø
+      current.right ← node(value)
+    else
+      InsertNode(current.right, value)
+    end if
+  end if
+end insertNode
+```
+{% endtab %}
+
+{% tab basic_operations Find Node %}
+```pascal
+findNode(root, value)
+  Pre: value is the value of the node we want to find the parent of
+       root is the root node of the BST
+  Post: a reference to the node of value if found; otherwise ø
+  if root = ø
+    return ø
+  end if
+  if root.value = value
+    return root
+  else if value < root.value
+    return findNode(root.left, value)
+  else
+    return findNode(root.right, value)
+  end if
+end findNode
+```
+{% endtab %}
+
+{% tab basic_operations Find Parent %}
+```pascal
+findParent(value, root)
+  Pre: value is the value of the node we want to find the parent of
+       root is the root node of the BST and is != ø
+  Post: a reference to the prent node of value if found; otherwise ø
+  if value = root.value
+    return ø
+  end if
+  if value < root.value
+    if root.left = ø
+      return ø
+    else if root.left.value = value
+      return root
+    else
+      return findParent(value, root.left)
+    end if
+  else
+    if root.right = ø
+      return ø
+    else if root.right.value = value
+      return root
+    else
+      return findParent(value, root.right)
+    end if
+  end if
+end findParent
+```
+{% endtab %}
+
+{% endtabs %}
+
+### Traversal
 
 {% tabs traversal %}
 
