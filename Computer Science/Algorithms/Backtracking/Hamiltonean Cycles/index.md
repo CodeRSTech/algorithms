@@ -10,8 +10,12 @@ Description pending.
 
 ## Implementations
 
-### Python
+{% tabs code %}
 
-```python
+{% tab code Python %}
+{% highlight python linenos %}
 {% include_relative code.py %}
-```
+{% endhighlight %}
+{% endtab %}
+
+{% endtabs %}
