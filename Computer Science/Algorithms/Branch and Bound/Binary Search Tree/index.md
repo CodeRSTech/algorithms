@@ -167,7 +167,7 @@ end insertNode
 ```
 {% endtab %}
 
-{% tab basic_operations Find Node %}
+{% tab node_operations Find Node %}
 ```pascal
 findNode(root, value)
   Pre: value is the value of the node we want to find the parent of
@@ -187,7 +187,7 @@ end findNode
 ```
 {% endtab %}
 
-{% tab basic_operations Find Parent %}
+{% tab node_operations Find Parent %}
 ```pascal
 findParent(value, root)
   Pre: value is the value of the node we want to find the parent of
@@ -279,14 +279,6 @@ end postorder
 
 $O(n)$
 
-## References
-
-- [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms/tree/master/src/data-structures/tree/binary-search-tree)
-- [Wikipedia](https://en.wikipedia.org/wiki/Binary_search_tree)
-- [Inserting to BST on YouTube](https://www.youtube.com/watch?v=wcIRPqTR3Kc&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8&index=9&t=0s)
-- [BST Interactive Visualisations](https://www.cs.usfca.edu/~galles/visualization/BST.html)
-
-
 ## Implementations
 
 ### Insertion
@@ -324,3 +316,10 @@ $O(n)$
 {% endtab %}
 
 {% endtabs %}
+
+## References
+
+- [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms/tree/master/src/data-structures/tree/binary-search-tree)
+- [Wikipedia](https://en.wikipedia.org/wiki/Binary_search_tree)
+- [Inserting to BST on YouTube](https://www.youtube.com/watch?v=wcIRPqTR3Kc&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8&index=9&t=0s)
+- [BST Interactive Visualisations](https://www.cs.usfca.edu/~galles/visualization/BST.html)
