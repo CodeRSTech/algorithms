@@ -38,7 +38,7 @@ The leaves are not drawn.
 {% tabs basic_operations %}
 
 {% tab basic_operations Insert %}
-```algorithm
+```pascal
 insert(value)
   Pre: value has passed custom type checks for type T
   Post: value has been placed in the correct location in the tree
@@ -74,7 +74,7 @@ end insertNode
 {% endtab %}
 
 {% tab basic_operations Searching %}
-```ada
+```pascal
 contains(root, value)
   Pre: root is the root node of the tree, value is what we would like to locate
   Post: value is either located or not
@@ -93,7 +93,7 @@ end contains
 {% endtab %}
 
 {% tab basic_operations Deletion %}
-```pseudo
+```pascal
 remove(value)
   Pre: value is the value of the node to remove, root is the node of the BST
       count is the number of items in the BST
@@ -132,7 +132,7 @@ end remove
 {% endtab %}
 
 {% tab basic_operations Find Parent of Node %}
-```pseudocode
+```pascal
 findParent(value, root)
   Pre: value is the value of the node we want to find the parent of
        root is the root node of the BST and is != ø
@@ -162,7 +162,7 @@ end findParent
 {% endtab %}
 
 {% tab basic_operations Find Node %}
-```text
+```pascal
 findNode(root, value)
   Pre: value is the value of the node we want to find the parent of
        root is the root node of the BST
@@ -182,7 +182,7 @@ end findNode
 {% endtab %}
 
 {% tab basic_operations Find Minimum %}
-```text
+```pascal
 findMin(root)
   Pre: root is the root node of the BST
     root = ø
@@ -196,7 +196,7 @@ end findMin
 {% endtab %}
 
 {% tab basic_operations Find Maximum %}
-```text
+```pascal
 findMax(root)
   Pre: root is the root node of the BST
     root = ø
@@ -214,7 +214,7 @@ end findMax
 {% tabs traversal %}
 
 {% tab traversal InOrder %}
-```text
+```pascal
 inorder(root)
   Pre: root is the root node of the BST
   Post: the nodes in the BST have been visited in inorder
@@ -228,7 +228,7 @@ end inorder
 {% endtab %}
 
 {% tab traversal PreOrder %}
-```text
+```pascal
 preorder(root)
   Pre: root is the root node of the BST
   Post: the nodes in the BST have been visited in preorder
@@ -242,7 +242,7 @@ end preorder
 {% endtab %}
 
 {% tab traversal PostOrder %}
-```text
+```pascal
 postorder(root)
   Pre: root is the root node of the BST
   Post: the nodes in the BST have been visited in postorder
