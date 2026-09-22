@@ -17,8 +17,10 @@ A `topological sort` or
 >task must be performed before another; in this application, a
 >topological ordering is just a valid sequence for the tasks.
 
-Topological sort is possible $\iff$ The graph has
-no directed cycles $\iff$ Graph is [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph). 
+For a Graph $G$:
+
+Topological sort is possible $\iff$ $G$ has
+no directed cycles $\iff$ $G$ is a [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph). 
 
 Any DAG has at least one topological ordering, and algorithms are
 known for constructing a topological ordering of any DAG in linear time.
