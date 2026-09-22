@@ -1,15 +1,3 @@
-// import visualization libraries {
-const {
-  Array2DTracer,
-  Layout,
-  LogTracer,
-  Tracer,
-  VerticalLayout,
-  ScatterTracer,
-  Randomize,
-} = require('algorithm-visualizer')
-// }
-
 // define helper functions {
 const shuffle = a => {
   const array = a.slice(0)
@@ -67,14 +55,6 @@ function cluster(data, centers) {
   return clusters
 }
 
-// }
-
-// define tracer variables {
-const array2dTracer = new Array2DTracer('Grid')
-const logTracer = new LogTracer('Console')
-const scatterTracer = new ScatterTracer('Scatter')
-// }
-
 // define input variables
 const unClusteredData = Randomize.Array2D(
     { N: Randomize.Integer({ min: 10, max: 25 }) })
@@ -112,7 +92,6 @@ const improve = (loops, clusters, centers) => {
   logTracer.println('')
 
   Tracer.delay()
-  // }
 
   if (!allowImprove() || areCentersEqual(centers, ret.centers)) {
     return ret
@@ -122,15 +101,6 @@ const improve = (loops, clusters, centers) => {
 }
 
 (function main() {
-  // visualize {
-  Layout.setRoot(new VerticalLayout([scatterTracer, array2dTracer, logTracer]))
-
-  logTracer.println(`Un-clustered data = ${stringify(unClusteredData)}`)
-  array2dTracer.set([unClusteredData.map(pointify)])
-  scatterTracer.set([unClusteredData])
-
-  Tracer.delay()
-  // }
 
   // Start with random centers
   const centers = chooseRandomCenters(unClusteredData, k)
@@ -141,7 +111,6 @@ const improve = (loops, clusters, centers) => {
   scatterTracer.set([unClusteredData, ...[[], []], centers])
 
   Tracer.delay()
-  // }
 
   // Cluster to the random centers
   const clusters = cluster(unClusteredData, centers)
@@ -153,7 +122,6 @@ const improve = (loops, clusters, centers) => {
   scatterTracer.set([unClusteredData, ...clusters, centers])
 
   Tracer.delay()
-  // }
 
   // start iterations here
   const ret = improve(0, clusters, centers)
@@ -168,5 +136,5 @@ const improve = (loops, clusters, centers) => {
   array2dTracer.set(ret.clusters.map(c => c.map(pointify)))
   scatterTracer.set([unClusteredData, ...ret.clusters, ret.centers])
   Tracer.delay()
-  // }
+  
 })()

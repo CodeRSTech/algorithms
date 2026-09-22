@@ -1,7 +1,3 @@
-// import visualization libraries {
-const { Tracer, Array2DTracer, LogTracer, Layout, VerticalLayout } = require('algorithm-visualizer');
-// }
-
 const N = 4; // just change the value of N and the visuals will reflect the configuration!
 const board = (function createArray(N) {
   const result = [];
@@ -18,18 +14,6 @@ const queens = (function qSetup(N) {
   return result;
 }(N));
 
-// define tracer variables {
-const boardTracer = new Array2DTracer('Board');
-const queenTracer = new Array2DTracer('Queen Positions');
-const logger = new LogTracer('Progress');
-Layout.setRoot(new VerticalLayout([boardTracer, queenTracer, logger]));
-
-boardTracer.set(board);
-queenTracer.set(queens);
-logger.println(`N Queens: ${N}X${N}matrix, ${N} queens`);
-Tracer.delay();
-// }
-
 function validState(row, col, currentQueen) {
   for (let q = 0; q < currentQueen; q++) {
     const currentQ = queens[q];
@@ -41,50 +25,30 @@ function validState(row, col, currentQueen) {
 }
 
 function nQ(currentQueen, currentCol) {
-  // logger {
-  logger.println(`Starting new iteration of nQueens () with currentQueen = ${currentQueen} & currentCol = ${currentCol}`);
-  logger.println('------------------------------------------------------------------');
-  // }
+  
+  console.log(`Starting new iteration of nQueens () with currentQueen = ${currentQueen} & currentCol = ${currentCol}`);
+  console.log('------------------------------------------------------------------');
+  
   if (currentQueen >= N) {
-    // logger {
-    logger.println('The recursion has BOTTOMED OUT. All queens have been placed successfully');
-    // }
+    
+    console.log('The recursion has BOTTOMED OUT. All queens have been placed successfully');
+    
     return true;
   }
 
   let found = false;
   let row = 0;
   while ((row < N) && (!found)) {
-    // visualize {
-    boardTracer.select(row, currentCol);
-    Tracer.delay();
-    logger.println(`Trying queen ${currentQueen} at row ${row} & col ${currentCol}`);
-    // }
-    
+
     if (validState(row, currentCol, currentQueen)) {
       queens[currentQueen][0] = row;
       queens[currentQueen][1] = currentCol;
 
-      // visualize {
-      queenTracer.patch(currentQueen, 0, row);
-      Tracer.delay();
-      queenTracer.patch(currentQueen, 1, currentCol);
-      Tracer.delay();
-      queenTracer.depatch(currentQueen, 0);
-      Tracer.delay();
-      queenTracer.depatch(currentQueen, 1);
-      Tracer.delay();
-      // }
-      
       found = nQ(currentQueen + 1, currentCol + 1);
     }
 
     if (!found) {
-      // visualize {
-      boardTracer.deselect(row, currentCol);
-      Tracer.delay();
-      logger.println(`row ${row} & col ${currentCol} didn't work out. Going down`);
-      // }
+      
     }
     row++;
   }
@@ -92,10 +56,8 @@ function nQ(currentQueen, currentCol) {
   return found;
 }
 
-// logger {
-logger.println('Starting execution');
-// }
+console.log('Starting execution');
+
 nQ(0, 0);
-// logger {
-logger.println('DONE');
-// }
+
+console.log('DONE');
