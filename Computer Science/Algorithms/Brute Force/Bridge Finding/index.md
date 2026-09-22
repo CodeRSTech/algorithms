@@ -23,18 +23,30 @@ An edge in an undirected connected graph is a bridge iff removing it disconnects
 
 ### Python
 
-```python
+{% tabs python %}
+
+{% tab python Python %}
+{% highlight python linenos %}
 {% include_relative code.py %}
-```
+{% endhighlight %}
+{% endtab %}
+
+{% endtabs %}
 
 ### JavaScript
-**efficient.js**
 
-```javascript
+{% tabs js %}
+
+{% tab js Efficient %}
+{% highlight javascript linenos %}
 {% include_relative efficient.js %}
-```
-**naive.js**
+{% endhighlight %}
+{% endtab %}**naive.js**
 
-```javascript
+{% tab js Naive %}
+{% highlight javascript linenos %}
 {% include_relative naive.js %}
-```
+{% endhighlight %}
+{% endtab %}
+
+{% endtabs %}
