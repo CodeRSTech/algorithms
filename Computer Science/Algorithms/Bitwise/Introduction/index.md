@@ -62,7 +62,7 @@ Example:
 
 ## Bitwise <b>OR</b> `|` Operator (|)
 
-The | Operator takes two equivalent length bit designs as boundaries; if the two bits in the looked-at position are $0$, the next bit is zero. If not, it is $1$.
+The `|` Operator takes two equivalent length bit designs as boundaries; if the two bits in the looked-at position are $0$, the next bit is zero. If not, it is $1$.
 
 Here is the truth table for the bitwise AND operator (& or \land), demonstrating how it acts on individual input bits:
 
