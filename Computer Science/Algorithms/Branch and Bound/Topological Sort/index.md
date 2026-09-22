@@ -19,15 +19,16 @@ be performed, and the *edges* may represent constraints that one
 task must be performed before another; in this application, a
 topological ordering is just a valid sequence for the tasks.
 
-A topological ordering is possible $iff$ the graph has
-no directed cycles, that is, if it is a [directed acyclic graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
-(DAG). Any DAG has at least one topological ordering, and algorithms are
+Topological ordering is possible $\iff$ The graph has
+no directed cycles $\iff$  [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph). 
+
+Any DAG has at least one topological ordering, and algorithms are
 known for constructing a topological ordering of any DAG in linear time.
 
 ![Directed Acyclic Graph](https://upload.wikimedia.org/wikipedia/commons/c/c6/Topological_Ordering.svg){: .invert-img }
-*A topological ordering of a directed acyclic graph: every edge goes from
-earlier in the ordering (upper left) to later in the ordering (lower right).
-A directed graph is acyclic if and only if it has a topological ordering.*{: .image-caption }
+*A topological ordering of a DAG: every edge in ordering goes from
+earlier (upper left) to later (lower right).
+A directed graph is acyclic $\iff$ if it has a topological ordering.*{: .image-caption }
 
 ## Examples
 
@@ -38,11 +39,11 @@ A directed graph is acyclic if and only if it has a topological ordering.*{: .im
 The graph shown above has many valid topological sorts, including:
 
 >- `5, 7, 3, 11, 8, 2, 9, 10` (visual left-to-right, top-to-bottom)
-- `3, 5, 7, 8, 11, 2, 9, 10` (smallest-numbered available vertex first)
-- `5, 7, 3, 8, 11, 10, 9, 2` (fewest edges first)
-- `7, 5, 11, 3, 10, 8, 9, 2` (largest-numbered available vertex first)
-- `5, 7, 11, 2, 3, 8, 9, 10` (attempting top-to-bottom, left-to-right)
-- `3, 7, 8, 5, 11, 10, 2, 9` (arbitrary)
+>- `3, 5, 7, 8, 11, 2, 9, 10` (smallest-numbered available vertex first)
+>- `5, 7, 3, 8, 11, 10, 9, 2` (fewest edges first)
+>- `7, 5, 11, 3, 10, 8, 9, 2` (largest-numbered available vertex first)
+>- `5, 7, 11, 2, 3, 8, 9, 10` (attempting top-to-bottom, left-to-right)
+>- `3, 7, 8, 5, 11, 10, 2, 9` (arbitrary)
 
 ### Example 2
 
