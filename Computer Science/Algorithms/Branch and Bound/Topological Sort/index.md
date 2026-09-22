@@ -92,21 +92,34 @@ next dependency has its dependent packages to be installed in prior.
 
 ## Implementations
 
-{% tabs code %}
+Commented out for the time.
 
-{% tab code Python %}
-{% highlight python linenos %}
-{% include_relative code.py %}
-{% endhighlight %}
-{% endtab %}
+[//]: # ({% tabs code %})
 
-{% tab code JavaScript %}
-{% highlight javascript linenos %}
-{% include_relative code.js %}
-{% endhighlight %}
-{% endtab %}
+[//]: # ()
+[//]: # ({% tab code Python %})
 
-{% endtabs %}
+[//]: # ({% highlight python linenos %})
+
+[//]: # ({% include_relative code.py %})
+
+[//]: # ({% endhighlight %})
+
+[//]: # ({% endtab %})
+
+[//]: # ()
+[//]: # ({% tab code JavaScript %})
+
+[//]: # ({% highlight javascript linenos %})
+
+[//]: # ({% include_relative code.js %})
+
+[//]: # ({% endhighlight %})
+
+[//]: # ({% endtab %})
+
+[//]: # ()
+[//]: # ({% endtabs %})
 
 ## References
 

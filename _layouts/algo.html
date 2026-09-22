@@ -38,7 +38,8 @@ layout: main
         {% for src in page.attribution_sources %}
         {% if src == "Algorithm Visualizer Project" %}
         {% include attribution_algorithm_visualizer.html %}
-        {% elsif src == "GeeksforGeeks" %}
+        {% endif %}
+        {% if src == "GeeksforGeeks" %}
         {% include attribution_gfg.html %}
         {% endif %}
         {% endfor %}
