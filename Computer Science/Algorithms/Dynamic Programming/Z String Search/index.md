@@ -2,7 +2,8 @@
 layout: algo
 title: Z String Search
 category: Dynamic Programming
-attribution_source: Algorithm Visualizer Project
+attribution_sources:
+  - Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/dynamic-programming/z-string-search
 ---
 

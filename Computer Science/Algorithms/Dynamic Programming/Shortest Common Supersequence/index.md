@@ -2,7 +2,8 @@
 layout: algo
 title: Shortest Common Supersequence
 category: Dynamic Programming
-attribution_source: Algorithm Visualizer Project
+attribution_sources:
+  - Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/dynamic-programming/shortest-common-supersequence
 ---
 

@@ -2,7 +2,8 @@
 layout: algo
 title: Binary Tree Traversal
 category: Brute Force
-attribution_source: Algorithm Visualizer Project
+attribution_sources:
+  - Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/brute-force/binary-tree-traversal
 ---
 

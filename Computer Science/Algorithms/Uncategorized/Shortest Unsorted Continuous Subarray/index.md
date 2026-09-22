@@ -2,7 +2,8 @@
 layout: algo
 title: Shortest Unsorted Continuous Subarray
 category: Uncategorized
-attribution_source: Algorithm Visualizer Project
+attribution_sources:
+  - Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/uncategorized/shortest-unsorted-continuous-subarray
 ---
 

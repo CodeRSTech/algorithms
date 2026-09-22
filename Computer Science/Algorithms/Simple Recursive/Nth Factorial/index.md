@@ -2,7 +2,8 @@
 layout: algo
 title: Nth Factorial
 category: Simple Recursive
-attribution_source: Algorithm Visualizer Project
+attribution_sources:
+  - Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/simple-recursive/nth-factorial
 ---
 

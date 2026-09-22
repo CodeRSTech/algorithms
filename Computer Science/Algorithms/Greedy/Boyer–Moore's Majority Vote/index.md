@@ -2,7 +2,8 @@
 layout: algo
 title: Boyer–Moore's Majority Vote
 category: Greedy
-attribution_source: Algorithm Visualizer Project
+attribution_sources:
+  - Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/greedy/boyer-moores-majority-vote
 ---
 

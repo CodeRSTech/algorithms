@@ -2,7 +2,8 @@
 layout: algo
 title: Knight's Tour Problem
 category: Backtracking
-attribution_source: Algorithm Visualizer Project
+attribution_sources:
+  - Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/backtracking/knights-tour-problem
 ---
 

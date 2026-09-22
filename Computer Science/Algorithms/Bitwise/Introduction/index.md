@@ -2,7 +2,8 @@
 layout: algo
 title: Introduction to Bitwise Algorithms
 category: Bitwise
-attribution_source: GeeksforGeeks
+attribution_sources:
+  - GeeksforGeeks
 gfg_url: https://www.geeksforgeeks.org/boyer-moore-majority-vote-algorithm/](https://www.geeksforgeeks.org/dsa/introduction-to-bitwise-algorithms-data-structures-and-algorithms-tutorial/
 ---
 

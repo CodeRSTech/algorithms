@@ -2,7 +2,8 @@
 layout: algo
 title: Lowest Common Ancestor
 category: Brute Force
-attribution_source: Algorithm Visualizer Project
+attribution_sources:
+  - Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/brute-force/lowest-common-ancestor
 ---
 

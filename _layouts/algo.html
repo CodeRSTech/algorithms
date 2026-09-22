@@ -35,11 +35,13 @@ layout: main
         </header>
 
         <!-- Attribution & Visualizer Banner -->
-        {% if page.attribution_source == "Algorithm Visualizer Project" %}
+        {% for src in page.attribution_sources %}
+        {% if src == "Algorithm Visualizer Project" %}
         {% include attribution_algorithm_visualizer.html %}
-        {% elsif page.attribution_source == "GeeksforGeeks" %}
+        {% elsif src == "GeeksforGeeks" %}
         {% include attribution_gfg.html %}
         {% endif %}
+        {% endfor %}
 
         <!-- Rendered Markdown Body -->
         <div class="post-content text-light">

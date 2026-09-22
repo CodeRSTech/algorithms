@@ -2,7 +2,8 @@
 layout: algo
 title: Knuth-Morris-Pratt's String Search
 category: Dynamic Programming
-attribution_source: Algorithm Visualizer Project
+attribution_sources:
+  - Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/dynamic-programming/knuth-morris-pratts-string-search
 ---
 

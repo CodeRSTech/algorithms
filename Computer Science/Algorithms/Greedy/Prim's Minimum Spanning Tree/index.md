@@ -2,7 +2,8 @@
 layout: algo
 title: Prim's Minimum Spanning Tree
 category: Greedy
-attribution_source: Algorithm Visualizer Project
+attribution_sources:
+  - Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/greedy/prims-minimum-spanning-tree
 ---
 

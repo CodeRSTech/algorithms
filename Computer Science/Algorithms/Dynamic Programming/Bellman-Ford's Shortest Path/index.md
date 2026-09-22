@@ -2,7 +2,8 @@
 layout: algo
 title: Bellman-Ford's Shortest Path
 category: Dynamic Programming
-attribution_source: Algorithm Visualizer Project
+attribution_sources:
+  - Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/dynamic-programming/bellman-fords-shortest-path
 ---
 

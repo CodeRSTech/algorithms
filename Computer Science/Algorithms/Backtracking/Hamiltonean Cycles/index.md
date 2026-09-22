@@ -2,7 +2,8 @@
 layout: algo
 title: Hamiltonean Cycles
 category: Backtracking
-attribution_source: Algorithm Visualizer Project
+attribution_sources:
+  - Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/backtracking/hamiltonean-cycles
 ---
 

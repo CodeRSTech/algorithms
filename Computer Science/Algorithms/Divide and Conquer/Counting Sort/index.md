@@ -2,7 +2,8 @@
 layout: algo
 title: Counting Sort
 category: Divide and Conquer
-attribution_source: Algorithm Visualizer Project
+attribution_sources:
+  - Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/divide-and-conquer/counting-sort
 ---
 

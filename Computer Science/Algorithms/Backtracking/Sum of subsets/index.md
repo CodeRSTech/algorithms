@@ -2,7 +2,8 @@
 layout: algo
 title: Sum of subsets
 category: Backtracking
-attribution_source: Algorithm Visualizer Project
+attribution_sources:
+  - Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/backtracking/sum-of-subsets
 ---
 

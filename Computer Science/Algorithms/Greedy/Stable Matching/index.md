@@ -2,7 +2,8 @@
 layout: algo
 title: Stable Matching
 category: Greedy
-attribution_source: Algorithm Visualizer Project
+attribution_sources:
+  - Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/greedy/stable-matching
 ---
 

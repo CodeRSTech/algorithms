@@ -2,7 +2,8 @@
 layout: algo
 title: Depth-Limited Search
 category: Branch and Bound
-attribution_source: Algorithm Visualizer Project
+attribution_sources:
+  - Algorithm Visualizer Project
 viz_url: https://algorithm-visualizer.org/branch-and-bound/depth-limited-search
 ---
 
