@@ -9,9 +9,9 @@ viz_url: https://algorithm-visualizer.org/branch-and-bound/topological-sort
 ---
 
 In computer science, a `topological sort` or
-`topological ordering` of a directed graph is a linear ordering
+`topological ordering` of a Directed Acyclic Graph (DAG) is a linear ordering
 of its vertices such that, 
-for every directed edge $uv$ from
+for every directed edge $u \to v$ from
 vertex $u$ to $v$, 
 $u$ comes before $v$ in the ordering.
 
@@ -31,7 +31,9 @@ A topological ordering of a directed acyclic graph: every edge goes from
 earlier in the ordering (upper left) to later in the ordering (lower right).
 A directed graph is acyclic if and only if it has a topological ordering.
 
-## Example
+## Examples
+
+### Example 1
 
 ![Topologic Sorting](https://upload.wikimedia.org/wikipedia/commons/0/03/Directed_acyclic_graph_2.svg){: .invert-svg }
 
@@ -44,12 +46,39 @@ The graph shown above has many valid topological sorts, including:
 - `5, 7, 11, 2, 3, 8, 9, 10` (attempting top-to-bottom, left-to-right)
 - `3, 7, 8, 5, 11, 10, 2, 9` (arbitrary)
 
+### Example 2
+
+#### Input: 
+
+`adj[][] = [[1], [2], [], [2, 4], []]`
+
+![img.png](img.png){: .invert-svg }
+
+#### Output: 
+
+`[0, 3, 1, 4, 2]`
+
+#### Explanation: 
+
+> Since vertices $0$ and $3$ do not have any incoming edges from any other vertex, 
+> they appear first in the topological ordering. 
+> Next, vertex $1$ depends only on vertex $0$, 
+> so it comes after $0$. 
+> Similarly, vertex $4$ depends only on vertex $3$, 
+> placing it after $3$. 
+> Finally, vertex $2$ depends on both vertices $1$ and $3$, 
+> so it appears after both of them in the ordering.
+
 ## Application
 
 The canonical application of topological sorting is in
-**scheduling a sequence of jobs** or tasks based on their dependencies. The jobs
-are represented by vertices, and there is an edge from $x$ to $y$ if
-job $x$ must be completed before job $y$ can be started (for
+**scheduling a sequence of jobs** or tasks based on their dependencies. 
+
+The jobs
+are represented by vertices, and if there is an edge $x \to y$ then
+job $x$ must be completed before job $y$ can be started 
+
+> (for
 example, when washing clothes, the washing machine must finish
 before we put the clothes in the dryer). Then, a topological sort
 gives an order in which to perform the jobs.
