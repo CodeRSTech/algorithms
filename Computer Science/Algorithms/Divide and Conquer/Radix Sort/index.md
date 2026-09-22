@@ -47,15 +47,24 @@ comparison-based sorts (and worse if keys are much longer than `log n`).
 
 ## Implementations
 
-### Python
+{% tabs code %}
 
-```python
+{% tab code Python %}
+{% highlight python linenos %}
 {% include_relative code.py %}
-```
+{% endhighlight %}
+{% endtab %}
+
+{% endtabs %}
 
 ### JavaScript
-**leastSignificantDigit.js**
 
-```javascript
+{% tabs js %}
+
+{% tab js leastSignificantDigit %}
+{% highlight javascript linenos %}
 {% include_relative leastSignificantDigit.js %}
-```
+{% endhighlight %}
+{% endtab %}
+
+{% endtabs %}
