@@ -18,15 +18,15 @@ Pigeonhole sorting is a sorting algorithm that is suitable for sorting lists of 
 
 ## Implementations
 
-{% tabs code %}
+{% tabs pigeonhole-sort %}
 
-{% tab code Python %}
+{% tab pigeonhole-sort Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab pigeonhole-sort JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

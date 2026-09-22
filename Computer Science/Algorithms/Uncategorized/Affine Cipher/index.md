@@ -22,15 +22,15 @@ The affine cipher is a type of monoalphabetic substitution cipher, wherein each 
 
 ## Implementations
 
-{% tabs code %}
+{% tabs affine-cipher %}
 
-{% tab code Python %}
+{% tab affine-cipher Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab affine-cipher JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

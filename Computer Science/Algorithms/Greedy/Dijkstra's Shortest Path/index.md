@@ -35,15 +35,15 @@ and updates the neighbor's distance if smaller. Mark visited
 
 ## Implementations
 
-{% tabs code %}
+{% tabs dijkstras-shortest-path %}
 
-{% tab code Python %}
+{% tab dijkstras-shortest-path Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab dijkstras-shortest-path JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

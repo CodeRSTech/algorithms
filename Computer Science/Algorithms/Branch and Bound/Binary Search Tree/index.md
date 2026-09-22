@@ -286,7 +286,7 @@ $O(n)$
 
 {% tabs insertion %}
 
-{% tab code Python %}
+{% tab binary-search-tree Python %}
 {% highlight python linenos %}
 {% include_relative insertion.py %}
 {% endhighlight %}

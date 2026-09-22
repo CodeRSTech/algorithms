@@ -18,15 +18,15 @@ Finding the nth Factorial using dynamic programming.
 
 ## Implementations
 
-{% tabs code %}
+{% tabs nth-factorial %}
 
-{% tab code Python %}
+{% tab nth-factorial Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab nth-factorial JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

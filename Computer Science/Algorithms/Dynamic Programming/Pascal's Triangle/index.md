@@ -74,15 +74,15 @@ from `C(lineNumber, i - 1)` in `O(1)` time.
 
 ## Implementations
 
-{% tabs code %}
+{% tabs pascals-triangle %}
 
-{% tab code Python %}
+{% tab pascals-triangle Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab pascals-triangle JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

@@ -34,21 +34,21 @@ memory is limited.
 
 ## Implementations
 
-{% tabs code %}
+{% tabs selection-sort %}
 
-{% tab code Python %}
+{% tab selection-sort Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code Java %}
+{% tab selection-sort Java %}
 {% highlight java linenos %}
 {% include_relative code.java %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab selection-sort JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

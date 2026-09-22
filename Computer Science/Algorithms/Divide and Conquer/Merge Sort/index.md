@@ -38,9 +38,9 @@ emulate merge sort (top-down).
 
 ## Implementations
 
-{% tabs code %}
+{% tabs merge-sort %}
 
-{% tab code Python %}
+{% tab merge-sort Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}

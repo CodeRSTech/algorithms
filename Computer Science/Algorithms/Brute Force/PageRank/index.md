@@ -23,15 +23,15 @@ PageRank is an algorithm used by Google Search to rank websites in their search 
 
 ## Implementations
 
-{% tabs code %}
+{% tabs pagerank %}
 
-{% tab code Python %}
+{% tab pagerank Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab pagerank JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

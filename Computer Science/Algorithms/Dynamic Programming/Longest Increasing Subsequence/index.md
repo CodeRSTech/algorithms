@@ -56,15 +56,15 @@ input sequence.
 
 ## Implementations
 
-{% tabs code %}
+{% tabs longest-increasing-subsequence %}
 
-{% tab code Python %}
+{% tab longest-increasing-subsequence Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab longest-increasing-subsequence JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

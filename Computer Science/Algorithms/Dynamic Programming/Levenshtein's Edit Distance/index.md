@@ -125,15 +125,15 @@ with `Saturday → Sunday` transformation.
 
 ## Implementations
 
-{% tabs code %}
+{% tabs levenshteins-edit-distance %}
 
-{% tab code Python %}
+{% tab levenshteins-edit-distance Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab levenshteins-edit-distance JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

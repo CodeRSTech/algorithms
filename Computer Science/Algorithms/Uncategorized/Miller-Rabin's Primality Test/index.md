@@ -20,15 +20,15 @@ The Miller–Rabin primality test or Rabin–Miller primality test is a primalit
 
 ## Implementations
 
-{% tabs code %}
+{% tabs miller-rabins-primality-test %}
 
-{% tab code Python %}
+{% tab miller-rabins-primality-test Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab miller-rabins-primality-test JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

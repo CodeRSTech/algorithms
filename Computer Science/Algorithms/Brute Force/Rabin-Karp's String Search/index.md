@@ -66,15 +66,15 @@ strings, single-string searching algorithms are impractical.
 
 ## Implementations
 
-{% tabs code %}
+{% tabs rabin-karps-string-search %}
 
-{% tab code Python %}
+{% tab rabin-karps-string-search Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab rabin-karps-string-search JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

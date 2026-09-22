@@ -19,15 +19,15 @@ Pancake Sort,inspired from sorting a stack of pancake using spatula, is a simple
 
 ## Implementations
 
-{% tabs code %}
+{% tabs pancake-sort %}
 
-{% tab code Python %}
+{% tab pancake-sort Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab pancake-sort JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

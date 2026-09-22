@@ -35,15 +35,15 @@ made to a revision-controlled collection of files.
 
 ## Implementations
 
-{% tabs code %}
+{% tabs longest-common-subsequence %}
 
-{% tab code Python %}
+{% tab longest-common-subsequence Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab longest-common-subsequence JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

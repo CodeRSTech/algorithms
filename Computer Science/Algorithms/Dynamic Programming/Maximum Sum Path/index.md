@@ -17,15 +17,15 @@ Finding the maximum sum in a path from (0, 0) to (N-1, M-1) when can only move t
 
 ## Implementations
 
-{% tabs code %}
+{% tabs maximum-sum-path %}
 
-{% tab code Python %}
+{% tab maximum-sum-path Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab maximum-sum-path JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

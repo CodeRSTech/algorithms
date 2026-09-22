@@ -32,27 +32,27 @@ indicates that the list is sorted.
 
 ## Implementations
 
-{% tabs code %}
+{% tabs bubble-sort %}
   
-{% tab code Python %}
+{% tab bubble-sort Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code C++ %}
+{% tab bubble-sort C++ %}
 {% highlight cpp linenos %}
 {% include_relative code.cpp %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code Java %}
+{% tab bubble-sort Java %}
 {% highlight java linenos %}
 {% include_relative code.java %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab bubble-sort JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

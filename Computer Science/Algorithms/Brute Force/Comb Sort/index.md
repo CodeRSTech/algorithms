@@ -18,21 +18,21 @@ Comb sort is a relatively simple sorting algorithm originally designed by Włodz
 
 ## Implementations
 
-{% tabs code %}
+{% tabs comb-sort %}
 
-{% tab code Python %}
+{% tab comb-sort Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code Java %}
+{% tab comb-sort Java %}
 {% highlight java linenos %}
 {% include_relative Code.java %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab comb-sort JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

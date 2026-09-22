@@ -32,15 +32,15 @@ with the largest sum is `4, −1, 2, 1`, with sum `6`.
 
 ## Implementations
 
-{% tabs code %}
+{% tabs maximum-subarray %}
 
-{% tab code Python %}
+{% tab maximum-subarray Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab maximum-subarray JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

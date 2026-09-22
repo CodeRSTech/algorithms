@@ -45,21 +45,21 @@ The horizontal lines are pivot values.
 
 ## Implementations
 
-{% tabs code %}
+{% tabs quicksort %}
 
-{% tab code Python %}
+{% tab quicksort Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code Java %}
+{% tab quicksort Java %}
 {% highlight java linenos %}
 {% include_relative Code.java %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab quicksort JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

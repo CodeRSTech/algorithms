@@ -21,15 +21,15 @@ Depth-Limited search (DLS) is an algorithm for traversing or searching tree or g
 
 ## Implementations
 
-{% tabs code %}
+{% tabs depth-limited-search %}
 
-{% tab code Python %}
+{% tab depth-limited-search Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab depth-limited-search JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

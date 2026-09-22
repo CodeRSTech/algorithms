@@ -126,15 +126,15 @@ Below is a visual aid for `leftDiagonal`, `column`, and `rightDiagonal`.
 
 ## Implementations
 
-{% tabs code %}
+{% tabs n-queens-problem %}
 
-{% tab code Python %}
+{% tab n-queens-problem Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab n-queens-problem JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

@@ -18,15 +18,15 @@ Find the length of the longest palindromic subsequence in a given sequence
 
 ## Implementations
 
-{% tabs code %}
+{% tabs longest-palindromic-subsequence %}
 
-{% tab code Python %}
+{% tab longest-palindromic-subsequence Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab longest-palindromic-subsequence JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

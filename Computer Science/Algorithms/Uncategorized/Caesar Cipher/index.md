@@ -21,15 +21,15 @@ In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift ciphe
 
 ## Implementations
 
-{% tabs code %}
+{% tabs caesar-cipher %}
 
-{% tab code Python %}
+{% tab caesar-cipher Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab caesar-cipher JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

@@ -21,15 +21,15 @@ You need to find the shortest such subarray and output its length."
 
 ## Implementations
 
-{% tabs code %}
+{% tabs shortest-unsorted-continuous-subarray %}
 
-{% tab code Python %}
+{% tab shortest-unsorted-continuous-subarray Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab shortest-unsorted-continuous-subarray JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

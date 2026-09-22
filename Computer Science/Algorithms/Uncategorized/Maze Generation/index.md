@@ -26,15 +26,15 @@ The animation shows the maze generation steps for a graph that is not on a recta
 
 ## Implementations
 
-{% tabs code %}
+{% tabs maze-generation %}
 
-{% tab code Python %}
+{% tab maze-generation Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab maze-generation JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

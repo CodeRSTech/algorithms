@@ -31,15 +31,15 @@ sort.
 
 ## Implementations
 
-{% tabs code %}
+{% tabs insertion-sort %}
 
-{% tab code Python %}
+{% tab insertion-sort Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab insertion-sort JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

@@ -23,15 +23,15 @@ a suffix array is just a sorted array of all the suffixes of a given string. The
 
 ## Implementations
 
-{% tabs code %}
+{% tabs suffix-array %}
 
-{% tab code Python %}
+{% tab suffix-array Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab suffix-array JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

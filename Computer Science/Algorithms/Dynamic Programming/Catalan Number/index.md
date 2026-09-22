@@ -24,15 +24,15 @@ viz_url: https://algorithm-visualizer.org/dynamic-programming/catalan-number
 
 ## Implementations
 
-{% tabs code %}
+{% tabs catalan-number %}
 
-{% tab code Python %}
+{% tab catalan-number Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab catalan-number JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

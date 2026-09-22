@@ -14,15 +14,15 @@ viz_url: https://algorithm-visualizer.org/simple-recursive/cycle-detection
 
 ## Implementations
 
-{% tabs code %}
+{% tabs cycle-detection %}
 
-{% tab code Python %}
+{% tab cycle-detection Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab cycle-detection JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

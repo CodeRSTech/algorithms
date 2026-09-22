@@ -67,15 +67,15 @@ Shell sort uses insertion sort to sort the array.
 
 ## Implementations
 
-{% tabs code %}
+{% tabs shellsort %}
 
-{% tab code Python %}
+{% tab shellsort Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab shellsort JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

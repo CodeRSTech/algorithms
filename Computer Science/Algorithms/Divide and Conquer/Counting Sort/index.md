@@ -77,15 +77,15 @@ zero.
 
 ## Implementations
 
-{% tabs code %}
+{% tabs counting-sort %}
 
-{% tab code Python %}
+{% tab counting-sort Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab counting-sort JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

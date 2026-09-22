@@ -31,15 +31,15 @@ Worst-case space complexity $O(|V|)$
 
 ## Implementations
 
-{% tabs code %}
+{% tabs bellman-fords-shortest-path %}
   
-{% tab code Python %}
+{% tab bellman-fords-shortest-path Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab bellman-fords-shortest-path JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

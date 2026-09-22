@@ -16,15 +16,15 @@ Flood fill, also called seed fill, is an algorithm that determines the area conn
 
 ## Implementations
 
-{% tabs code %}
+{% tabs flood-fill %}
 
-{% tab code Python %}
+{% tab flood-fill Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab flood-fill JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

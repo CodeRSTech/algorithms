@@ -34,15 +34,15 @@ Output:  "AGXGTXAYB"
 
 ## Implementations
 
-{% tabs code %}
+{% tabs shortest-common-supersequence %}
 
-{% tab code Python %}
+{% tab shortest-common-supersequence Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab shortest-common-supersequence JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

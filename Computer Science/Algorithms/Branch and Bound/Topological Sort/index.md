@@ -92,34 +92,21 @@ next dependency has its dependent packages to be installed in prior.
 
 ## Implementations
 
-Commented out for the time.
+{% tabs topological-sort %}
 
-[//]: # ({% tabs code %})
+{% tab topological-sort Python %}
+{% highlight python linenos %}
+{% include_relative code.py %}
+{% endhighlight %}
+{% endtab %}
 
-[//]: # ()
-[//]: # ({% tab code Python %})
+{% tab topological-sort JavaScript %}
+{% highlight javascript linenos %}
+{% include_relative code.js %}
+{% endhighlight %}
+{% endtab %}
 
-[//]: # ({% highlight python linenos %})
-
-[//]: # ({% include_relative code.py %})
-
-[//]: # ({% endhighlight %})
-
-[//]: # ({% endtab %})
-
-[//]: # ()
-[//]: # ({% tab code JavaScript %})
-
-[//]: # ({% highlight javascript linenos %})
-
-[//]: # ({% include_relative code.js %})
-
-[//]: # ({% endhighlight %})
-
-[//]: # ({% endtab %})
-
-[//]: # ()
-[//]: # ({% endtabs %})
+{% endtabs %}
 
 ## References
 

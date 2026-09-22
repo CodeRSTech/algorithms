@@ -20,15 +20,15 @@ Alternatively, a similar procedure may be used with breadth-first search in plac
 
 ## Implementations
 
-{% tabs code %}
+{% tabs bipartiteness-test %}
 
-{% tab code Python %}
+{% tab bipartiteness-test Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab bipartiteness-test JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

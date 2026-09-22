@@ -59,15 +59,15 @@ are two possibilities of minimum spanning tree of the given graph.
 
 ## Implementations
 
-{% tabs code %}
+{% tabs kruskals-minimum-spanning-tree %}
 
-{% tab code Python %}
+{% tab kruskals-minimum-spanning-tree Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab kruskals-minimum-spanning-tree JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

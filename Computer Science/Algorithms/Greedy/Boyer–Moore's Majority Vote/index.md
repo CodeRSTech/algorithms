@@ -19,15 +19,15 @@ The majority vote problem is to determine in any given sequence of choices wheth
 
 ## Implementations
 
-{% tabs code %}
+{% tabs boyermoores-majority-vote %}
 
-{% tab code Python %}
+{% tab boyermoores-majority-vote Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab boyermoores-majority-vote JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

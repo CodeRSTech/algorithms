@@ -17,15 +17,15 @@ In mathematics, economics, and computer science, the stable marriage problem (al
 
 ## Implementations
 
-{% tabs code %}
+{% tabs stable-matching %}
 
-{% tab code Python %}
+{% tab stable-matching Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab stable-matching JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

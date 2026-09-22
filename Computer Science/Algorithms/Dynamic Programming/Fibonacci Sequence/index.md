@@ -30,15 +30,15 @@ The Fibonacci spiral: an approximation of the golden spiral created by drawing c
 
 ## Implementations
 
-{% tabs code %}
+{% tabs fibonacci-sequence %}
 
-{% tab code Python %}
+{% tab fibonacci-sequence Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab fibonacci-sequence JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

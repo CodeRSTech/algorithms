@@ -79,15 +79,15 @@ and $x_i \geq 0$ for all $i = 1, 2, \ldots, n$.
 
 ## Implementations
 
-{% tabs code %}
+{% tabs knapsack-problem %}
   
-{% tab code Python %}
+{% tab knapsack-problem Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab knapsack-problem JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

@@ -36,15 +36,15 @@ rather than a linear-time search to find the maximum.
 
 ## Implementations
 
-{% tabs code %}
+{% tabs heapsort %}
 
-{% tab code Python %}
+{% tab heapsort Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab heapsort JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

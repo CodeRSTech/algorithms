@@ -67,15 +67,15 @@ The smallest square size, `21`, is the GCD of `1071` and `462`.
 
 ## Implementations
 
-{% tabs code %}
+{% tabs euclidean-greatest-common-divisor %}
 
-{% tab code Python %}
+{% tab euclidean-greatest-common-divisor Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab euclidean-greatest-common-divisor JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

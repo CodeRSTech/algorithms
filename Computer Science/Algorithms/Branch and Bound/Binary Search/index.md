@@ -33,21 +33,21 @@ next iteration.
 
 ## Implementations
 
-{% tabs code %}
+{% tabs binary-search %}
 
-{% tab code Python %}
+{% tab binary-search Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JS (Iterative) %}
+{% tab binary-search JS (Iterative) %}
 {% highlight javascript linenos %}
 {% include_relative iterative.js %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JS (Recursive) %}
+{% tab binary-search JS (Recursive) %}
 {% highlight javascript linenos %}
 {% include_relative recursive.js %}
 {% endhighlight %}

@@ -21,15 +21,15 @@ viz_url: https://algorithm-visualizer.org/backtracking/sum-of-subsets
 
 ## Implementations
 
-{% tabs code %}
+{% tabs sum-of-subsets %}
 
-{% tab code Python %}
+{% tab sum-of-subsets Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code Java %}
+{% tab sum-of-subsets Java %}
 {% highlight java linenos %}
 {% include_relative Code.java %}
 {% endhighlight %}

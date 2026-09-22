@@ -14,15 +14,15 @@ Uses a grid of cells and looks at each cell and the state (ex: on/off) of each o
 
 ## Implementations
 
-{% tabs code %}
+{% tabs cellular-automata %}
 
-{% tab code Python %}
+{% tab cellular-automata Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab cellular-automata JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

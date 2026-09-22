@@ -18,15 +18,15 @@ In recreational mathematics, a magic square is an arrangement of distinct number
 
 ## Implementations
 
-{% tabs code %}
+{% tabs magic-square %}
 
-{% tab code Python %}
+{% tab magic-square Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab magic-square JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

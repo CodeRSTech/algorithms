@@ -17,15 +17,15 @@ Finding the largest sum of three contiguous number
 
 ## Implementations
 
-{% tabs code %}
+{% tabs sliding-window %}
 
-{% tab code Python %}
+{% tab sliding-window Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab sliding-window JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

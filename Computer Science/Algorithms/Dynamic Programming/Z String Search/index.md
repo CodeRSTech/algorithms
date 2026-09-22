@@ -64,15 +64,15 @@ Z[] =  x 0 6 0 4 0 2 0
 
 ## Implementations
 
-{% tabs code %}
+{% tabs z-string-search %}
 
-{% tab code Python %}
+{% tab z-string-search Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab z-string-search JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

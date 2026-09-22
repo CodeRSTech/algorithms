@@ -21,15 +21,15 @@ The lowest common ancestor of n1 and n2 in T is the shared ancestor of n1 and n2
 
 ## Implementations
 
-{% tabs code %}
+{% tabs lowest-common-ancestor %}
 
-{% tab code Python %}
+{% tab lowest-common-ancestor Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab lowest-common-ancestor JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

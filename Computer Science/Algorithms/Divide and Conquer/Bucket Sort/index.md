@@ -16,15 +16,15 @@ where $n$ is the number of buckets and $k$ is the range of the input
 
 ## Implementations
 
-{% tabs code %}
+{% tabs bucket-sort %}
 
-{% tab code Python %}
+{% tab bucket-sort Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab bucket-sort JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

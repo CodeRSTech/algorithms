@@ -18,15 +18,15 @@ Cycle sort is an in-place, unstable sorting algorithm, a comparison sort that is
 
 ## Implementations
 
-{% tabs code %}
+{% tabs cycle-sort %}
 
-{% tab code Python %}
+{% tab cycle-sort Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab cycle-sort JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

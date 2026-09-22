@@ -57,15 +57,15 @@ are two possibilities of minimum spanning tree of the given graph.
 
 ## Implementations
 
-{% tabs code %}
+{% tabs prims-minimum-spanning-tree %}
 
-{% tab code Python %}
+{% tab prims-minimum-spanning-tree Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab prims-minimum-spanning-tree JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

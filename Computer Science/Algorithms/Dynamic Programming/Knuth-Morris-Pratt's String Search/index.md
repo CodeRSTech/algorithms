@@ -29,15 +29,15 @@ of previously matched characters.
 
 ## Implementations
 
-{% tabs code %}
+{% tabs knuth-morris-pratts-string-search %}
   
-{% tab code Python %}
+{% tab knuth-morris-pratts-string-search Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab knuth-morris-pratts-string-search JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

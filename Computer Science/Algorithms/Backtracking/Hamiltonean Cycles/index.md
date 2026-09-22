@@ -11,9 +11,9 @@ Description pending.
 
 ## Implementations
 
-{% tabs code %}
+{% tabs hamiltonean-cycles %}
 
-{% tab code Python %}
+{% tab hamiltonean-cycles Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}

@@ -18,15 +18,15 @@ Tarjan's algorithm is an algorithm in graph theory for finding the strongly conn
 
 ## Implementations
 
-{% tabs code %}
+{% tabs tarjans-strongly-connected-components %}
 
-{% tab code Python %}
+{% tab tarjans-strongly-connected-components Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab tarjans-strongly-connected-components JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

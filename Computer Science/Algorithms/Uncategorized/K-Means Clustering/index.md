@@ -23,15 +23,15 @@ partition the _n_ observations into _k(≤ n)_ sets so as to minimize the within
 
 ## Implementations
 
-{% tabs code %}
+{% tabs k-means-clustering %}
 
-{% tab code Python %}
+{% tab k-means-clustering Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab k-means-clustering JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

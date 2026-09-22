@@ -21,15 +21,15 @@ An array of jobs along with their deadline and profit (if job completes within d
 
 ## Implementations
 
-{% tabs code %}
+{% tabs job-scheduling-problem %}
 
-{% tab code Python %}
+{% tab job-scheduling-problem Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab job-scheduling-problem JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

@@ -18,15 +18,15 @@ Ugly numbers are numbers whose only prime factors are 2, 3 or 5. The sequence (1
 
 ## Implementations
 
-{% tabs code %}
+{% tabs ugly-numbers %}
 
-{% tab code Python %}
+{% tab ugly-numbers Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab ugly-numbers JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

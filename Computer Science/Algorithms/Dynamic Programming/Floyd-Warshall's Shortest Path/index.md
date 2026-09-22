@@ -104,15 +104,15 @@ In the tables below `i` is row numbers and `j` is column numbers.
 
 ## Implementations
 
-{% tabs code %}
+{% tabs floyd-warshalls-shortest-path %}
 
-{% tab code Python %}
+{% tab floyd-warshalls-shortest-path Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab floyd-warshalls-shortest-path JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

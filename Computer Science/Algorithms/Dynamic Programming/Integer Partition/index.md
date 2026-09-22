@@ -44,15 +44,15 @@ are conjugate partitions.
 
 ## Implementations
 
-{% tabs code %}
+{% tabs integer-partition %}
 
-{% tab code Python %}
+{% tab integer-partition Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab integer-partition JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}

@@ -48,9 +48,9 @@ comparison-based sorts (and worse if keys are much longer than `log n`).
 
 ## Implementations
 
-{% tabs code %}
+{% tabs radix-sort %}
 
-{% tab code Python %}
+{% tab radix-sort Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}

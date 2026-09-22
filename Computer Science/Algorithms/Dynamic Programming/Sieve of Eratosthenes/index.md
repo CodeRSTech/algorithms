@@ -42,15 +42,15 @@ The algorithm has a complexity of `O(n log(log n))`.
 
 ## Implementations
 
-{% tabs code %}
+{% tabs sieve-of-eratosthenes %}
 
-{% tab code Python %}
+{% tab sieve-of-eratosthenes Python %}
 {% highlight python linenos %}
 {% include_relative code.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab code JavaScript %}
+{% tab sieve-of-eratosthenes JavaScript %}
 {% highlight javascript linenos %}
 {% include_relative code.js %}
 {% endhighlight %}
