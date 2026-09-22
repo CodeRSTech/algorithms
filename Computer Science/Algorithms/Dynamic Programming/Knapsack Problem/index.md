@@ -35,9 +35,9 @@ Given a set of n items numbered from $1$ up to $n$, each with a
 weight $w_i$ and a value $v_i$, along with a maximum weight
 capacity $W$,
 
-maximize $\sum_{i=1}^{n} v_i x_i$
+maximize $$\sum_{i=1}^{n} v_i x_i$$
 
-subject to $\sum_{i=1}^{n} w_i x_i \leq W$
+subject to $$\sum_{i=1}^{n} w_i x_i \leq W$$
 and $x_i \in \{0, 1\}$ for all $i = 1, 2, \ldots, n$.
 
 Here $x_i$ represents the number of instances of item $i$ to
@@ -53,9 +53,9 @@ that there is only one of each item, but restricts the number
 $x_i$ of copies of each kind of item to a maximum non-negative
 integer value $c$:
 
-maximize $\sum_{i=1}^{n} v_i x_i$
+maximize $$\sum_{i=1}^{n} v_i x_i$$
 
-subject to $\sum_{i=1}^{n} w_i x_i \leq W$
+subject to $$\sum_{i=1}^{n} w_i x_i \leq W$$
 and $0 \leq x_i \leq c$ for all $i = 1, 2, \ldots, n$.
 
 ### Unbounded knapsack problem (UKP)
