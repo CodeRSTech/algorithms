@@ -63,7 +63,7 @@ The graph shown above has many valid topological sorts, including:
 
 #### Explanation: 
 
->💡 Since vertices $0$ and $3$ do not have any incoming edges from any other vertex, 
+>💡Since vertices $0$ and $3$ do not have any incoming edges from any other vertex, 
 > they appear first in the topological ordering. 
 > Next, vertex $1$ depends only on vertex $0$, 
 > so it comes after $0$. 
@@ -81,7 +81,7 @@ The jobs
 are represented by vertices, and if there is an edge $x \to y$ then
 job $x$ must be completed before job $y$ can be started 
 
-> 💡 (for example, when washing clothes, the washing machine must finish
+>💡(for example, when washing clothes, the washing machine must finish
 before we put the clothes in the dryer). Then, a topological sort
 gives an order in which to perform the jobs.
 
