@@ -40,12 +40,12 @@ optimization, efficient flag handling, and performance-critical tasks.
 
 ## Main Bitwise Operators:
 
- - **AND** `&` (`&`)
- - **OR** `|` (`|`)
- - **XOR** `^` (`^`)
- - **NOT** `~` (`~`)
- - **Left Shift** (<<)
- - **Right Shift** (>>)
+ - **AND** `&`
+ - **OR** `|`
+ - **XOR** `^`
+ - **NOT** `~`
+ - **Left Shift** `<<`
+ - **Right Shift** `>>`
 
 ## Truth Table
 
@@ -73,9 +73,10 @@ If the bits in the compared positions of the bit patterns are $1$, then the resu
 
 ## Example:
 
-Take two bit values $X$ and $Y$, where $X$ = $7$ = $(111)_2$ and $Y$ = 4 = $(100)_2$ . Take Bitwise **AND** `&` of both, i.e. $X$ `&` Y
+Let $X$ = $7$ = $(111)_2$ and $Y$ = 4 = $(100)_2$ . 
+Then Bitwise **AND** `&` of both, i.e. $X$ `&` Y will be $4$.
 
-$$
+>$$
 \begin{array}{r@{\;\;}c@{\,}c@{\,}l@{\quad}l}
    & 1 & 1 & 1_2 & \\
 \& & 1 & 0 & 0_2 & \\
