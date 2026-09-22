@@ -18,12 +18,12 @@ viz_url: https://algorithm-visualizer.org/branch-and-bound/topological-sort
 >task must be performed before another; in this application, a
 >topological ordering is just a valid sequence for the tasks.
 
-📌 For a Graph $G$:
+⚡ For a Graph $G$:
 
 - Topological sort is possible $\iff$ $G$ has
 no directed cycles $\iff$ $G$ is a [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph). 
 
-📌 Any DAG has *at least one* topological ordering.
+💎 Any DAG has *at least one* topological ordering.
 
 🚀  Algorithms are known for constructing a topological ordering of any DAG in **linear time** $\text{O}(V + E)$.
 
