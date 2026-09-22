@@ -37,30 +37,42 @@ along each branch before backtracking.
 
 ## Implementations
 
-### Python
+{% tabs python %}
 
-```python
+{% tab python Python %}
+{% highlight python linenos %}
 {% include_relative code.py %}
-```
+{% endhighlight %}
+{% endtab %}
+
+{% endtabs %}
 
 ### JavaScript
-**graph.js**
 
-```javascript
+{% tabs js %}
+
+{% tab js Graph %}
+{% highlight javascript linenos %}
 {% include_relative graph.js %}
-```
-**shortestPath.js**
+{% endhighlight %}
+{% endtab %}
 
-```javascript
+{% tab js Shortest Path %}
+{% highlight javascript linenos %}
 {% include_relative shortestPath.js %}
-```
-**tree.js**
+{% endhighlight %}
+{% endtab %}
 
-```javascript
+{% tab js Tree %}
+{% highlight javascript linenos %}
 {% include_relative tree.js %}
-```
-**weightedGraph.js**
+{% endhighlight %}
+{% endtab %}
 
-```javascript
+{% tab js Weighted Graph %}
+{% highlight javascript linenos %}
 {% include_relative weightedGraph.js %}
-```
+{% endhighlight %}
+{% endtab %}
+
+{% endtabs %}
