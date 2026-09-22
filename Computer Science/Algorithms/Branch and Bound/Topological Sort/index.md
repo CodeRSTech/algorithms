@@ -8,7 +8,7 @@ attribution_sources:
 viz_url: https://algorithm-visualizer.org/branch-and-bound/topological-sort
 ---
 
-In computer science, a `topological sort` or
+A `topological sort` or
 `topological ordering` of a Directed Acyclic Graph (DAG) is a linear ordering
 of its vertices such that, 
 for every directed edge $u \to v$ from
@@ -25,7 +25,9 @@ no directed cycles, that is, if it is a [directed acyclic graph](https://en.wiki
 (DAG). Any DAG has at least one topological ordering, and algorithms are
 known for constructing a topological ordering of any DAG in linear time.
 
-![Directed Acyclic Graph](https://upload.wikimedia.org/wikipedia/commons/c/c6/Topological_Ordering.svg){: .invert-svg }
+![Directed Acyclic Graph](https://upload.wikimedia.org/wikipedia/commons/c/c6/Topological_Ordering.svg){: .invert-img }
+*Figure 1: A Directed Acyclic Graph showing a valid topological ordering.*
+{: .image-caption }
 
 A topological ordering of a directed acyclic graph: every edge goes from
 earlier in the ordering (upper left) to later in the ordering (lower right).
@@ -35,7 +37,7 @@ A directed graph is acyclic if and only if it has a topological ordering.
 
 ### Example 1
 
-![Topologic Sorting](https://upload.wikimedia.org/wikipedia/commons/0/03/Directed_acyclic_graph_2.svg){: .invert-svg }
+![Topologic Sorting](https://upload.wikimedia.org/wikipedia/commons/0/03/Directed_acyclic_graph_2.svg){: .invert-img }
 
 The graph shown above has many valid topological sorts, including:
 
@@ -52,7 +54,10 @@ The graph shown above has many valid topological sorts, including:
 
 `adj[][] = [[1], [2], [], [2, 4], []]`
 
-![img.png](img.png){: .invert-svg }
+![img.png](img.png){: .invert-img }
+*Image credits: GeeksForGeeks.org*
+{: .image-caption }
+
 
 #### Output: 
 
@@ -78,8 +83,7 @@ The jobs
 are represented by vertices, and if there is an edge $x \to y$ then
 job $x$ must be completed before job $y$ can be started 
 
-> (for
-example, when washing clothes, the washing machine must finish
+> (for example, when washing clothes, the washing machine must finish
 before we put the clothes in the dryer). Then, a topological sort
 gives an order in which to perform the jobs.
 

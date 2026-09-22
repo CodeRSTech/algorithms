@@ -51,10 +51,10 @@ optimization, efficient flag handling, and performance-critical tasks.
 
 | `X` | `Y` | AND<br>`X & Y` | OR<br>`X \| Y` | XOR<br>`X ^ Y` | NOT<br> `~ X` |
 |-----|-----|----------------|----------------|----------------|---------------|
-| 0   | 0   | 0              | 0              | 0              | 1             |
-| 0   | 1   | 0              | 1              | 1              | 1             |
-| 1   | 0   | 0              | 1              | 1              | 0             |
-| 1   | 1   | 1              | 1              | 0              | 0             |
+| $0$   | $0$   | $0$              | $0$              | $0$              | $1$             |
+| $0$   | $1$   | $0$              | $1$              | $1$              | $1$             |
+| $1$   | $0$   | $0$              | $1$              | $1$              | $0$             |
+| $1$   | $1$   | $1$              | $1$              | $0$              | $0$             |
 
 ## Bitwise **AND** `&` Operator
 
@@ -66,10 +66,10 @@ If the bits in the compared positions of the bit patterns are $1$, then the resu
 
 | `X` | `Y` | AND<br>`X & Y` |
 |-----|-----|----------------|
-| 0   | 0   | 0              |
-| 0   | 1   | 0              |
-| 1   | 0   | 0              |
-| 1   | 1   | 1              |
+| $0$   | $0$   | $0$              |
+| $0$   | $1$   | $0$              |
+| $1$   | $0$   | $0$              |
+| $1$   | $1$   | $1$              |
 
 ## Example:
 
@@ -78,10 +78,10 @@ Then Bitwise **AND** `&` of both, i.e. $X$ `&` Y will be $4$.
 
 >$$
 \begin{array}{r@{\;\;}c@{\,}c@{\,}l@{\quad}l}
-   & 1 & 1 & 1_2 & \\
-\& & 1 & 0 & 0_2 & \\
+   & $1$ & $1$ & 1_2 & \\
+\& & $1$ & $0$ & 0_2 & \\
 \hline
-   & 1 & 0 & 0_2 & = 4
+   & $1$ & $0$ & 0_2 & = 4
 \end{array}
 $$
 
@@ -93,10 +93,10 @@ Here is the truth table for the bitwise AND operator (& or \land), demonstrating
 
 | Input <br><small>`A`</small> | Input <br><small>`B`</small> | Output <br><small>`A & B`</small> | Description       |
 |----------------------------|----------------------------|---------------------------------|-------------------|
-| 0                          | 0                          | $0 \land 0 = 0$                 | Both bits are 0   |
-| 0                          | 1                          | $0 \land 1 = 0$                 | Only one bit is 1 |
-| 1                          | 0                          | $1 \land 0 = 0$                 | Only one bit is 1 |
-| 1                          | 1                          | $1 \land 1 = 1$                 | Both bits are 1   |
+| $0$                          | $0$                          | $0 \land $0$ = 0$                 | Both bits are $0$   |
+| $0$                          | $1$                          | $0 \land $1$ = 0$                 | Only one bit is $1$ |
+| $1$                          | $0$                          | $1 \land $0$ = 0$                 | Only one bit is $1$ |
+| $1$                          | $1$                          | $1 \land $1$ = 1$                 | Both bits are $1$   |
 
 Example:
 
@@ -106,16 +106,16 @@ Example:
 
 >    Explanation: On the basis of truth table of bitwise **OR** `|` operator we can conclude that the result of 
 
->    1 | 1  = 1
->    1 | 0 = 1
->    0 | 1 = 1
->    0 | 0 = 0
+>    $1$ | $1$  = 1
+>    $1$ | $0$ = 1
+>    $0$ | $1$ = 1
+>    $0$ | $0$ = 0
 
 >    We used the similar concept of bitwise operator that are show in the image.
 
 ## Bitwise **XOR** `^` Operator
 
-The ^ operator (also known as the **XOR** `^` operator) stands for Exclusive Or. Here, if bits in the compared position do **NOT** `~` match their resulting bit is 1. i.e, The result of the bitwise **XOR** `^` operator is 1 if the corresponding bits of two operands are opposite, otherwise 0.
+The ^ operator (also known as the **XOR** `^` operator) stands for Exclusive Or. Here, if bits in the compared position do **NOT** `~` match their resulting bit is 1. i.e, The result of the bitwise **XOR** `^` operator is $1$ if the corresponding bits of two operands are opposite, otherwise 0.
 truth_table_of_bitwise_xor_operator
 
 Example:
@@ -126,10 +126,10 @@ Example:
 >
 >    Explanation: On the basis of truth table of bitwise **XOR** `^` operator we can conclude that the result of 
 >
->    1 ^ 1  = 0
->    1 ^ 0 = 1
->    0 ^ 1 = 1
->    0 ^ 0 = 0
+>    $1$ ^ $1$  = 0
+>    $1$ ^ $0$ = 1
+>    $0$ ^ $1$ = 1
+>    $0$ ^ $0$ = 0
 >
 >    We used the similar concept of bitwise operator that are show in the image.
 
@@ -139,14 +139,14 @@ All the above three bitwise operators are binary operators (i.e, requiring two o
 truth_table_of_bitwise_not_operator
 
 >    The bitwise **NOT** `~` Operator takes a single value and  returns its one’s complement.
->    The one’s complement of a binary number is obtained by toggling all bits in it, i.e, transforming the 0 bit to 1 and  the 1 bit to 0.
+>    The one’s complement of a binary number is obtained by toggling all bits in it, i.e, transforming the $0$ bit to $1$ and  the $1$ bit to 0.
 
 Example: 
 
 >    Take a 4-bit value X, where $X$ = 9 = $(1001)₂. Take the Bitwise **NOT** `~` of X.
 >     -missing-image- 
 
->    Explanation: The bitwise **NOT** `~` operator (~) flips every individual bit in the binary representation of a number. Based on the truth table, every 1 becomes a 0, and  every 0 becomes a 1.
+>    Explanation: The bitwise **NOT** `~` operator (~) flips every individual bit in the binary representation of a number. Based on the truth table, every $1$ becomes a 0, and  every $0$ becomes a 1.
 
 >    The resulting binary string is 0110₂, which is equal to the decimal number 6.
 
@@ -156,54 +156,58 @@ Example:
 
 The **Left Shift** operator is denoted by the double left arrow key (<<). The general syntax for **Left Shift** is shift-expression `<<` k. The left-shift operator causes the bits in shift expression to be shifted to the left by the number of positions specified by k. The bit positions that the shift operation has vacated are zero-filled.
 
->    Note: Every time we shift a number towards the left by 1 bit it multiply that number by 2.
+>    Note: Every time we shift a number towards the left by $1$ bit it multiply that number by 2.
 
 logical_left_shift_image
 
 Example:
 
 >    Input: **Left Shift** of 5 by 1.
->    Binary representation of 5 = 00101 and  **Left Shift** of 001012 by 1 (i.e, 00101 `<<` 1)
+>    Binary representation of 5 = 00101 and  **Left Shift** of 001012 by $1$ (i.e, 00101 `<<` 1)
 >     
 >     -missing-image- 
 >    **Left Shift** of 5 by 1
 >
 >    Output: 10
->    Explanation: All bit of 5 will be shifted by 1 to left side and  this result in 010102, Which is equivalent to 10
+>    Explanation: All bit of 5 will be shifted by $1$ to left side and  this result in 010102, Which is equivalent to 10
 
 >    Input: **Left Shift** of 5 by 2.
->    Binary representation of 5 = 00101 and  **Left Shift** of 001012 by 1 (i.e, 00101 `<<` 2)
+>    Binary representation of 5 = 00101 and  **Left Shift** of 001012 by $1$ (i.e, 00101 `<<` 2)
 >     -missing-image- 
 >    **Left Shift** of 5 by 2
 >
 >    Output: 20
->    Explanation: All bit of 5 will be shifted by 1 to left side and  this result in 101002, Which is equivalent to 20
+>    Explanation: All bit of 5 will be shifted by $1$ to left side and  this result in 101002, Which is equivalent to 20
 
 >    Input: **Left Shift** of 5 by 3.
->    Binary representation of 5 = 00101 and  **Left Shift** of 001012 by 1 (i.e, 00101 `<<` 3)
+>    Binary representation of 5 = 00101 and  **Left Shift** of 001012 by $1$ (i.e, 00101 `<<` 3)
 >     -missing-image- 
 >    **Left Shift** of 5 by 3
 > 
 >    Output: 40
->    Explanation: All bit of 5 will be shifted by 1 to left side and  this result in 010002, Which is equivalent to 40
+>    Explanation: All bit of 5 will be shifted by $1$ to left side and  this result in 010002, Which is equivalent to 40
 
 ## **Right Shift** (`>>`)
 
-The **Right Shift** operator is denoted by the double right arrow key (`>>`). The general syntax for the **Right Shift** is "shift-expression `>>` k". The right-shift operator causes the bits in shift expression to be shifted to the right by the number of positions specified by k. For unsigned numbers, the bit positions that the shift operation has vacated are zero-filled. For signed numbers, the sign bit is used to fill the vacated bit positions. In other words, if the number is positive, 0 is used, and  if the number is negative, 1 is used.
+The general syntax for the **Right Shift** is `>> k`
+The `>>` operator causes the bits in shift expression to be shifted to the right by the number of positions specified by $k$. 
+For unsigned numbers, the bit positions that the shift operation has vacated are zero-filled. 
+For signed numbers, the sign bit is used to fill the vacated bit positions. 
+In other words, if the number is positive, $0$ is used, and  if the number is negative, $1$ is used.
 
->    Note: Every time we shift a number towards the right by 1 bit it divides that number by 2.
+>    Note: Every time we shift a number towards the right by $1$ bit it divides that number by 2.
 
 logical_right_shift
 
 Example:
 
 >    Input: **Right Shift** of 5 by 1.
->    Binary representation of 5 = 00101 and  **Right Shift** of 00101 by 1 (i.e, 00101 `>>` 1)
+>    Binary representation of 5 = 00101 and  **Right Shift** of 00101 by $1$ (i.e, 00101 `>>` 1)
 >     -missing-image- 
 >    **Right Shift** of 5 by 1
 
 >    Output: 2
->    Explanation: All bit of 5 will be shifted by 1 to Rightside and  this result in 00010Which is equivalent to 2
+>    Explanation: All bit of 5 will be shifted by $1$ to Rightside and  this result in 00010Which is equivalent to 2
 
 >    Input: **Right Shift** of 5 by 2.
 >    Binary representation of 5 = 00101 and  **Right Shift** of 00101 by 2 (i.e, 00101 `>>` 2)
@@ -239,7 +243,7 @@ Solve these questions to improve your understanding of bitwise operators and  bi
 
 If we want to set a bit at $n^{th}$ position in the number 'num', it can be done using the 'OR' operator( | ).
 
->    First, we **Left Shift** 1 to $n$ position via (1<<n).
+>    First, we **Left Shift** $1$ to $n$ position via (1<<n).
 >    Then, use the "OR" operator to set the bit at that position. "OR" operator is used because it will set the bit even if the bit is unset previously in the binary representation of the number 'num'.
 
 >    Note: If the bit would be already set then it would remain unchanged.
@@ -266,7 +270,7 @@ If two bits are different then the 'XOR' operator returns a set bit(1) else it r
 
 ### 4. Checking if the bit at $n^{th}$ position is Set or Unset
 
-We used the **Left Shift** (<<) operation on 1 to shift the bits to $n^{th}$ position and  then use the `&` operation with number given number, and  check if it is not-equals to 0.
+We used the **Left Shift** (<<) operation on $1$ to shift the bits to $n^{th}$ position and  then use the `&` operation with number given number, and  check if it is not-equals to 0.
 
 ### Multiply a number by 2 using the **Left Shift** operator
 
@@ -276,9 +280,9 @@ You can multiply a number by 2 by using the **Left Shift** operator (<< 1), whic
 
 You can divide a number by 2 using the **Right Shift** operator (>> 1), which shifts all bits one position to the right.
 
-### 7. Compute **XOR** `^` from 1 to $n$ (direct method)
+### 7. Compute **XOR** `^` from $1$ to $n$ (direct method)
 
-The problem Compute **XOR** `^` from 1 to $n$ can be solved based on the following observations: n%4==0->n, 1->1, 2->n+1, 3-0.
+The problem Compute **XOR** `^` from $1$ to $n$ can be solved based on the following observations: n%4==0->n, 1->1, 2->n+1, 3-0.
 
 Say $X$ = $n$ % 4. The **XOR** `^` value depends on the value if x.
 
