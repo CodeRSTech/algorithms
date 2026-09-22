@@ -9,18 +9,16 @@ viz_url: https://algorithm-visualizer.org/branch-and-bound/topological-sort
 ---
 
 A `topological sort` or
-`topological ordering` of a Directed Acyclic Graph (DAG) is a linear ordering
-of its vertices such that, 
-for every directed edge $u \to v$, 
-$u$ comes before $v$ in the ordering.
+`topological ordering` of a **DAG** is a linear ordering of vertices such that:
+- for every directed edge $u \to v$, $u$ comes before $v$ in it.
 
 >For instance, the *vertices* of the graph may represent tasks to
-be performed, and the *edges* may represent constraints that one
-task must be performed before another; in this application, a
-topological ordering is just a valid sequence for the tasks.
+>be performed, and the *edges* may represent constraints that one
+>task must be performed before another; in this application, a
+>topological ordering is just a valid sequence for the tasks.
 
-Topological ordering is possible $\iff$ The graph has
-no directed cycles $\iff$  [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph). 
+Topological sort is possible $\iff$ The graph has
+no directed cycles $\iff$ Graph is [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph). 
 
 Any DAG has at least one topological ordering, and algorithms are
 known for constructing a topological ordering of any DAG in linear time.
