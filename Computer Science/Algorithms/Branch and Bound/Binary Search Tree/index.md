@@ -9,7 +9,7 @@ viz_url: https://algorithm-visualizer.org/branch-and-bound/binary-search-tree
 
 In computer science, **binary search trees** (BST), sometimes called
 ordered or sorted binary trees, are a particular type of container:
-data structures that store "items" (such as numbers, names etc.)
+data structures that store "*items*" (such as numbers, names etc.)
 in memory. They allow fast lookup, addition and removal of
 items, and can be used to implement either dynamic sets of
 items, or lookup tables that allow finding an item by its key
@@ -302,15 +302,15 @@ $O(n)$
 
 ### Search
 
-{% tabs search %}
+{% tabs bst-search %}
 
-{% tab search Python %}
+{% tab bst-search Python %}
 {% highlight search linenos %}
 {% include_relative insertion.py %}
 {% endhighlight %}
 {% endtab %}
 
-{% tab search JavaScript %}
+{% tab bst-search JavaScript %}
 {% highlight search linenos %}
 {% include_relative insertion.js %}
 {% endhighlight %}
