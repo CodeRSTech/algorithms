@@ -44,7 +44,7 @@ After this step, the array should look like this
 
 ![Shellsort](https://www.tutorialspoint.com/data_structures_algorithms/images/shell_sort_step_2.jpg)
 
-> 💡 UPD: On the picture below there is a typo and result array is supposed to be `[14, 10, 27, 19, 35, 33, 42, 44]`.
+> UPD: On the picture below there is a typo and result array is supposed to be `[14, 10, 27, 19, 35, 33, 42, 44]`.
 
 Finally, we sort the rest of the array using interval of value 1.
 Shell sort uses insertion sort to sort the array.

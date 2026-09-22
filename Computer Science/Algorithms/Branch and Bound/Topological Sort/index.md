@@ -13,7 +13,7 @@ viz_url: https://algorithm-visualizer.org/branch-and-bound/topological-sort
 
 - for every directed edge $u \to v$, $u$ comes before $v$ in it.
 
->💡 For instance, the *vertices* of the graph may represent tasks to
+>For instance, the *vertices* of the graph may represent tasks to
 >be performed, and the *edges* may represent constraints that one
 >task must be performed before another; in this application, a
 >topological ordering is just a valid sequence for the tasks.
@@ -63,7 +63,7 @@ The graph shown above has many valid topological sorts, including:
 
 #### Explanation: 
 
->💡Since vertices $0$ and $3$ do not have any incoming edges from any other vertex, 
+>Since vertices $0$ and $3$ do not have any incoming edges from any other vertex, 
 > they appear first in the topological ordering. 
 > Next, vertex $1$ depends only on vertex $0$, 
 > so it comes after $0$. 
@@ -81,7 +81,7 @@ The jobs
 are represented by vertices, and if there is an edge $x \to y$ then
 job $x$ must be completed before job $y$ can be started 
 
->💡(for example, when washing clothes, the washing machine must finish
+>(for example, when washing clothes, the washing machine must finish
 before we put the clothes in the dryer). Then, a topological sort
 gives an order in which to perform the jobs.
 

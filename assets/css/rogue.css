@@ -12,3 +12,10 @@ code.language-plaintext {
     margin-top:0.05em;
     margin-bottom: 0.05em;
 }
+
+/* TODO: not related to rogue, consider relocating */
+blockquote > p:first-child::before {
+  content: "💡 ";
+  font-style: normal; /* Keeps the emoji upright even if the blockquote text is italicized */
+  margin-right: 0.5rem; /* Adds a clean space after the emoji */
+}
