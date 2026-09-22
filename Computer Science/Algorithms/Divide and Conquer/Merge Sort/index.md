@@ -30,33 +30,42 @@ emulate merge sort (top-down).
 
 ## Complexity
 
-| Name                  | Best            | Average             | Worst               | Memory    | Stable    | Comments  |
-| --------------------- | :-------------: | :-----------------: | :-----------------: | :-------: | :-------: | :-------- |
-| **Merge sort**        | n&nbsp;log(n)   | n&nbsp;log(n)       | n&nbsp;log(n)       | n         | Yes       |           |
+| Name           |    Best    |  Average   |   Worst    | Memory | Stable | Comments |
+|----------------|:----------:|:----------:|:----------:|:------:|:------:|:---------|
+| **Merge sort** | $n log(n)$ | $n log(n)$ | $n log(n)$ |  $n$   |  Yes   |          |
+
+
+## Implementations
+
+{% tabs code %}
+
+{% tab code Python %}
+{% highlight python linenos %}
+{% include_relative code.py %}
+{% endhighlight %}
+{% endtab %}
+
+{% endtabs %}
+
+### JavaScript
+{% tabs js %}
+
+{% tab js bottomUp %}
+{% highlight javascript linenos %}
+{% include_relative bottomUp.js %}
+{% endhighlight %}
+{% endtab %}
+
+{% tab js topDown %}
+{% highlight javascript linenos %}
+{% include_relative topDown.js %}
+{% endhighlight %}
+{% endtab %}
+
+{% endtabs %}
 
 ## References
 
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/sorting/merge-sort)
 - [Wikipedia](https://en.wikipedia.org/wiki/Merge_sort)
 - [YouTube](https://www.youtube.com/watch?v=KF2j-9iSf4Q&index=27&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
-
-
-## Implementations
-
-### Python
-
-```python
-{% include_relative code.py %}
-```
-
-### JavaScript
-**bottomUp.js**
-
-```javascript
-{% include_relative bottomUp.js %}
-```
-**topDown.js**
-
-```javascript
-{% include_relative topDown.js %}
-```
