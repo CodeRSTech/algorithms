@@ -179,34 +179,36 @@ The **Left Shift** operator is denoted by the double left arrow key (<<). The ge
 
 **Note**: Every time we shift a number towards the left by $1$ bit it multiply that number by $2$.
 
-logical_left_shift_image
+![img.png](logical_left_shift.png){: .invert-img }
+*Image credits: GeeksforGeeks.org{: .image-caption }
 
 Example:
 
->    Input: **Left Shift** of 5 by 1.
->    Binary representation of 5 = 00101 and  **Left Shift** of 001012 by $1$ (i.e, 00101 `<<` 1)
->     
->     -missing-image- 
->    **Left Shift** of 5 by 1
->
->    Output: 10
->    Explanation: All bit of 5 will be shifted by $1$ to left side and  this result in 010102, Which is equivalent to 10
+Input: **Left Shift** of 5 by 1.
+Binary representation of 5 = 00101 and  **Left Shift** of 001012 by $1$ (i.e, 00101 `<<` 1)
+ 
+ -missing-image- 
 
->    Input: **Left Shift** of 5 by 2.
->    Binary representation of 5 = 00101 and  **Left Shift** of 001012 by $1$ (i.e, 00101 `<<` 2)
->     -missing-image- 
->    **Left Shift** of 5 by 2
->
->    Output: 20
->    Explanation: All bit of 5 will be shifted by $1$ to left side and  this result in 101002, Which is equivalent to 20
+**Left Shift** of 5 by 1
 
->    Input: **Left Shift** of 5 by 3.
->    Binary representation of 5 = 00101 and  **Left Shift** of 001012 by $1$ (i.e, 00101 `<<` 3)
->     -missing-image- 
->    **Left Shift** of 5 by 3
-> 
->    Output: 40
->    Explanation: All bit of 5 will be shifted by $1$ to left side and  this result in 010002, Which is equivalent to 40
+Output: 10
+>Explanation: Bits of 5 will be shifted by $1$ to left, resulting in $01010_2$ $\equiv$ $10$
+
+Input: **Left Shift** of 5 by 2.
+Binary representation of 5 = 00101 and  **Left Shift** of 001012 by $1$ (i.e, 00101 `<<` 2)
+ -missing-image- 
+**Left Shift** of 5 by 2
+
+Output: 20
+>Explanation: Bits of 5 will be shifted by $1$ to left, resulting in $10100_2$ $\equiv$ $20$
+
+Input: **Left Shift** of 5 by 3.
+Binary representation of 5 = 00101 and  **Left Shift** of 001012 by $1$ (i.e, 00101 `<<` 3)
+ -missing-image- 
+**Left Shift** of 5 by 3
+
+Output: 40
+>Explanation: All bit of 5 will be shifted by $1$ to left side and  this result in 010002, Which is equivalent to 40
 
 ## **Right Shift** (`>>`)
 
