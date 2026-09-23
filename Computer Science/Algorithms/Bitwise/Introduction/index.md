@@ -180,7 +180,7 @@ The **Left Shift** operator is denoted by the double left arrow key (<<). The ge
 **Note**: Every time we shift a number towards the left by $1$ bit it multiply that number by $2$.
 
 ![img.png](logical_left_shift.png){: .invert-img }
-*Image credits: GeeksforGeeks.org{: .image-caption }
+*Image credits: GeeksforGeeks.org*{: .image-caption }
 
 Example:
 
