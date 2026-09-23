@@ -156,8 +156,6 @@ $$
 | $0$ | $1$         |
 | $1$ | $0$         |
 
-The one’s complement of a binary number is obtained by toggling all bits in it, i.e, transforming the $0$ bit to $1$ and  the $1$ bit to 0.
-
 ### Example: 
 
 Let $X$ = 9 = $(1001)_2$ , where $X$ is a *4-bit* value.
@@ -165,16 +163,21 @@ Let $X$ = 9 = $(1001)_2$ , where $X$ is a *4-bit* value.
 Take the Bitwise **NOT** `~` of X.
 -missing-image- 
 
->    Explanation: The bitwise **NOT** `~` operator (~) flips every individual bit in the binary representation of a number. Based on the truth table, every $1$ becomes a 0, and  every $0$ becomes a 1.
->    The resulting binary string is 0110₂, which is equal to the decimal number 6.
+>  Explanation: The bitwise **NOT** `~` operator  flips every bit in the number. $1$ becomes $0$, and vice-versa.
 
-Note: The output of `~` changes depending on how many bits your system uses. In a *4-bit* system, `~`$9$ ($1001_2$) becomes $0110_2$ ($6$). But in an *8-bit* system, 9 is stored with leading zeros as 0000 1001. Flipping it yields 1111 0110, giving a completely different decimal result.
+#### Note: 
+
+The output of `~` depends on how many bits a system uses. 
+
+In a *4-bit* system, `~` $1001_2$ ($9$) becomes $0110_2$ ($6$). 
+
+In an *8-bit* system, $9$ is stored with leading zeros as $0000 1001_2$. Flipping it yields $1111 0110$, which is completely different ($246$).
 
 ## **Left Shift** (`<<`)
 
 The **Left Shift** operator is denoted by the double left arrow key (<<). The general syntax for **Left Shift** is shift-expression `<<` k. The left-shift operator causes the bits in shift expression to be shifted to the left by the number of positions specified by k. The bit positions that the shift operation has vacated are zero-filled.
 
->    Note: Every time we shift a number towards the left by $1$ bit it multiply that number by 2.
+**Note**: Every time we shift a number towards the left by $1$ bit it multiply that number by $2$.
 
 logical_left_shift_image
 
