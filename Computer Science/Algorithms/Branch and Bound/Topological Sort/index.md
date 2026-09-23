@@ -9,7 +9,7 @@ viz_url: https://algorithm-visualizer.org/branch-and-bound/topological-sort
 ---
 
 📌 A `topological sort` or
-`topological ordering` of a **DAG** is a linear ordering of vertices such that:
+`topological ordering` of a [**DAG**](# "Directed Acyclic Graph") is a linear ordering of vertices such that:
 
 - for every directed edge $u \to v$, $u$ comes before $v$ in it.
 

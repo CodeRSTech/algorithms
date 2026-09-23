@@ -51,10 +51,10 @@ optimization, efficient flag handling, and performance-critical tasks.
 
 | `X` | `Y` | AND<br>`X & Y` | OR<br>`X \| Y` | XOR<br>`X ^ Y` | NOT<br> `~ X` |
 |-----|-----|----------------|----------------|----------------|---------------|
-| $0$   | $0$   | $0$              | $0$              | $0$              | $1$             |
-| $0$   | $1$   | $0$              | $1$              | $1$              | $1$             |
-| $1$   | $0$   | $0$              | $1$              | $1$              | $0$             |
-| $1$   | $1$   | $1$              | $1$              | $0$              | $0$             |
+| $0$ | $0$ | $0$            | $0$            | $0$            | $1$           |
+| $0$ | $1$ | $0$            | $1$            | $1$            | $1$           |
+| $1$ | $0$ | $0$            | $1$            | $1$            | $0$           |
+| $1$ | $1$ | $1$            | $1$            | $0$            | $0$           |
 
 ## Bitwise **AND** `&` Operator
 
@@ -66,10 +66,10 @@ If the bits in the compared positions of the bit patterns are $1$, then the resu
 
 | `X` | `Y` | AND<br>`X & Y` |
 |-----|-----|----------------|
-| $0$   | $0$   | $0$              |
-| $0$   | $1$   | $0$              |
-| $1$   | $0$   | $0$              |
-| $1$   | $1$   | $1$              |
+| $0$ | $0$ | $0$            |
+| $0$ | $1$ | $0$            |
+| $1$ | $0$ | $0$            |
+| $1$ | $1$ | $1$            |
 
 ## Example:
 
@@ -100,8 +100,9 @@ Here is the truth table for the bitwise AND operator (& or \land), demonstrating
 
 Example:
 
-Take two bit values $X$ and Y, where $X$ = 7= $(1111)_2$ and  $Y$ = 4 = $(100)_2$ . Take Bitwise **OR** `|` of both X, y
- $$
+Take two bit values $X$ and Y, where $X$ = 7= $(1111)_2$ and  $Y$ = 4 = $(100)_2$ . 
+Take Bitwise **OR** `|` of both $X$, $Y$
+$$
 \begin{array}{r@{\;\;}c@{\,}c@{\,}l@{\quad}l}
    & 1 & 1 & 1_2 & \\
  | & 1 & 0 & 0_2 & \\
@@ -127,39 +128,37 @@ $0$ | $0$ = 0
 The ^ operator (also known as the **XOR** `^` operator) stands for Exclusive Or. Here, if bits in the compared position do **NOT** `~` match their resulting bit is 1. i.e, The result of the bitwise **XOR** `^` operator is $1$ if the corresponding bits of two operands are opposite, otherwise 0.
 truth_table_of_bitwise_xor_operator
 
-Example:
+### Example:
 
->    Take two bit values $X$ and  Y, where $X$ = 7= $(1111)_2$ and  $Y$ = 4 = $(100)_2$ . Take Bitwise AND of both $X$ & $Y$
->    -missing-image- 
->    Bitwise **OR** `|` of (7 ^ 4)
->
+Take two bit values $X$ and  Y, where $X$ = 7= $(1111)_2$ and  $Y$ = 4 = $(100)_2$ . Take Bitwise AND of both $X$ & $Y$
+-missing-image- 
+
 >    Explanation: On the basis of truth table of bitwise **XOR** `^` operator we can conclude that the result of 
 >
 >    $1$ ^ $1$  = 0
 >    $1$ ^ $0$ = 1
 >    $0$ ^ $1$ = 1
 >    $0$ ^ $0$ = 0
->
->    We used the similar concept of bitwise operator that are show in the image.
+
+We used the similar concept of bitwise operator that are show in the image.
 
 ## Bitwise **NOT** `~` Operator
 
 All the above three bitwise operators are binary operators (i.e, requiring two operands in order to operate). Unlike other bitwise operators, this one requires only one operand to operate.
 truth_table_of_bitwise_not_operator
 
->    The bitwise **NOT** `~` Operator takes a single value and  returns its one’s complement.
->    The one’s complement of a binary number is obtained by toggling all bits in it, i.e, transforming the $0$ bit to $1$ and  the $1$ bit to 0.
+The bitwise **NOT** `~` Operator takes a single value and  returns its one’s complement.
+The one’s complement of a binary number is obtained by toggling all bits in it, i.e, transforming the $0$ bit to $1$ and  the $1$ bit to 0.
 
-Example: 
+### Example: 
 
->    Take a 4-bit value X, where $X$ = 9 = $(1001)₂. Take the Bitwise **NOT** `~` of X.
->     -missing-image- 
+Take a 4-bit value X, where $X$ = 9 = $(1001)₂. Take the Bitwise **NOT** `~` of X.
+-missing-image- 
 
 >    Explanation: The bitwise **NOT** `~` operator (~) flips every individual bit in the binary representation of a number. Based on the truth table, every $1$ becomes a 0, and  every $0$ becomes a 1.
-
 >    The resulting binary string is 0110₂, which is equal to the decimal number 6.
 
->    Note: The output of ~ changes depending on how many bits your system uses. In a 4-bit system, ~9 (1001) becomes 0110 (6). But in an 8-bit system, 9 is stored with leading zeros as 0000 1001. Flipping it yields 1111 0110, giving a completely different decimal result.
+Note: The output of `~` changes depending on how many bits your system uses. In a *4-bit* system, `~`$9$ ($1001_2$) becomes $0110_2$ ($6$). But in an *8-bit* system, 9 is stored with leading zeros as 0000 1001. Flipping it yields 1111 0110, giving a completely different decimal result.
 
 ## **Left Shift** (`<<`)
 
