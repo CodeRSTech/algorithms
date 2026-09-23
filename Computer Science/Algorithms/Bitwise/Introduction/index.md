@@ -184,31 +184,31 @@ The **Left Shift** operator is denoted by the double left arrow key (<<). The ge
 
 Example:
 
-Input: **Left Shift** of 5 by 1.
-Binary representation of 5 = 00101 and  **Left Shift** of 001012 by $1$ (i.e, 00101 `<<` 1)
+Input: **Left Shift** of $5$ by $1$.
+
+Binary representation of $5$ = $00101_2$ and 
+**Left Shift** of $00101_2 by $1$ (i.e, $00101$ `<<` 1)
  
  -missing-image- 
-
-**Left Shift** of 5 by 1
 
 Output: 10
 >Explanation: Bits of 5 will be shifted by $1$ to left, resulting in $01010_2$ $\equiv$ $10$
 
 Input: **Left Shift** of 5 by 2.
+
 Binary representation of 5 = 00101 and  **Left Shift** of 001012 by $1$ (i.e, 00101 `<<` 2)
  -missing-image- 
-**Left Shift** of 5 by 2
 
 Output: 20
 >Explanation: Bits of 5 will be shifted by $1$ to left, resulting in $10100_2$ $\equiv$ $20$
 
 Input: **Left Shift** of 5 by 3.
+
 Binary representation of 5 = 00101 and  **Left Shift** of 001012 by $1$ (i.e, 00101 `<<` 3)
  -missing-image- 
-**Left Shift** of 5 by 3
 
 Output: 40
->Explanation: All bit of 5 will be shifted by $1$ to left side and  this result in 010002, Which is equivalent to 40
+>Explanation: All bit of 5 will be shifted by $1$ to left side and  this result in $01000_2$ $\equiv$ $40$
 
 ## **Right Shift** (`>>`)
 
@@ -218,65 +218,65 @@ For unsigned numbers, the bit positions that the shift operation has vacated are
 For signed numbers, the sign bit is used to fill the vacated bit positions. 
 In other words, if the number is positive, $0$ is used, and  if the number is negative, $1$ is used.
 
->    Note: Every time we shift a number towards the right by $1$ bit it divides that number by 2.
+>    Note: Every time we shift a number towards the right by $1$ bit it divides that number by $2$.
 
 logical_right_shift
 
 Example:
 
->    Input: **Right Shift** of 5 by 1.
->    Binary representation of 5 = 00101 and  **Right Shift** of 00101 by $1$ (i.e, 00101 `>>` 1)
->     -missing-image- 
->    **Right Shift** of 5 by 1
+Input: **Right Shift** of 5 by 1.
+Binary representation of 5 = 00101 and  **Right Shift** of 00101 by $1$ (i.e, 00101 `>>` 1)
+ -missing-image- 
+**Right Shift** of 5 by 1
 
->    Output: 2
->    Explanation: All bit of 5 will be shifted by $1$ to Rightside and  this result in 00010Which is equivalent to 2
+Output: 2
+Explanation: All bit of 5 will be shifted by $1$ to Rightside and  this result in 00010Which is equivalent to 2
 
->    Input: **Right Shift** of 5 by 2.
->    Binary representation of 5 = 00101 and  **Right Shift** of 00101 by 2 (i.e, 00101 `>>` 2)
->     -missing-image- 
->    **Right Shift** of 5 by 2
+Input: **Right Shift** of 5 by 2.
+Binary representation of 5 = 00101 and  **Right Shift** of 00101 by 2 (i.e, 00101 `>>` 2)
+ -missing-image- 
+**Right Shift** of 5 by 2
 
->    Output: 1
->    Explanation: All bit of 5 will be shifted by 2 to Right side and  this result in 00001, Which is equivalent to 1
+Output: 1
+Explanation: All bit of 5 will be shifted by 2 to Right side and  this result in 00001, Which is equivalent to 1
 
->    Input: **Right Shift** of 5 by 3.
->    Binary representation of 5 = 00101 and  **Right Shift** of 00101 by 3 (i.e, 00101 `>>` 3)
->     -missing-image- 
->    **Right Shift** of 5 by 3
+Input: **Right Shift** of 5 by 3.
+Binary representation of 5 = 00101 and  **Right Shift** of 00101 by 3 (i.e, 00101 `>>` 3)
+ -missing-image- 
+**Right Shift** of 5 by 3
 
->    Output: 0
->    Explanation: All bit of 5 will be shifted by 3 to Right side and  this result in 00000, Which is equivalent to 0
+Output: 0
+Explanation: All bit of 5 will be shifted by 3 to Right side and  this result in 00000, Which is equivalent to 0
 
 Application of Bit Operators
 
->    Bit operations are used for the optimization of embedded systems.
->    The Exclusive-or operator can be used to confirm the integrity of a file, making sure it has **NOT** `~` been corrupted, especially after it has been in transit.
->    Bitwise operations are used in Data encryption and  compression.
->    Bits are used in the area of networking, framing the packets of numerous bits which are sent to another system generally through any type of serial interface.
->    Digital Image Processors use bitwise operations to enhance image pixels and  to extract different sections of a microscopic image.
+Bit operations are used for the optimization of embedded systems.
+The Exclusive-or operator can be used to confirm the integrity of a file, making sure it has **NOT** `~` been corrupted, especially after it has been in transit.
+Bitwise operations are used in Data encryption and  compression.
+Bits are used in the area of networking, framing the packets of numerous bits which are sent to another system generally through any type of serial interface.
+Digital Image Processors use bitwise operations to enhance image pixels and  to extract different sections of a microscopic image.
 
 ## Practice Problems on Bitwise Algorithm
 
 Solve these questions to improve your understanding of bitwise operators and  bit manipulation techniques.
 
->    Note: All the above Bitwise Practice Problems are optimized and  run in O(1) Time Complexity with O(1) Auxiliary Space.
+Note: All the above Bitwise Practice Problems are optimized and  run in O(1) Time Complexity with O(1) Auxiliary Space.
 
 ### 1. Set a bit in the number
 
 If we want to set a bit at $n^{th}$ position in the number 'num', it can be done using the 'OR' operator( | ).
 
->    First, we **Left Shift** $1$ to $n$ position via (1<<n).
->    Then, use the "OR" operator to set the bit at that position. "OR" operator is used because it will set the bit even if the bit is unset previously in the binary representation of the number 'num'.
+First, we **Left Shift** $1$ to $n$ position via (1<<n).
+Then, use the "OR" operator to set the bit at that position. "OR" operator is used because it will set the bit even if the bit is unset previously in the binary representation of the number 'num'.
 
->    Note: If the bit would be already set then it would remain unchanged.
+Note: If the bit would be already set then it would remain unchanged.
 
 ### 2. Unset/Clear a bit at $n^{th}$ position in the number
 
 Suppose we want to unset a bit at $n^{th}$ position in number 'num' then we have to do this with the help of "AND" (&) operator.
 
->    First, we **Left Shift** '1' to $n$ position via (1<<n) then we use bitwise **NOT** `~` operator '~' to unset this shifted '1'.
->    Now after clearing this left shifted '1' i.e making it to '0' we will 'AND'(&) with the number 'num' that will unset bit at $n^{th}$ position.
+First, we **Left Shift** '1' to $n$ position via (1<<n) then we use bitwise **NOT** `~` operator '~' to unset this shifted '1'.
+Now after clearing this left shifted '1' i.e making it to '0' we will 'AND'(&) with the number 'num' that will unset bit at $n^{th}$ position.
 
 ### 3. Toggling a bit at $n^{th}$ position
 
@@ -284,10 +284,10 @@ Toggling means to turn bit 'on'(1) if it was 'off'(0) and  to turn 'off'(0) if i
 
 Properties of 'XOR' operator. 
 
->    1^1 = 0
->    0^0 = 0
->    1^0 = 1
->    0^1 = 1
+1^1 = 0
+0^0 = 0
+1^0 = 1
+0^1 = 1
 
 If two bits are different then the 'XOR' operator returns a set bit(1) else it returns an unset bit(0).
 
@@ -316,9 +316,11 @@ Say $X$ = $n$ % 4. The **XOR** `^` value depends on the value if x.
 
 ### 8. How to know if a number is a power of 2?
 
-This can be solved based on the following fact:
+If $n$ is a power of $2$, then 
 
->    If a number $n$ is a power of 2, then the bitwise and  of $n$ and  N-1 will be 0. But this will **NOT** `~` work if $n$ is 0. So just check these two conditions, if any of these two conditions is true.
+$$n\ \&\ (n-1) = 0$$
+
+> This will not work if $n$ is 0. So just check these two conditions, if any of these two conditions is true.
 
 ### 9. Count Set bits in an integer
 
@@ -328,12 +330,16 @@ Counting set bits means, counting total number of 1’s in the binary representa
 
 The idea is to unset the rightmost bit of number $n$ and **XOR** `^` the result with $n$. Then the rightmost set bit in $n$ will be the position of the only set bit in the result. Note that if $n$ is odd, we can directly return $1$ as the first bit is always set for odd numbers.
 
-Example: The number $20$ in binary is $00010100$, and  the position of the rightmost set bit is $3$.
+Example: The number $20$ in binary is $00010100_2$, and  the position of the rightmost set bit is $3$.
 
->    $00010100$    `&`                $(n = 20)$
->    $00010011$                       $(n-1 = 19)$
->    -------------------
->    $00010000$    `^`                (XOR result number with $n$)
->    $00010100$
->    -------------------
->    $00000100$ ------->  rightmost set bit will tell us the position
+$$
+\begin{array}{r@{\;}c@{\,}c@{\,}l@{\quad}l}
+&0&0&0&1&0&1&0&0&_2 & (n=20)\\
+\& & 0&0&0&1&0&0&1&1&_2  & (n-1=19)\\
+\hline
+&0&0&0&1&0&0&0&0&_2 & (XOR\ result\ number\ with\ n) \\
+\land &0&0&0&1&0&1&0&0&_2  \\
+\hline
+&0&0&0&0&0&1&0&0&_2 & \to rightmost\ set\ bit\ will\ tell\ us\ the\ position \\
+\end{array}
+$$
