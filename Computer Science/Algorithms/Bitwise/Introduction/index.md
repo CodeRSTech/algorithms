@@ -76,16 +76,16 @@ If the bits in the compared positions of the bit patterns are $1$, then the resu
 Let $X$ = $7$ = $(111)_2$ and $Y$ = 4 = $(100)_2$ . 
 Then Bitwise **AND** `&` of both, i.e. $X$ `&` Y will be $4$.
 
->$$
+$$
 \begin{array}{r@{\;\;}c@{\,}c@{\,}l@{\quad}l}
-   & $1$ & $1$ & 1_2 & \\
-\& & $1$ & $0$ & 0_2 & \\
+   & 1 & 1 & 1_2 & \\
+\& & 1 & 0 & 0_2 & \\
 \hline
-   & $1$ & $0$ & 0_2 & = 4
+   & 1 & 0 & 0_2 & = 4
 \end{array}
 $$
 
-## Bitwise **OR** `|` Operator (|)
+## Bitwise **OR** `|` Operator
 
 The `|` Operator takes two equivalent length bit designs as boundaries; if the two bits in the looked-at position are $0$, the next bit is zero. If not, it is $1$.
 
@@ -100,16 +100,25 @@ Here is the truth table for the bitwise AND operator (& or \land), demonstrating
 
 Example:
 
->    Take two bit values $X$ and Y, where $X$ = 7= $(1111)_2$ and  $Y$ = 4 = $(100)_2$ . Take Bitwise **OR** `|` of both X, y
->     -missing-image- 
->    Bitwise **OR** `|` of (7 | 4)
+Take two bit values $X$ and Y, where $X$ = 7= $(1111)_2$ and  $Y$ = 4 = $(100)_2$ . Take Bitwise **OR** `|` of both X, y
+ $$
+\begin{array}{r@{\;\;}c@{\,}c@{\,}l@{\quad}l}
+   & 1 & 1 & 1_2 & \\
+ | & 1 & 0 & 0_2 & \\
+\hline
+   & 1 & 0 & 0_2 & = 4
+\end{array}
+$$ 
 
 >    Explanation: On the basis of truth table of bitwise **OR** `|` operator we can conclude that the result of 
 
->    $1$ | $1$  = 1
->    $1$ | $0$ = 1
->    $0$ | $1$ = 1
->    $0$ | $0$ = 0
+$1$ | $1$  = 1
+
+$1$ | $0$ = 1
+
+$0$ | $1$ = 1
+
+$0$ | $0$ = 0
 
 >    We used the similar concept of bitwise operator that are show in the image.
 
