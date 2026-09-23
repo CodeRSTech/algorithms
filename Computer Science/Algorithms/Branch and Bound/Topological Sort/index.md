@@ -64,10 +64,10 @@ The graph shown above has many valid topological sorts, including:
 #### Explanation: 
 
 >Since vertices $0$ and $3$ do not have any incoming edges from any other vertex, 
-> they appear first in the topological ordering. 
-> Next, vertex $1$ depends only on vertex $0$, 
+> they appear first. 
+> Next, $0 \to 1$ ($1$ depends only on $0$), 
 > so it comes after $0$. 
-> Similarly, vertex $4$ depends only on vertex $3$, 
+> Similarly, $4$ depends only on vertex $3$, 
 > placing it after $3$. 
 > Finally, vertex $2$ depends on both vertices $1$ and $3$, 
 > so it appears after both of them in the ordering.
