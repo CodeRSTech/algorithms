@@ -7,7 +7,7 @@ attribution_sources:
 gfg_url: https://www.geeksforgeeks.org/boyer-moore-majority-vote-algorithm/](https://www.geeksforgeeks.org/dsa/introduction-to-bitwise-algorithms-data-structures-and-algorithms-tutorial/
 ---
 
-Bitwise operators work directly on binary bits (`0` and `1`). 
+Bitwise operators work directly on binary bits ($0$ and $1$). 
 
 Since computers store all data in binary form, 
 bitwise operations help in manipulating data at the lowest level.
@@ -21,16 +21,20 @@ bitwise operations help in manipulating data at the lowest level.
 | NOR <br><small>Inverted OR)</small>            | $\overline{\lor}$                                                              | `~`     | $\overline{A \lor B}$ <br>$\overline{A + B}$      |
 | XOR <br><small>Exclusive OR </small>           | $\oplus$                                                                       | `^`     | $A \oplus B$                                      |
 | XNOR <br><small>Exclusive NOR </small>         | $\odot$ <small>or</small><br> $\overline{\oplus}$                              |         | $A \odot B$ <br>$\overline{A \oplus B}$           |
-| Implies <br><small>Conditional </small>        | $\rightarrow$ <small>or</small><br> $\implies$                                 |         | $A \rightarrow B$ <br>$A \implies B$              |
-| Equivalent <br><small>Biconditional </small>   | $\leftrightarrow$ <small>or</small><br> $\iff$                                 |         | $A \leftrightarrow B$ <br>$A \iff B$              |
-| Tautology <br><small>Always True </small>      | $\top$                                                                         |         | $\top$                                            |
-| Contradiction <br><small>Always False </small> | $\bot$                                                                         |         | $\bot$                                            |
 
- - They are commonly used in optimization, performance-critical code, masking, toggling bits, and low-level programming.
- - They are used to perform fast calculations and binary manipulation.
- - They help in setting, clearing, checking, and toggling bits.
- - Bitwise operations are often faster for low-level and bit-manipulation tasks.
- - Bitwise operations enable packing multiple flags into a single variable, reducing memory usage.
+## Uses
+
+ 🚀 Used in optimization, performance-critical code, masking, toggling bits, and low-level programming.
+ 
+ ⚡ Used to perform fast calculations and binary manipulation.
+
+ 🚦 Help in setting, clearing, checking, and toggling bits.
+
+## Bitwise operations' features
+
+ 🏃 Often faster for low-level and bit-manipulation tasks.
+
+ 🎏 Enable packing multiple flags into a single variable, reducing memory usage.
 
 # Bitwise Operators / Basics of Bit manipulation
 
@@ -62,7 +66,7 @@ The `&` operator takes two *equal-length bit patterns* as parameters.
 The two-bit integers are compared. 
 If the bits in the compared positions of the bit patterns are $1$, then the resulting bit is $1$. If not, it is $0$.
 
-## Truth Table
+### Truth Table
 
 | `X` | `Y` | AND<br>`X & Y` |
 |-----|-----|----------------|
@@ -89,70 +93,76 @@ $$
 
 The `|` Operator takes two equivalent length bit designs as boundaries; if the two bits in the looked-at position are $0$, the next bit is zero. If not, it is $1$.
 
-Here is the truth table for the bitwise AND operator (& or \land), demonstrating how it acts on individual input bits:
-
 | Input <br><small>`A`</small> | Input <br><small>`B`</small> | Output <br><small>`A & B`</small> | Description       |
-|----------------------------|----------------------------|---------------------------------|-------------------|
-| $0$                          | $0$                          | $0 \land $0$ = 0$                 | Both bits are $0$   |
-| $0$                          | $1$                          | $0 \land $1$ = 0$                 | Only one bit is $1$ |
-| $1$                          | $0$                          | $1 \land $0$ = 0$                 | Only one bit is $1$ |
-| $1$                          | $1$                          | $1 \land $1$ = 1$                 | Both bits are $1$   |
+|------------------------------|------------------------------|-----------------------------------|-------------------|
+| $0$                          | $0$                          | $0$                               | Both bits are $0$ |
+| $0$                          | $1$                          | $1$                               | One bit is $1$    |
+| $1$                          | $0$                          | $1$                               | One bit is $1$    |
+| $1$                          | $1$                          | $1$                               | Both bits are $1$ |
 
-Example:
+## Example:
 
-Take two bit values $X$ and Y, where $X$ = 7= $(1111)_2$ and  $Y$ = 4 = $(100)_2$ . 
-Take Bitwise **OR** `|` of both $X$, $Y$
+Let $X$ and $Y$ be two bit values , where $X$ = 7= $(111)_2$ and  $Y$ = 4 = $(100)_2$ . 
+
+Bitwise **OR** `|` of $X$, $Y$:
+
 $$
 \begin{array}{r@{\;\;}c@{\,}c@{\,}l@{\quad}l}
    & 1 & 1 & 1_2 & \\
  | & 1 & 0 & 0_2 & \\
 \hline
-   & 1 & 0 & 0_2 & = 4
+   & 1 & 1 & 1_2 & = 7
 \end{array}
-$$ 
-
->    Explanation: On the basis of truth table of bitwise **OR** `|` operator we can conclude that the result of 
-
-$1$ | $1$  = 1
-
-$1$ | $0$ = 1
-
-$0$ | $1$ = 1
-
-$0$ | $0$ = 0
-
->    We used the similar concept of bitwise operator that are show in the image.
+$$
 
 ## Bitwise **XOR** `^` Operator
 
-The ^ operator (also known as the **XOR** `^` operator) stands for Exclusive Or. Here, if bits in the compared position do **NOT** `~` match their resulting bit is 1. i.e, The result of the bitwise **XOR** `^` operator is $1$ if the corresponding bits of two operands are opposite, otherwise 0.
-truth_table_of_bitwise_xor_operator
+**XOR** `^` $\implies$ **Exclusive OR**. 
+
+Here, if bits in the compared position do NOT match their resulting bit is $1$ (Bitwise **XOR** `^` of two bit operands is $1$ if the bits are opposite, otherwise $0$.
+
+### Truth Table
+
+| `X` | `Y` | XOR<br>`X ^ Y` |
+|-----|-----|----------------|
+| $0$ | $0$ | $0$            |
+| $0$ | $1$ | $1$            |
+| $1$ | $0$ | $1$            |
+| $1$ | $1$ | $0$            |
 
 ### Example:
 
-Take two bit values $X$ and  Y, where $X$ = 7= $(1111)_2$ and  $Y$ = 4 = $(100)_2$ . Take Bitwise AND of both $X$ & $Y$
--missing-image- 
+Take two bit values $X$ and  Y, where $X$ = 7= $(111)_2$ and  $Y$ = 4 = $(100)_2$ . Take Bitwise AND of both $X$ & $Y$
 
->    Explanation: On the basis of truth table of bitwise **XOR** `^` operator we can conclude that the result of 
->
->    $1$ ^ $1$  = 0
->    $1$ ^ $0$ = 1
->    $0$ ^ $1$ = 1
->    $0$ ^ $0$ = 0
-
-We used the similar concept of bitwise operator that are show in the image.
+$$
+\begin{array}{r@{\;\;}c@{\,}c@{\,}l@{\quad}l}
+   & 1 & 1 & 1_2 & \\
+\land & 1 & 0 & 0_2 & \\
+\hline
+   & 0 & 1 & 1_2 & = 3
+\end{array}
+$$
 
 ## Bitwise **NOT** `~` Operator
 
-All the above three bitwise operators are binary operators (i.e, requiring two operands in order to operate). Unlike other bitwise operators, this one requires only one operand to operate.
-truth_table_of_bitwise_not_operator
+❗ Requires only one operand to operate, unlike other binary operators.
 
-The bitwise **NOT** `~` Operator takes a single value and  returns its one’s complement.
+💎 Returns [**one’s complement**](# "The one’s complement of a binary number is obtained by toggling all bits in it, i.e, transforming the $0$ bit to $1$ and  the $1$ bit to 0.
+") of a single input.
+
+
+| `X` | NOT<br>`~X` |
+|-----|-------------|
+| $0$ | $1$         |
+| $1$ | $0$         |
+
 The one’s complement of a binary number is obtained by toggling all bits in it, i.e, transforming the $0$ bit to $1$ and  the $1$ bit to 0.
 
 ### Example: 
 
-Take a 4-bit value X, where $X$ = 9 = $(1001)₂. Take the Bitwise **NOT** `~` of X.
+Let $X$ = 9 = $(1001)_2$ , where $X$ is a *4-bit* value.
+
+Take the Bitwise **NOT** `~` of X.
 -missing-image- 
 
 >    Explanation: The bitwise **NOT** `~` operator (~) flips every individual bit in the binary representation of a number. Based on the truth table, every $1$ becomes a 0, and  every $0$ becomes a 1.
