@@ -16,7 +16,9 @@ gfg_url: https://www.geeksforgeeks.org/boyer-moore-majority-vote-algorithm/](htt
 If we want to set a bit at $n^{th}$ position in the number $num$, it can be done using the $OR$ `|` operator.
 
 First, we **Left Shift** $1$ to $n$ position via (1<<n).
-Then, use the "OR" operator to set the bit at that position. "OR" operator is used because it will set the bit even if the bit is unset previously in the binary representation of the number 'num'.
+Then, use the $OR$ operator to set the bit at that position. 
+
+$OR$ operator is used because it will set the bit even if the bit is unset previously in the binary representation of the number $num$.
 
 > If the bit was already set then it would remain unchanged.
 
@@ -27,7 +29,7 @@ Then, use the "OR" operator to set the bit at that position. "OR" operator is us
 ```python
 # num = number, pos = position at which we want to set the bit
 def set(num, pos):
-    # First step = Shift '1'
+    # First step = Shift $1$
     # Second step = Bitwise OR
     num |= (1 << pos)
     print(num)
@@ -46,8 +48,8 @@ set(num, pos)
 
 Suppose we want to unset a bit at $n^{th}$ position in number 'num' then we have to do this with the help of "AND" (&) operator.
 
-First, we **Left Shift** '1' to $n$ position via (1<<n) then we use bitwise **NOT** `~` operator '~' to unset this shifted '1'.
-Now after clearing this left shifted '1' i.e making it to '0' we will 'AND'(&) with the number 'num' that will unset bit at $n^{th}$ position.
+First, we **Left Shift** $1$ to $n$ position via (1<<n) then we use bitwise **NOT** `~` operator to unset this shifted $1$.
+Now after clearing this left shifted $1$ i.e making it to $1$ we will $AND$(&) with the number 'num' that will unset bit at $n^{th}$ position.
 
 {% tabs unset-nth-bit %}
 
@@ -67,22 +69,22 @@ print(ans)
 
 # 3. Toggling a bit at $n^{th}$ position
 
-Toggling means to turn bit 'on'(1) if it was 'off'(0) and  to turn 'off'(0) if it was 'on'(1) previously. We will be using the 'XOR' operator here which is this '^'. The reason behind the 'XOR' operator is because of its properties.
+Toggling means to turn bit 'on'(1) if it was 'off'(0) and  to turn 'off'(0) if it was 'on'(1) previously. We will be using the $XOR$ operator here which is this $\land$. The reason behind the $XOR$ operator is because of its properties.
 
-Properties of 'XOR' operator. 
+Properties of $XOR$ operator. 
 
 1^1 = 0
 0^0 = 0
 1^0 = 1
 0^1 = 1
 
-If two bits are different then the 'XOR' operator returns a set bit(1) else it returns an unset bit(0).
+If two bits are different then the $XOR$ operator returns a set bit(1) else it returns an unset bit(0).
 
 # 4. Checking if the bit at $n^{th}$ position is Set or Unset
 
 We used the **Left Shift** (<<) operation on $1$ to shift the bits to $n^{th}$ position and  then use the `&` operation with number given number, and  check if it is not-equals to 0.
 
-# Multiply a number by 2 using the **Left Shift** operator
+# 5. Multiply a number by 2 using the **Left Shift** operator
 
 You can multiply a number by 2 by using the **Left Shift** operator (<< 1), which shifts all bits one position to the left.
 
@@ -108,6 +110,22 @@ If $n$ is a power of $2$, then
 $$n\ \&\ (n-1) = 0$$
 
 > This will not work if $n$ is 0. So just check these two conditions, if any of these two conditions is true.
+ 
+{% tabs power-of-two-bitwise %}
+
+{% tab power-of-two-bitwise Python %}
+{% highlight python linenos %}
+```python
+# Function to check if x is power of 2
+def isPowerOfTwo(x):
+    return x and (not (x & (x - 1)))
+
+print(isPowerOfTwo(2))
+```
+{% endhighlight %}
+{% endtab %}
+
+{% endtabs %}
 
 # 9. Count Set bits in an integer
 
