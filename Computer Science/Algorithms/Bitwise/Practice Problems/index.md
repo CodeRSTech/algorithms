@@ -13,7 +13,7 @@ gfg_url: https://www.geeksforgeeks.org/boyer-moore-majority-vote-algorithm/](htt
 
 # 1. Set a bit in the number
 
-If we want to set a bit at $n^{th}$ position in the number 'num', it can be done using the 'OR' operator( | ).
+If we want to set a bit at $n^{th}$ position in the number $num$, it can be done using the $OR$ `|` operator.
 
 First, we **Left Shift** $1$ to $n$ position via (1<<n).
 Then, use the "OR" operator to set the bit at that position. "OR" operator is used because it will set the bit even if the bit is unset previously in the binary representation of the number 'num'.
