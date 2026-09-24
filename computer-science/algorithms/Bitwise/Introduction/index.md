@@ -257,12 +257,13 @@ Binary representation of 5 = 00101 and  **Right Shift** of 00101 by $1$ (i.e, 00
 $2$
 
 #### Explanation
-> All bit of 5 will be shifted by $1$ to Rightside and  this result in 00010Which is equivalent to 2
+
+All bit of $5$ will be shifted by $1$ to Right side and  this result in $00010_2$,
+which is equivalent to $2$
 
 Input: **Right Shift** of 5 by 2.
-Binary representation of 5 = 00101 and  **Right Shift** of 00101 by 2 (i.e, 00101 `>>` 2)
+**Right Shift** of $5 = 00101_2$ by $2$ (i.e, $00101$ `>>` $2$)
  -missing-image- 
-**Right Shift** of 5 by 2
 
 #### Output
 
@@ -270,12 +271,15 @@ $1$
 
 #### Explanation
 
-All bit of 5 will be shifted by 2 to Right side and  this result in 00001, Which is equivalent to 1
+All bit of $5$ will be shifted by $2$ to Right side and this results in $00001_2%, 
+Which is equivalent to $1$.
 
-Input: **Right Shift** of 5 by 3.
-Binary representation of 5 = 00101 and  **Right Shift** of 00101 by 3 (i.e, 00101 `>>` 3)
- -missing-image- 
-**Right Shift** of 5 by 3
+#### Input
+
+**Right Shift** of 5 by 3.
+
+**Right Shift** of $5 = 00101_2$ by $3$ (i.e, $00101$ `>>` $3$)
+` -missing-image- `
 
 #### Output
 
