@@ -14,6 +14,8 @@
           folder: "Brute Force"
         - name: "Dynamic Programming"
           folder: "Dynamic Programming"
+        - name: "Graph"
+          folder: "graph"
         - name: "Greedy"
           folder: "Greedy"
         - name: "Divide and Conquer"
