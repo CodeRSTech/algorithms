@@ -33,3 +33,6 @@ for node, inDegree in enumerate(inDegrees):
         Q.append(node)
 
 print(f"Done. Initial State of Queue: {Q}")
+
+while Q:
+    print("Iteration #${iter}. Queue state: [ ${String(Q)} ]")
