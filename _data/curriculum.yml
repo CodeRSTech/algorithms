@@ -56,8 +56,6 @@
           folder: "tree"
         - name: "AVL Tree"
           folder: "tree/avl-tree"
-        - name: "Binary Search Tree"
-          folder: "tree/binary-search-tree"
         - name: "Fenwick Tree"
           folder: "tree/fenwick-tree"
         - name: "Red-Black Tree"
