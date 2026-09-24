@@ -1,8 +1,8 @@
-- discipline: "Computer Science"
-  folder: "Computer Science"
+- discipline: "computer-science"
+  folder: "computer-science"
   subjects:
-    - name: "Algorithms"
-      folder: "Algorithms"
+    - name: "algorithms"
+      folder: "algorithms"
       categories:
         - name: "Backtracking"
           folder: "Backtracking"
@@ -26,12 +26,14 @@
           folder: "Uncategorized"
 
     - name: "Data Structures"
-      folder: "Data Structures"
+      folder: "data-tructures"
       categories:
-        - name: "Trees"
-          folder: "Trees"
-        - name: "Graphs"
-          folder: "Graphs"
+        - name: "Bloom Filter"
+          folder: "bloom-filter"
+        - name: "Deque"
+          folder: "deque"
+        - name: "Disjoint Set"
+          folder: "disjoint-set"
 
 - discipline: "Mathematics"
   folder: "Mathematics"

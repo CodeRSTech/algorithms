@@ -8,10 +8,10 @@ title: Algorithm Reference Guide
 A comparative guide to data structures and algorithms.
 
 ## Backtracking
-* [Hamiltonean Cycles](Computer Science/Algorithms/Backtracking/Hamiltonean%20Cycles/)
-* [Knight's Tour Problem](Computer Science/Algorithms/Backtracking/Knight's%20Tour%20Problem/)
-* [N-Queens Problem](Computer Science/Algorithms/Backtracking/N-Queens%20Problem/)
-* [Sum of subsets](Computer Science/Algorithms/Backtracking/Sum%20of%20subsets/)
+* [Hamiltonean Cycles](computer-science/algorithms/Backtracking/Hamiltonean%20Cycles/)
+* [Knight's Tour Problem](computer-science/algorithms/Backtracking/Knight's%20Tour%20Problem/)
+* [N-Queens Problem](computer-science/algorithms/Backtracking/N-Queens%20Problem/)
+* [Sum of subsets](computer-science/algorithms/Backtracking/Sum%20of%20subsets/)
 
 ## Branch and Bound
 * [Binary Search](./Branch%20and%20Bound/Binary%20Search/)
@@ -70,12 +70,12 @@ A comparative guide to data structures and algorithms.
 * [Z String Search](./Dynamic%20Programming/Z%20String%20Search/)
 
 ## Greedy
-* [Boyer–Moore's Majority Vote](Computer Science/Algorithms/Greedy/Boyer–Moore's%20Majority%20Vote/)
-* [Dijkstra's Shortest Path](Computer Science/Algorithms/Greedy/Dijkstra's%20Shortest%20Path/)
-* [Job Scheduling Problem](Computer Science/Algorithms/Greedy/Job%20Scheduling%20Problem/)
-* [Kruskal's Minimum Spanning Tree](Computer Science/Algorithms/Greedy/Kruskal's%20Minimum%20Spanning%20Tree/)
-* [Prim's Minimum Spanning Tree](Computer Science/Algorithms/Greedy/Prim's%20Minimum%20Spanning%20Tree/)
-* [Stable Matching](Computer Science/Algorithms/Greedy/Stable%20Matching/)
+* [Boyer–Moore's Majority Vote](computer-science/algorithms/Greedy/Boyer–Moore's%20Majority%20Vote/)
+* [Dijkstra's Shortest Path](computer-science/algorithms/Greedy/Dijkstra's%20Shortest%20Path/)
+* [Job Scheduling Problem](computer-science/algorithms/Greedy/Job%20Scheduling%20Problem/)
+* [Kruskal's Minimum Spanning Tree](computer-science/algorithms/Greedy/Kruskal's%20Minimum%20Spanning%20Tree/)
+* [Prim's Minimum Spanning Tree](computer-science/algorithms/Greedy/Prim's%20Minimum%20Spanning%20Tree/)
+* [Stable Matching](computer-science/algorithms/Greedy/Stable%20Matching/)
 
 ## Simple Recursive
 * [Cellular Automata](./Simple%20Recursive/Cellular%20Automata/)
@@ -85,12 +85,12 @@ A comparative guide to data structures and algorithms.
 * [Suffix Array](./Simple%20Recursive/Suffix%20Array/)
 
 ## Uncategorized
-* [Affine Cipher](Computer Science/Algorithms/Uncategorized/Affine%20Cipher/)
-* [Caesar Cipher](Computer Science/Algorithms/Uncategorized/Caesar%20Cipher/)
-* [Freivalds' Matrix-Multiplication Verification](Computer Science/Algorithms/Uncategorized/Freivalds'%20Matrix-Multiplication%20Verification/)
-* [K-Means Clustering](Computer Science/Algorithms/Uncategorized/K-Means%20Clustering/)
-* [Magic Square](Computer Science/Algorithms/Uncategorized/Magic%20Square/)
-* [Maze Generation](Computer Science/Algorithms/Uncategorized/Maze%20Generation/)
-* [Miller-Rabin's Primality Test](Computer Science/Algorithms/Uncategorized/Miller-Rabin's%20Primality%20Test/)
-* [Shortest Unsorted Continuous Subarray](Computer Science/Algorithms/Uncategorized/Shortest%20Unsorted%20Continuous%20Subarray/)
+* [Affine Cipher](computer-science/algorithms/Uncategorized/Affine%20Cipher/)
+* [Caesar Cipher](computer-science/algorithms/Uncategorized/Caesar%20Cipher/)
+* [Freivalds' Matrix-Multiplication Verification](computer-science/algorithms/Uncategorized/Freivalds'%20Matrix-Multiplication%20Verification/)
+* [K-Means Clustering](computer-science/algorithms/Uncategorized/K-Means%20Clustering/)
+* [Magic Square](computer-science/algorithms/Uncategorized/Magic%20Square/)
+* [Maze Generation](computer-science/algorithms/Uncategorized/Maze%20Generation/)
+* [Miller-Rabin's Primality Test](computer-science/algorithms/Uncategorized/Miller-Rabin's%20Primality%20Test/)
+* [Shortest Unsorted Continuous Subarray](computer-science/algorithms/Uncategorized/Shortest%20Unsorted%20Continuous%20Subarray/)
 
