@@ -161,22 +161,25 @@ $$
 | $0$ | $1$         |
 | $1$ | $0$         |
 
-### Example: 
+### Example
 
 Let $X$ = 9 = $(1001)_2$ , where $X$ is a *4-bit* value.
 
 Take the Bitwise **NOT** `~` of X.
 -missing-image- 
 
->  Explanation: The bitwise **NOT** `~` operator  flips every bit in the number. $1$ becomes $0$, and vice-versa.
+#### Explanation
 
-#### Note: 
+> The bitwise **NOT** `~` operator  flips every bit in the number. $1$ becomes $0$, and vice-versa.
+
+#### Note
 
 The output of `~` depends on how many bits a system uses. 
 
 In a *4-bit* system, `~` $1001_2$ ($9$) becomes $0110_2$ ($6$). 
 
-In an *8-bit* system, $9$ is stored with leading zeros as $0000 1001_2$. Flipping it yields $1111 0110$, which is completely different ($246$).
+In an *8-bit* system, $9$ is stored with leading zeros as $0000 1001_2$. Flipping it yields $1111 0110$, 
+which is completely different ($246$).
 
 ## **Left Shift** (`<<`)
 
@@ -196,24 +199,36 @@ Binary representation of $5$ = $00101_2$ and
  
  -missing-image- 
 
-Output: 10
->Explanation: Bits of 5 will be shifted by $1$ to left, resulting in $01010_2$ $\equiv$ $10$
+#### Output
+
+$10$
+
+### Explanation
+> Bits of 5 will be shifted by $1$ to left, resulting in $01010_2$ $\equiv$ $10$
 
 Input: **Left Shift** of 5 by 2.
 
 Binary representation of 5 = 00101 and  **Left Shift** of 001012 by $1$ (i.e, 00101 `<<` 2)
  -missing-image- 
 
-Output: 20
->Explanation: Bits of 5 will be shifted by $1$ to left, resulting in $10100_2$ $\equiv$ $20$
+#### Output
+
+$20$
+
+### Explanation
+> Bits of 5 will be shifted by $1$ to left, resulting in $10100_2$ $\equiv$ $20$
 
 Input: **Left Shift** of 5 by 3.
 
 Binary representation of 5 = 00101 and  **Left Shift** of 001012 by $1$ (i.e, 00101 `<<` 3)
  -missing-image- 
 
-Output: 40
->Explanation: All bit of 5 will be shifted by $1$ to left side and  this result in $01000_2$ $\equiv$ $40$
+#### Output
+
+$40$
+
+### Explanation
+> All bit of 5 will be shifted by $1$ to left side and  this result in $01000_2$ $\equiv$ $40$
 
 ## **Right Shift** (`>>`)
 
@@ -227,36 +242,53 @@ In other words, if the number is positive, $0$ is used, and  if the number is ne
 
 logical_right_shift
 
-Example:
+### Examples
 
-Input: **Right Shift** of 5 by 1.
+#### Input
+
+**Right Shift** of 5 by 1.
+
 Binary representation of 5 = 00101 and  **Right Shift** of 00101 by $1$ (i.e, 00101 `>>` 1)
  -missing-image- 
 **Right Shift** of 5 by 1
 
-Output: 2
-Explanation: All bit of 5 will be shifted by $1$ to Rightside and  this result in 00010Which is equivalent to 2
+#### Output
+
+$2$
+
+#### Explanation
+> All bit of 5 will be shifted by $1$ to Rightside and  this result in 00010Which is equivalent to 2
 
 Input: **Right Shift** of 5 by 2.
 Binary representation of 5 = 00101 and  **Right Shift** of 00101 by 2 (i.e, 00101 `>>` 2)
  -missing-image- 
 **Right Shift** of 5 by 2
 
-Output: 1
-Explanation: All bit of 5 will be shifted by 2 to Right side and  this result in 00001, Which is equivalent to 1
+#### Output
+
+$1$
+
+#### Explanation
+
+All bit of 5 will be shifted by 2 to Right side and  this result in 00001, Which is equivalent to 1
 
 Input: **Right Shift** of 5 by 3.
 Binary representation of 5 = 00101 and  **Right Shift** of 00101 by 3 (i.e, 00101 `>>` 3)
  -missing-image- 
 **Right Shift** of 5 by 3
 
-Output: 0
-Explanation: All bit of 5 will be shifted by 3 to Right side and  this result in 00000, Which is equivalent to 0
+#### Output
 
-Application of Bit Operators
+$0$
 
-Bit operations are used for the optimization of embedded systems.
-The Exclusive-or operator can be used to confirm the integrity of a file, making sure it has **NOT** `~` been corrupted, especially after it has been in transit.
-Bitwise operations are used in Data encryption and  compression.
-Bits are used in the area of networking, framing the packets of numerous bits which are sent to another system generally through any type of serial interface.
-Digital Image Processors use bitwise operations to enhance image pixels and  to extract different sections of a microscopic image.
+#### Explanation
+
+All bit of 5 will be shifted by 3 to Right side and  this result in 00000, Which is equivalent to 0
+
+### Application of Bit Operators
+
+- Bit operations are used for the optimization of embedded systems.
+- The Exclusive-or operator can be used to confirm the integrity of a file, making sure it has not been corrupted, especially after it has been in transit.
+- Bitwise operations are used in Data encryption and  compression.
+- Bits are used in the area of networking, framing the packets of numerous bits which are sent to another system generally through any type of serial interface.
+- Digital Image Processors use bitwise operations to enhance image pixels and  to extract different sections of a microscopic image.

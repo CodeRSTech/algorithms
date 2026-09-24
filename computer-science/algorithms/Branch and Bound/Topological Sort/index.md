@@ -66,16 +66,19 @@ The graph shown above has many valid topological sorts, including:
 
 `[0, 3, 1, 4, 2]`
 
-#### Explanation: 
-
+#### ### Explanation
+>
 >Since vertices $0$ and $3$ do not have any incoming edges from any other vertex, 
 > they appear first. 
-> Next, $0 \to 1$ ($1$ depends only on $0$), 
+> 
+> Next, $1 \leftarrow 0$ ($1$ depends only on $0$), 
 > so it comes after $0$. 
-> Similarly, $4$ depends only on vertex $3$, 
+> 
+> Similarly, $4 \leftarrow 3$, 
 > placing it after $3$. 
+> 
 > Finally, vertex $2$ depends on both vertices $1$ and $3$, 
-> so it appears after both of them in the ordering.
+> so it appears *after* both of them in the ordering.
 
 ## Application
 
