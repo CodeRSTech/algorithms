@@ -40,12 +40,13 @@ layout: main
           <strong class="text-light">Attribution:</strong> <span class="text-secondary">The conceptual explanations and original code structures below are adapted from:
           {% for src in page.attribution_sources %}
             {% if src == "Algorithm Visualizer Project" %}
-            - <a href="https://github.com/algorithm-visualizer/algorithms" target="_blank" class="text-primary text-decoration-none"><img src="{{ '/assets/icons/algorithm_visualizer.png' | relative_url }}" alt="Algorithm Visualizer" class="img-fluid" style="max-height: 20px;"> Algorithm Visualizer</a> project
+            <a href="https://github.com/algorithm-visualizer/algorithms" target="_blank" class="text-primary text-decoration-none"><img src="{{ '/assets/icons/algorithm_visualizer.png' | relative_url }}" alt="Algorithm Visualizer" class="img-fluid" style="max-height: 20px;"> Algorithm Visualizer</a> project
             {% elsif src == "GeeksforGeeks" %}
-            - <a href="https://www.geeksforgeeks.org" target="_blank" class="text-primary text-decoration-none"><img src="{{ '/assets/icons/gfg-gg-logo.svg' | relative_url }}" alt="GeeksforGeeks" class="img-fluid" style="max-height: 20px;"> GeeksforGeeks</a>
+            , <a href="https://www.geeksforgeeks.org" target="_blank" class="text-primary text-decoration-none"><img src="{{ '/assets/icons/gfg-gg-logo.svg' | relative_url }}" alt="GeeksforGeeks" class="img-fluid" style="max-height: 20px;"> GeeksforGeeks</a>
             {% elsif src == "Trekhleb" %}
-            - <a href="https://github.com/trekhleb/javascript-algorithms" target="_blank" class="text-primary text-decoration-none">JavaScript Algorithms</a> project
+            , <a href="https://github.com/trekhleb/javascript-algorithms" target="_blank" class="text-primary text-decoration-none">JavaScript Algorithms</a> project
             {% endif %}
+            .
           {% endfor %}
           {% if page.viz_url %}
           <div class="mt-2">
