@@ -12,15 +12,15 @@ Bitwise operators work directly on binary bits ($0$ and $1$).
 Since computers store all data in binary form, 
 bitwise operations help in manipulating data at the lowest level.
 
-| Operator                                       | Logical                                                                        | Bitwise | Example                                           |
-|------------------------------------------------|--------------------------------------------------------------------------------|---------|---------------------------------------------------|
-| AND<br><small>Conjunction</small>              | $\land$ <small>or</small><br> $\cdot$ <small>or</small><br> `and`              | `&`     | $A \land B$ <br>$A \cdot B$                       |
-| OR <br><small>Disjunction </small>             | $\lor$ <small>or</small><br> $+$ <small>or</small><br> `or`                    | `|`     | $A \lor B$ <br>$A + B$                            |
-| NOT <br><small>Negation </small>               | $\neg$ <small>or</small><br> $\overline{\text{X}}$ <small>or</small><br> `not` | `~`     | $\neg A$ <br>$\overline{A}$ <br>$A'$              |
-| NAND <br><small>Inverted AND </small>          | $\overline{\land}$                                                             | `~&`    | $\overline{A \land B}$ <br>$\overline{A \cdot B}$ |
-| NOR <br><small>Inverted OR)</small>            | $\overline{\lor}$                                                              | `~`     | $\overline{A \lor B}$ <br>$\overline{A + B}$      |
-| XOR <br><small>Exclusive OR </small>           | $\oplus$                                                                       | `^`     | $A \oplus B$                                      |
-| XNOR <br><small>Exclusive NOR </small>         | $\odot$ <small>or</small><br> $\overline{\oplus}$                              |         | $A \odot B$ <br>$\overline{A \oplus B}$           |
+| Operator                               | Symbol                                             | Example                                           | Python Examples                                                                              |
+|----------------------------------------|----------------------------------------------------|---------------------------------------------------|----------------------------------------------------------------------------------------------|
+| AND<br><small>Conjunction</small>      | $\land$ <small>or</small><br> $\cdot$              | $A \land B$ <br>$A \cdot B$                       | `A & B` <small>*(bitwise)*</small><br> `A and B`<small>*(logical)*</small><br>               |
+| OR <br><small>Disjunction </small>     | $\lor$ <small>or</small><br> $+$                   | $A \lor B$ <br>$A + B$                            | `A | B` <small>*(bitwise)*</small><br>`A or B` <small>*(logical)*</small><br>             |
+| NOT <br><small>Negation </small>       | $\neg$ <small>or</small><br> $\overline{\text{X}}$ | $\neg A$ <br>$\overline{A}$ <br>$A'$              | `~ A` <small>*(bitwise)*</small><br>`not A` <small>*(logical)*</small><br>                   |
+| NAND <br><small>Inverted AND </small>  | $\overline{\land}$                                 | $\overline{A \land B}$ <br>$\overline{A \cdot B}$ | `~ (A & B)` <small>*(bitwise)*</small><br>`not (A and B)` <small>*(logical)*</small><br>     |
+| NOR <br><small>Inverted OR</small>     | $\overline{\lor}$                                  | $\overline{A \lor B}$ <br>$\overline{A + B}$      | `~ (A | B)`  <small>*(bitwise)*</small><br>`not (A or B)` <small>*(logical)*</small><br>  |
+| XOR <br><small>Exclusive OR </small>   | $\oplus$                                           | $A \oplus B$                                      | `A ^ B`  <small>*(bitwise)*</small><br> `A != B` <small>*(logical inequality)*</small><br>   |
+| XNOR <br><small>Exclusive NOR </small> | $\odot$ <small>or</small><br> $\overline{\oplus}$  | $A \odot B$ <br>$\overline{A \oplus B}$           | `~ (A ^ B)`  <small>*(bitwise)*</small><br> `A == B` <small>*(logical equality)*</small><br> |
 
 ## Uses
 
