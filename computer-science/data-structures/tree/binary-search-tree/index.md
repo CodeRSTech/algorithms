@@ -45,7 +45,7 @@ The leaves are not drawn.
 
 ### Insertion
 
-```text
+```pascal
 insert(value)
   Pre: value has passed custom type checks for type T
   Post: value has been placed in the correct location in the tree
@@ -57,7 +57,7 @@ insert(value)
 end insert
 ```
 
-```text
+```pascal
 insertNode(current, value)
   Pre: current is the node to start from
   Post: value has been placed in the correct location in the tree
@@ -79,7 +79,7 @@ end insertNode
 
 ### Searching
 
-```text
+```pascal
 contains(root, value)
   Pre: root is the root node of the tree, value is what we would like to locate
   Post: value is either located or not
@@ -99,7 +99,7 @@ end contains
 
 ### Deletion
 
-```text
+```pascal
 remove(value)
   Pre: value is the value of the node to remove, root is the node of the BST
       count is the number of items in the BST
@@ -150,7 +150,7 @@ end remove
 
 ### Find Parent of Node
 
-```text
+```pascal
 findParent(value, root)
   Pre: value is the value of the node we want to find the parent of
        root is the root node of the BST and is != ø
@@ -180,7 +180,7 @@ end findParent
 
 ### Find Node
 
-```text
+```pascal
 findNode(root, value)
   Pre: value is the value of the node we want to find the parent of
        root is the root node of the BST
@@ -200,7 +200,7 @@ end findNode
 
 ### Find Minimum
 
-```text
+```pascal
 findMin(root)
   Pre: root is the root node of the BST
     root = ø
@@ -214,7 +214,7 @@ end findMin
 
 ### Find Maximum
 
-```text
+```pascal
 findMax(root)
   Pre: root is the root node of the BST
     root = ø
@@ -230,7 +230,7 @@ end findMax
 
 #### InOrder Traversal
 
-```text
+```pascal
 inorder(root)
   Pre: root is the root node of the BST
   Post: the nodes in the BST have been visited in inorder
@@ -244,7 +244,7 @@ end inorder
 
 #### PreOrder Traversal
 
-```text
+```pascal
 preorder(root)
   Pre: root is the root node of the BST
   Post: the nodes in the BST have been visited in preorder
@@ -258,7 +258,7 @@ end preorder
 
 #### PostOrder Traversal
 
-```text
+```pascal
 postorder(root)
   Pre: root is the root node of the BST
   Post: the nodes in the BST have been visited in postorder
