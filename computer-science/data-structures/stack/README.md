@@ -26,7 +26,7 @@ may require taking off multiple other items first.
 
 Simple representation of a stack runtime with push and pop operations.
 
-![Stack](./images/stack.jpeg)
+![Stack](./images/stack.jpeg){: .invert-img }
 
 *Made with [okso.app](https://okso.app)*
 

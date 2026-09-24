@@ -28,7 +28,7 @@ operations on hash tables.
 A binary search tree of size 9 and depth 3, with 8 at the root.
 The leaves are not drawn.
 
-![Trie](./images/binary-search-tree.jpg)
+![Trie](./images/binary-search-tree.jpg){: .invert-img }
 
 *Made with [okso.app](https://okso.app)*
 

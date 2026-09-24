@@ -25,13 +25,13 @@ stores sum of some elements of given array. Size of Binary Indexed Tree is equal
 to `n` where `n` is size of input array. In current implementation we have used 
 size as `n+1` for ease of implementation. All the indexes are 1-based.
 
-![Binary Indexed Tree](https://www.geeksforgeeks.org/wp-content/uploads/BITSum.png)
+![Binary Indexed Tree](https://www.geeksforgeeks.org/wp-content/uploads/BITSum.png){: .invert-img }
 
 On the picture below you may see animated example of 
 creation of binary indexed tree for the 
 array `[1, 2, 3, 4, 5]` by inserting one by one.
 
-![Fenwick Tree](https://upload.wikimedia.org/wikipedia/commons/d/dc/BITDemo.gif)
+![Fenwick Tree](https://upload.wikimedia.org/wikipedia/commons/d/dc/BITDemo.gif){: .invert-img }
 
 ## References
 

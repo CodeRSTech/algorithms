@@ -18,29 +18,29 @@ more tree rotations.
 Animation showing the insertion of several elements into an AVL 
 tree. It includes left, right, left-right and right-left rotations.
 
-![AVL Tree](https://upload.wikimedia.org/wikipedia/commons/f/fd/AVL_Tree_Example.gif)
+![AVL Tree](https://upload.wikimedia.org/wikipedia/commons/f/fd/AVL_Tree_Example.gif){: .invert-img }
 
 AVL tree with balance factors (green)
 
-![AVL Tree](https://upload.wikimedia.org/wikipedia/commons/a/ad/AVL-tree-wBalance_K.svg)
+![AVL Tree](https://upload.wikimedia.org/wikipedia/commons/a/ad/AVL-tree-wBalance_K.svg){: .invert-img }
 
 ### AVL Tree Rotations
 
 **Left-Left Rotation**
 
-![Left-Left Rotation](http://btechsmartclass.com/data_structures/ds_images/LL%20Rotation.png)
+![Left-Left Rotation](http://btechsmartclass.com/data_structures/ds_images/LL%20Rotation.png){: .invert-img }
 
 **Right-Right Rotation**
 
-![Right-Right Rotation](http://btechsmartclass.com/data_structures/ds_images/RR%20Rotation.png)
+![Right-Right Rotation](http://btechsmartclass.com/data_structures/ds_images/RR%20Rotation.png){: .invert-img }
 
 **Left-Right Rotation**
 
-![Left-Right Rotation](http://btechsmartclass.com/data_structures/ds_images/LR%20Rotation.png)
+![Left-Right Rotation](http://btechsmartclass.com/data_structures/ds_images/LR%20Rotation.png){: .invert-img }
 
 **Right-Left Rotation**
 
-![Right-Right Rotation](http://btechsmartclass.com/data_structures/ds_images/RL%20Rotation.png)
+![Right-Right Rotation](http://btechsmartclass.com/data_structures/ds_images/RL%20Rotation.png){: .invert-img }
 
 ## References
 

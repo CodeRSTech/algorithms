@@ -27,7 +27,7 @@ sequential collection.
 
 Representation of a FIFO (first in, first out) queue
 
-![Queue](./images/queue.jpeg)
+![Queue](./images/queue.jpeg){: .invert-img }
 
 *Made with [okso.app](https://okso.app)*
 

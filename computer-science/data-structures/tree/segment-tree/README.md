@@ -27,9 +27,9 @@ can use the precomputed value at the node. Using this
 optimisation, we can prove that only `O(log n)` minimum 
 operations are done.
 
-![Min Segment Tree](https://www.geeksforgeeks.org/wp-content/uploads/RangeMinimumQuery.png)
+![Min Segment Tree](https://www.geeksforgeeks.org/wp-content/uploads/RangeMinimumQuery.png){: .invert-img }
 
-![Sum Segment Tree](https://www.geeksforgeeks.org/wp-content/uploads/segment-tree1.png)
+![Sum Segment Tree](https://www.geeksforgeeks.org/wp-content/uploads/segment-tree1.png){: .invert-img }
 
 ## Application
 

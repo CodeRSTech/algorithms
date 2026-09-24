@@ -40,7 +40,7 @@ element `w` is not in the set `{x, y, z}`, because it
 hashes to one bit-array position containing `0`. For
 this figure, `m = 18` and `k = 3`.
 
-![Bloom Filter](https://upload.wikimedia.org/wikipedia/commons/a/ac/Bloom_filter.svg)
+![Bloom Filter](https://upload.wikimedia.org/wikipedia/commons/a/ac/Bloom_filter.svg){: .invert-img }
 
 ## Operations
 

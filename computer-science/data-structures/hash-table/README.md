@@ -23,11 +23,11 @@ collisions where the hash function generates the same
 index for more than one key. Such collisions must be
 accommodated in some way.
 
-![Hash Table](./images/hash-table.jpeg)
+![Hash Table](./images/hash-table.jpeg){: .invert-img }
 
 Hash collision resolved by separate chaining.
 
-![Hash Collision](./images/collision-resolution.jpeg)
+![Hash Collision](./images/collision-resolution.jpeg){: .invert-img }
 
 _Made with [okso.app](https://okso.app)_
 

@@ -28,7 +28,7 @@ in `O(log n)` time.
 
 An example of a red–black tree:
 
-![red-black tree](https://upload.wikimedia.org/wikipedia/commons/6/66/Red-black_tree_example.svg)
+![red-black tree](https://upload.wikimedia.org/wikipedia/commons/6/66/Red-black_tree_example.svg){: .invert-img }
 
 ## Properties
 
@@ -62,7 +62,7 @@ unlike ordinary binary search trees.
 ## Balancing during insertion
 
 ### If uncle is RED
-![Red Black Tree Balancing](https://www.geeksforgeeks.org/wp-content/uploads/redBlackCase2.png)
+![Red Black Tree Balancing](https://www.geeksforgeeks.org/wp-content/uploads/redBlackCase2.png){: .invert-img }
 
 ### If uncle is BLACK
 
@@ -73,19 +73,19 @@ unlike ordinary binary search trees.
 
 #### Left Left Case (See g, p and x)
 
-![Red Black Tree Balancing](https://www.geeksforgeeks.org/wp-content/uploads/redBlackCase3a1.png)
+![Red Black Tree Balancing](https://www.geeksforgeeks.org/wp-content/uploads/redBlackCase3a1.png){: .invert-img }
 
 #### Left Right Case (See g, p and x)
 
-![Red Black Tree Balancing](https://www.geeksforgeeks.org/wp-content/uploads/redBlackCase3b.png)
+![Red Black Tree Balancing](https://www.geeksforgeeks.org/wp-content/uploads/redBlackCase3b.png){: .invert-img }
 
 #### Right Right Case (See g, p and x)
 
-![Red Black Tree Balancing](https://www.geeksforgeeks.org/wp-content/uploads/redBlackCase3c.png)
+![Red Black Tree Balancing](https://www.geeksforgeeks.org/wp-content/uploads/redBlackCase3c.png){: .invert-img }
 
 #### Right Left Case (See g, p and x)
 
-![Red Black Tree Balancing](https://www.geeksforgeeks.org/wp-content/uploads/redBlackCase3d.png)
+![Red Black Tree Balancing](https://www.geeksforgeeks.org/wp-content/uploads/redBlackCase3d.png){: .invert-img }
 
 ## References
 

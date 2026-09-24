@@ -27,7 +27,7 @@ A simple unordered tree; in this diagram, the node labeled 3 has
 two children, labeled 2 and 6, and one parent, labeled 2. The
 root node, at the top, has no parent.
 
-![Tree](./images/tree.jpeg)
+![Tree](./images/tree.jpeg){: .invert-img }
 
 *Made with [okso.app](https://okso.app)*
 

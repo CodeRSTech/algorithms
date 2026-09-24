@@ -19,7 +19,7 @@ sentinel node, then the list is circularly linked via the sentinel node. It can
 be conceptualized as two singly linked lists formed from the same data items,
 but in opposite sequential orders.
 
-![Doubly Linked List](./images/doubly-linked-list.jpeg)
+![Doubly Linked List](./images/doubly-linked-list.jpeg){: .invert-img }
 
 _Made with [okso.app](https://okso.app)_
 

@@ -22,7 +22,7 @@ and with some inner nodes that correspond to keys of interest.
 For the space-optimized presentation of prefix tree, see compact
 prefix tree.
 
-![Trie](./images/trie.jpg)
+![Trie](./images/trie.jpg){: .invert-img }
 
 *Made with [okso.app](https://okso.app)*
 

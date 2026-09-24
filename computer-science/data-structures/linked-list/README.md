@@ -27,7 +27,7 @@ time is linear (and difficult to pipeline). Faster
 access, such as random access, is not feasible. Arrays
 have better cache locality as compared to linked lists.
 
-![Linked List](./images/linked-list.jpeg)
+![Linked List](./images/linked-list.jpeg){: .invert-img }
 
 *Made with [okso.app](https://okso.app)*
 

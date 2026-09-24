@@ -24,7 +24,7 @@ for a directed graph. The vertices may be part of
 the graph structure, or may be external entities
 represented by integer indices or references.
 
-![Graph](./images/graph.jpeg)
+![Graph](./images/graph.jpeg){: .invert-img }
 
 *Made with [okso.app](https://okso.app)*
 
