@@ -38,13 +38,10 @@ layout: main
         {% for src in page.attribution_sources %}
         {% if src == "Algorithm Visualizer Project" %}
         {% include attribution_algorithm_visualizer.html %}
-        {% endif %}
-        {% if src == "GeeksforGeeks" %}
+        {% elsif src == "GeeksforGeeks" %}
         {% include attribution_gfg.html %}
-        {% endif %}
-        {% if src == "Trekhleb" %}
+        {% elsif src == "Trekhleb" %}
         {% include attribution_trekhleb.html %}
-        {% endif %}
         {% endfor %}
 
         <!-- Rendered Markdown Body -->
