@@ -15,7 +15,7 @@ bitwise operations help in manipulating data at the lowest level.
 | Operator                                       | Logical                                                                        | Bitwise | Example                                           |
 |------------------------------------------------|--------------------------------------------------------------------------------|---------|---------------------------------------------------|
 | AND<br><small>Conjunction</small>              | $\land$ <small>or</small><br> $\cdot$ <small>or</small><br> `and`              | `&`     | $A \land B$ <br>$A \cdot B$                       |
-| OR <br><small>Disjunction </small>             | $\lor$ <small>or</small><br> $+$ <small>or</small><br> `or`                    | `\|`    | $A \lor B$ <br>$A + B$                            |
+| OR <br><small>Disjunction </small>             | $\lor$ <small>or</small><br> $+$ <small>or</small><br> `or`                    | `|`     | $A \lor B$ <br>$A + B$                            |
 | NOT <br><small>Negation </small>               | $\neg$ <small>or</small><br> $\overline{\text{X}}$ <small>or</small><br> `not` | `~`     | $\neg A$ <br>$\overline{A}$ <br>$A'$              |
 | NAND <br><small>Inverted AND </small>          | $\overline{\land}$                                                             | `~&`    | $\overline{A \land B}$ <br>$\overline{A \cdot B}$ |
 | NOR <br><small>Inverted OR)</small>            | $\overline{\lor}$                                                              | `~`     | $\overline{A \lor B}$ <br>$\overline{A + B}$      |
@@ -53,12 +53,12 @@ optimization, efficient flag handling, and performance-critical tasks.
 
 ## Truth Table
 
-| `X` | `Y` | AND<br>`X & Y` | OR<br>`X \| Y` | XOR<br>`X ^ Y` | NOT<br> `~ X` |
-|-----|-----|----------------|----------------|----------------|---------------|
-| $0$ | $0$ | $0$            | $0$            | $0$            | $1$           |
-| $0$ | $1$ | $0$            | $1$            | $1$            | $1$           |
-| $1$ | $0$ | $0$            | $1$            | $1$            | $0$           |
-| $1$ | $1$ | $1$            | $1$            | $0$            | $0$           |
+| `X` | `Y` | AND<br>`X & Y` | OR<br>`X | Y` | XOR<br>`X ^ Y` | NOT<br> `~ X` |
+|-----|-----|----------------|---------------|----------------|---------------|
+| $0$ | $0$ | $0$            | $0$           | $0$            | $1$           |
+| $0$ | $1$ | $0$            | $1$           | $1$            | $1$           |
+| $1$ | $0$ | $0$            | $1$           | $1$            | $0$           |
+| $1$ | $1$ | $1$            | $1$           | $0$            | $0$           |
 
 ## Bitwise **AND** `&` Operator
 
