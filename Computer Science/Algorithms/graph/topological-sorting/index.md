@@ -1,4 +1,11 @@
-# Topological Sorting
+---
+layout: algo
+title: Topological Sorting
+category: Branch and Bound
+attribution_sources:
+  - Javascript Algorithms
+---
+  - # Topological Sorting
 
 In the field of computer science, a topological sort or 
 topological ordering of a directed graph is a linear ordering 

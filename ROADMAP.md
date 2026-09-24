@@ -16,4 +16,4 @@
 
 ## 3. CI/CD & Maintenance
 - [x] **Clean up legacy files:** Delete the obsolete `.travis.yml` file, as builds are successfully handled by GitHub Actions.
-- [ ] **Translation Progress Tracker:** Write a Python script for GitHub Actions to count the remaining `# TODO: Implement in Python` stubs and automatically update a progress badge on `README.md`.
+- [ ] **Translation Progress Tracker:** Write a Python script for GitHub Actions to count the remaining `# TODO: Implement in Python` stubs and automatically update a progress badge on `index.md`.
