@@ -23,7 +23,13 @@ A multi-disciplinary learning reference guide.
 <!-- Link to the specific category index page -->
 <li>
 <a href="{{ site.baseurl }}/{{ discipline.folder | uri_escape }}/{{ subject.folder | uri_escape }}/{{ category.folder | uri_escape }}/">
-{{ category.name }}
+{{ category.name }}</a>
+</li>
+{% endfor %}
+</ul>
+{% endfor %}
+<hr>
+{% endfor %}
 
 ---
 
@@ -117,12 +123,3 @@ A comparative guide to data structures and algorithms.
 * [Maze Generation](computer-science/algorithms/Uncategorized/Maze%20Generation/)
 * [Miller-Rabin's Primality Test](computer-science/algorithms/Uncategorized/Miller-Rabin's%20Primality%20Test/)
 * [Shortest Unsorted Continuous Subarray](computer-science/algorithms/Uncategorized/Shortest%20Unsorted%20Continuous%20Subarray/)
-
-
-</a>
-</li>
-{% endfor %}
-</ul>
-{% endfor %}
-<hr>
-{% endfor %}
