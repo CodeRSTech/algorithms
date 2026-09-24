@@ -53,6 +53,11 @@ layout: main
             &#128279; <a href="{{ page.viz_url }}" target="_blank" class="text-info text-decoration-none"><strong>View the interactive visualization for {{ page.title }} here.</strong></a>
           </div>
           {% endif %}
+          {% if page.gfg_url %}
+          <div class="mt-2">
+            &#128279; <a href="{{ page.gfg_url }}" target="_blank" class="text-info text-decoration-none"><strong>View the original article for {{ page.title }} here.</strong></a>
+          </div>
+          {% endif %}
         </span>
         </div>
         <!-- Rendered Markdown Body -->
