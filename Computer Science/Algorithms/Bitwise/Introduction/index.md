@@ -24,7 +24,12 @@ bitwise operations help in manipulating data at the lowest level.
 
 ## Uses
 
- 🚀 Used in optimization, performance-critical code, masking, toggling bits, and low-level programming.
+ 🚀 Used in:
+ - optimization 
+ - performance-critical code
+ - masking
+ - toggling bits, and 
+ - low-level programming.
  
  ⚡ Used to perform fast calculations and binary manipulation.
 
