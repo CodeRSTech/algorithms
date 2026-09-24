@@ -40,6 +40,7 @@ set(num, pos)
 {% endhighlight %}
 {% endtab %}
 
+{% endtabs %}
 
 # 2. Unset/Clear a bit at $n^{th}$ position in the number
 
@@ -48,9 +49,9 @@ Suppose we want to unset a bit at $n^{th}$ position in number 'num' then we have
 First, we **Left Shift** '1' to $n$ position via (1<<n) then we use bitwise **NOT** `~` operator '~' to unset this shifted '1'.
 Now after clearing this left shifted '1' i.e making it to '0' we will 'AND'(&) with the number 'num' that will unset bit at $n^{th}$ position.
 
-{% tabs 1 %}
+{% tabs unset-nth-bit %}
 
-{% tab 1 Python %}
+{% tab unset-nth-bit Python %}
 {% highlight python linenos %}
 ```python
 # Python program for the above approach
@@ -61,6 +62,8 @@ print(ans)
 ```
 {% endhighlight %}
 {% endtab %}
+
+{% endtabs %}
 
 # 3. Toggling a bit at $n^{th}$ position
 
