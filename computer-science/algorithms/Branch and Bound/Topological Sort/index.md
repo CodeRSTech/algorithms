@@ -2,9 +2,7 @@
 layout: algo
 title: Topological Sort
 category: Branch and Bound
-attribution_sources:
-  - Algorithm Visualizer Project
-  - GeeksForGeeks
+attribution_sources: ["Algorithm Visualizer Project", "GeeksforGeeks"]
 viz_url: https://algorithm-visualizer.org/branch-and-bound/topological-sort
 tags:
   - graph
