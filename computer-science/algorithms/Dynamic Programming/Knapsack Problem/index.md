@@ -22,7 +22,8 @@ Example of a one-dimensional (constraint) knapsack problem:
 which boxes should be chosen to maximize the amount of money
 while still keeping the overall weight under or equal to 15 kg?
 
-![knapsack problem](https://upload.wikimedia.org/wikipedia/commons/f/fd/Knapsack.svg)
+![knapsack problem](https://upload.wikimedia.org/wikipedia/commons/f/fd/Knapsack.svg){: .invert-img}
+
 
 ## Definition
 

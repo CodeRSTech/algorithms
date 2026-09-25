@@ -13,7 +13,8 @@ which has the largest sum, where,
 
 ![Maximum subarray](https://wikimedia.org/api/rest_v1/media/math/render/svg/e8960f093107b71b21827e726e2bad8b023779b2)
 
-![Maximum subarray](https://www.geeksforgeeks.org/wp-content/uploads/kadane-Algorithm.png)
+![Maximum subarray](https://www.geeksforgeeks.org/wp-content/uploads/kadane-Algorithm.png){: .invert-img}
+
 
 ## Example
 

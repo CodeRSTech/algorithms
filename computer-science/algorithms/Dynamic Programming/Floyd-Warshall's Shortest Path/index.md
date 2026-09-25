@@ -40,7 +40,8 @@ This formula is the heart of the Floyd–Warshall algorithm.
 
 The algorithm above is executed on the graph on the left below:
 
-![Example](https://upload.wikimedia.org/wikipedia/commons/2/2e/Floyd-Warshall_example.svg)
+![Example](https://upload.wikimedia.org/wikipedia/commons/2/2e/Floyd-Warshall_example.svg){: .invert-img}
+
 
 In the tables below `i` is row numbers and `j` is column numbers.
 

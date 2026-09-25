@@ -17,7 +17,8 @@ on the remaining half until it is successful. If the search
 ends with the remaining half being empty, the target is not
 in the array.
 
-![Binary Search](https://upload.wikimedia.org/wikipedia/commons/8/83/Binary_Search_Depiction.svg)
+![Binary Search](https://upload.wikimedia.org/wikipedia/commons/8/83/Binary_Search_Depiction.svg){: .invert-img}
+
 
 ## Complexity
 

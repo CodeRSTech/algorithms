@@ -27,7 +27,8 @@ A recursive merge sort algorithm used to sort an array of 7
 integer values. These are the steps a human would take to
 emulate merge sort (top-down).
 
-![Merge Sort](https://upload.wikimedia.org/wikipedia/commons/e/e6/Merge_sort_algorithm_diagram.svg)
+![Merge Sort](https://upload.wikimedia.org/wikipedia/commons/e/e6/Merge_sort_algorithm_diagram.svg){: .invert-img}
+
 
 ## Complexity
 

@@ -36,13 +36,15 @@ undirected graph (not necessarily connected) has a minimum
 spanning forest, which is a union of the minimum spanning
 trees for its connected components.
 
-![Minimum Spanning Tree](https://upload.wikimedia.org/wikipedia/commons/d/d2/Minimum_spanning_tree.svg)
+![Minimum Spanning Tree](https://upload.wikimedia.org/wikipedia/commons/d/d2/Minimum_spanning_tree.svg){: .invert-img}
+
 
 A planar graph and its minimum spanning tree. Each edge is
 labeled with its weight, which here is roughly proportional
 to its length.
 
-![Minimum Spanning Tree](https://upload.wikimedia.org/wikipedia/commons/c/c9/Multiple_minimum_spanning_trees.svg)
+![Minimum Spanning Tree](https://upload.wikimedia.org/wikipedia/commons/c/c9/Multiple_minimum_spanning_trees.svg){: .invert-img}
+
 
 This figure shows there may be more than one minimum spanning
 tree in a graph. In the figure, the two trees below the graph

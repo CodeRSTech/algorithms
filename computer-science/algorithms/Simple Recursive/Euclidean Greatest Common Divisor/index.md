@@ -29,7 +29,8 @@ negative integer, e.g., `21 = 5 × 105 + (−2) × 252`.
 The fact that the GCD can always be expressed in this way is
 known as Bézout's identity.
 
-![GCD](https://upload.wikimedia.org/wikipedia/commons/3/37/Euclid%27s_algorithm_Book_VII_Proposition_2_3.png)
+![GCD](https://upload.wikimedia.org/wikipedia/commons/3/37/Euclid%27s_algorithm_Book_VII_Proposition_2_3.png){: .invert-img}
+
 
 Euclid's method for finding the greatest common divisor (GCD)
 of two starting lengths `BA` and `DC`, both defined to be
@@ -42,7 +43,8 @@ no remainder, the process ends with `FC` being the `GCD`.
 On the right Nicomachus' example with numbers `49` and `21`
 resulting in their GCD of `7` (derived from Heath 1908:300).
 
-![GCD](https://upload.wikimedia.org/wikipedia/commons/7/74/24x60.svg)
+![GCD](https://upload.wikimedia.org/wikipedia/commons/7/74/24x60.svg){: .invert-img}
+
 
 A `24-by-60` rectangle is covered with ten `12-by-12` square
 tiles, where `12` is the GCD of `24` and `60`. More generally,

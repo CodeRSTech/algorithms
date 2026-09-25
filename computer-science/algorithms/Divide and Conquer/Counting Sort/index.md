@@ -49,7 +49,8 @@ In second step we calculate how many elements exist in the input
 array `A` which are less than or equals for the given index.
 `Ci` = numbers of elements less than or equals to `i` in input array.
 
-![Counting Sort](https://1.bp.blogspot.com/-1vFu-VIRa9Y/WLHGuZkdF3I/AAAAAAAAAHs/8jKu2dbQee4ap9xlVcNsILrclqw0UxAVACLcB/s1600/Step-II.png)
+![Counting Sort](https://1.bp.blogspot.com/-1vFu-VIRa9Y/WLHGuZkdF3I/AAAAAAAAAHs/8jKu2dbQee4ap9xlVcNsILrclqw0UxAVACLcB/s1600/Step-II.png){: .invert-img}
+
 
 **Step III**
 
