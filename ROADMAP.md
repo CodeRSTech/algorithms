@@ -8,6 +8,7 @@
 - [ ] **Dynamic Sidebar Accordion:** Refactor the left sidebar to use a collapsible accordion structure mirroring the `curriculum.yml` hierarchy.
 - [ ] **Sticky Sidebar:** Ensure the left sidebar remains visible during scrolling for easy access to the curriculum tree and search functionality.
 - [ ] **Responsive Design:** Optimize main page layout across varying screen sizes.
+- [ ] **Typewriter Animation :** to apply this to other headings on site, wrap the target text in `<span class="typewriter">` and adjust the `22ch` in the `@keyframes` to match the exact number of characters in that specific string.
 
 ## 2. Search Integration
 - [ ] **Client-Side Search Engine:** Integrate `Simple-Jekyll-Search`.
