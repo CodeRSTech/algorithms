@@ -51,7 +51,8 @@ tiles, where `12` is the GCD of `24` and `60`. More generally,
 an `a-by-b` rectangle can be covered with square tiles of
 side-length `c` only if `c` is a common divisor of `a` and `b`.
 
-![GCD](https://upload.wikimedia.org/wikipedia/commons/1/1c/Euclidean_algorithm_1071_462.gif)
+![GCD](https://upload.wikimedia.org/wikipedia/commons/1/1c/Euclidean_algorithm_1071_462.gif){: .invert-img}
+
 
 Subtraction-based animation of the Euclidean algorithm.
 The initial rectangle has dimensions `a = 1071` and `b = 462`.

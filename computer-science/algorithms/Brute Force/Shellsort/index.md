@@ -17,7 +17,8 @@ with far apart elements, it can move some out-of-place
 elements into position faster than a simple nearest neighbor
 exchange
 
-![Shellsort](https://upload.wikimedia.org/wikipedia/commons/d/d8/Sorting_shellsort_anim.gif)
+![Shellsort](https://upload.wikimedia.org/wikipedia/commons/d/d8/Sorting_shellsort_anim.gif){: .invert-img}
+
 
 ## How Shell Sort Works
 

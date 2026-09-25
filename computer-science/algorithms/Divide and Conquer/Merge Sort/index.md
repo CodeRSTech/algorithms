@@ -21,7 +21,8 @@ element with the adjacent list to sort and merge the
 two adjacent lists. Finally all the elements are sorted
 and merged.
 
-![Merge Sort](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)
+![Merge Sort](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif){: .invert-img}
+
 
 A recursive merge sort algorithm used to sort an array of 7
 integer values. These are the steps a human would take to

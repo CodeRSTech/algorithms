@@ -18,9 +18,11 @@ minimized. If the graph is not connected, then it finds a
 minimum spanning forest (a minimum spanning tree for each
 connected component).
 
-![Kruskal Algorithm](https://upload.wikimedia.org/wikipedia/commons/5/5c/MST_kruskal_en.gif)
+![Kruskal Algorithm](https://upload.wikimedia.org/wikipedia/commons/5/5c/MST_kruskal_en.gif){: .invert-img}
 
-![Kruskal Demo](https://upload.wikimedia.org/wikipedia/commons/b/bb/KruskalDemo.gif)
+
+![Kruskal Demo](https://upload.wikimedia.org/wikipedia/commons/b/bb/KruskalDemo.gif){: .invert-img}
+
 
 A demo for Kruskal's algorithm based on Euclidean distance.
 

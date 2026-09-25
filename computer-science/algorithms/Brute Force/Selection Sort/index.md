@@ -16,9 +16,11 @@ performance advantages over more complicated algorithms
 in certain situations, particularly where auxiliary
 memory is limited.
 
-![Algorithm Visualization](https://upload.wikimedia.org/wikipedia/commons/b/b0/Selection_sort_animation.gif)
+![Algorithm Visualization](https://upload.wikimedia.org/wikipedia/commons/b/b0/Selection_sort_animation.gif){: .invert-img}
 
-![Algorithm Visualization](https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif)
+
+![Algorithm Visualization](https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif){: .invert-img}
+
 
 ## Complexity
 
