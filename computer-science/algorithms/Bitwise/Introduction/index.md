@@ -271,7 +271,7 @@ $1$
 
 #### Explanation
 
-All bit of $5$ will be shifted by $2$ to Right side and this results in $00001_2%, 
+All bit of $5$ will be shifted by $2$ to Right side and this results in $00001_2$, 
 Which is equivalent to $1$.
 
 #### Input
