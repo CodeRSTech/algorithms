@@ -14,7 +14,8 @@ The algorithm operates by building this tree one vertex at a
 time, from an arbitrary starting vertex, at each step adding
 the cheapest possible connection from the tree to another vertex.
 
-![Prim's Algorithm](https://upload.wikimedia.org/wikipedia/commons/f/f7/Prim%27s_algorithm.svg){: .invert-img}
+![Prim's Algorithm](https://upload.wikimedia.org/wikipedia/commons/f/f7/Prim%27s_algorithm.svg)
+
 
 
 Prim's algorithm starting at vertex `A`. In the third step, edges
@@ -35,14 +36,16 @@ undirected graph (not necessarily connected) has a minimum
 spanning forest, which is a union of the minimum spanning
 trees for its connected components.
 
-![Minimum Spanning Tree](https://upload.wikimedia.org/wikipedia/commons/d/d2/Minimum_spanning_tree.svg){: .invert-img}
+![Minimum Spanning Tree](https://upload.wikimedia.org/wikipedia/commons/d/d2/Minimum_spanning_tree.svg)
+
 
 
 A planar graph and its minimum spanning tree. Each edge is
 labeled with its weight, which here is roughly proportional
 to its length.
 
-![Minimum Spanning Tree](https://upload.wikimedia.org/wikipedia/commons/c/c9/Multiple_minimum_spanning_trees.svg){: .invert-img}
+![Minimum Spanning Tree](https://upload.wikimedia.org/wikipedia/commons/c/c9/Multiple_minimum_spanning_trees.svg)
+
 
 
 This figure shows there may be more than one minimum spanning

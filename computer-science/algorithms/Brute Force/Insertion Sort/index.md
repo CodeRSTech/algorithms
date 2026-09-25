@@ -13,10 +13,12 @@ It is much less efficient on large lists than more
 advanced algorithms such as quicksort, heapsort, or merge
 sort.
 
-![Algorithm Visualization](https://upload.wikimedia.org/wikipedia/commons/4/42/Insertion_sort.gif){: .invert-img}
+![Algorithm Visualization](https://upload.wikimedia.org/wikipedia/commons/4/42/Insertion_sort.gif)
 
 
-![Algorithm Visualization](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif){: .invert-img}
+
+![Algorithm Visualization](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
+
 
 
 ## Complexity

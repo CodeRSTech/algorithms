@@ -14,7 +14,8 @@ for the same problem, but more versatile, as it is capable of
 handling graphs in which some of the edge weights are negative
 numbers.
 
-![Bellman-Ford](https://upload.wikimedia.org/wikipedia/commons/2/2e/Shortest_path_Dijkstra_vs_BellmanFord.gif){: .invert-img}
+![Bellman-Ford](https://upload.wikimedia.org/wikipedia/commons/2/2e/Shortest_path_Dijkstra_vs_BellmanFord.gif)
+
 
 
 ## Complexity

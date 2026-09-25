@@ -55,7 +55,8 @@ Z[] =  x 0 6 0 4 0 2 0
 
 ## Example of Z box
 
-![z-box](https://ivanyu.me/wp-content/uploads/2014/09/zalg1.png){: .invert-img}
+![z-box](https://ivanyu.me/wp-content/uploads/2014/09/zalg1.png)
+
 
 
 ## Complexity

@@ -33,7 +33,8 @@ integers `1` through `8`. They are arranged so that images
 under the reflection about the main diagonal of the square
 are conjugate partitions.
 
-![Integer Partition](https://upload.wikimedia.org/wikipedia/commons/d/d8/Ferrer_partitioning_diagrams.svg){: .invert-img}
+![Integer Partition](https://upload.wikimedia.org/wikipedia/commons/d/d8/Ferrer_partitioning_diagrams.svg)
+
 
 
 ## References

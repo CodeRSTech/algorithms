@@ -28,7 +28,8 @@ at that point, smaller multiples of `p` will have already been marked `false`.
 
 ## Example
 
-![Sieve](https://upload.wikimedia.org/wikipedia/commons/b/b9/Sieve_of_Eratosthenes_animation.gif){: .invert-img}
+![Sieve](https://upload.wikimedia.org/wikipedia/commons/b/b9/Sieve_of_Eratosthenes_animation.gif)
+
 
 
 ## Complexity

@@ -21,14 +21,16 @@ element with the adjacent list to sort and merge the
 two adjacent lists. Finally all the elements are sorted
 and merged.
 
-![Merge Sort](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif){: .invert-img}
+![Merge Sort](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)
+
 
 
 A recursive merge sort algorithm used to sort an array of 7
 integer values. These are the steps a human would take to
 emulate merge sort (top-down).
 
-![Merge Sort](https://upload.wikimedia.org/wikipedia/commons/e/e6/Merge_sort_algorithm_diagram.svg){: .invert-img}
+![Merge Sort](https://upload.wikimedia.org/wikipedia/commons/e/e6/Merge_sort_algorithm_diagram.svg)
+
 
 
 ## Complexity

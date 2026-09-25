@@ -28,7 +28,8 @@ sub-array of elements with greater values.
 Animated visualization of the quicksort algorithm.
 The horizontal lines are pivot values.
 
-![Quicksort](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif){: .invert-img}
+![Quicksort](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif)
+
 
 
 ## Complexity

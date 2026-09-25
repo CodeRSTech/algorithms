@@ -41,7 +41,8 @@ In first step we calculate the count of all the elements of the
 input array `A`. Then Store the result in the count array `C`.
 The way we count is depicted below.
 
-![Counting Sort](https://3.bp.blogspot.com/-jJchly1BkTc/WLGqCFDdvCI/AAAAAAAAAHA/luljAlz2ptMndIZNH0KLTTuQMNsfzDeFQCLcB/s1600/CSortUpdatedStepI.gif){: .invert-img}
+![Counting Sort](https://3.bp.blogspot.com/-jJchly1BkTc/WLGqCFDdvCI/AAAAAAAAAHA/luljAlz2ptMndIZNH0KLTTuQMNsfzDeFQCLcB/s1600/CSortUpdatedStepI.gif)
+
 
 
 **Step II**
@@ -50,7 +51,8 @@ In second step we calculate how many elements exist in the input
 array `A` which are less than or equals for the given index.
 `Ci` = numbers of elements less than or equals to `i` in input array.
 
-![Counting Sort](https://1.bp.blogspot.com/-1vFu-VIRa9Y/WLHGuZkdF3I/AAAAAAAAAHs/8jKu2dbQee4ap9xlVcNsILrclqw0UxAVACLcB/s1600/Step-II.png){: .invert-img}
+![Counting Sort](https://1.bp.blogspot.com/-1vFu-VIRa9Y/WLHGuZkdF3I/AAAAAAAAAHs/8jKu2dbQee4ap9xlVcNsILrclqw0UxAVACLcB/s1600/Step-II.png)
+
 
 
 **Step III**
@@ -61,7 +63,8 @@ we constructed in step two. We used the result array `B` to store
 the sorted elements. Here we handled the index of `B` start from
 zero.
 
-![Counting Sort](https://1.bp.blogspot.com/-xPqylngqASY/WLGq3p9n9vI/AAAAAAAAAHM/JHdtXAkJY8wYzDMBXxqarjmhpPhM0u8MACLcB/s1600/ResultArrayCS.gif){: .invert-img}
+![Counting Sort](https://1.bp.blogspot.com/-xPqylngqASY/WLGq3p9n9vI/AAAAAAAAAHM/JHdtXAkJY8wYzDMBXxqarjmhpPhM0u8MACLcB/s1600/ResultArrayCS.gif)
+
 
 
 ## Complexity

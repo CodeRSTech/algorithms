@@ -69,7 +69,8 @@ is being calculated based on three previously possible transformations.
 
 To explain this further let’s draw the following matrix:
 
-![Levenshtein Matrix](https://cdn-images-1.medium.com/max/1600/1*aTunSUoy0BJyYBVn4tWGrA.png){: .invert-img}
+![Levenshtein Matrix](https://cdn-images-1.medium.com/max/1600/1*aTunSUoy0BJyYBVn4tWGrA.png)
+
 
 
 - Cell `(0:1)` contains red number 1. It means that we need 1 operation to
@@ -97,12 +98,14 @@ letters in `i`'s row and `j`'s column.
 
 You may clearly see the recursive nature of the problem.
 
-![Levenshtein Matrix](https://cdn-images-1.medium.com/max/1600/1*w8UB4DSvBnAK6mBXRGQDjw.png){: .invert-img}
+![Levenshtein Matrix](https://cdn-images-1.medium.com/max/1600/1*w8UB4DSvBnAK6mBXRGQDjw.png)
+
 
 
 Let's draw a decision graph for this problem.
 
-![Minimum Edit Distance Decision Graph](https://cdn-images-1.medium.com/max/1600/1*8jD0qvr5B9PwRFM_9z7q9A.png){: .invert-img}
+![Minimum Edit Distance Decision Graph](https://cdn-images-1.medium.com/max/1600/1*8jD0qvr5B9PwRFM_9z7q9A.png)
+
 
 
 You may see a number of overlapping sub-problems on the picture that are marked
@@ -116,7 +119,8 @@ bottom-up direction) is being applied here.
 Applying this principle further we may solve more complicated cases like
 with `Saturday → Sunday` transformation.
 
-![Levenshtein distance](https://cdn-images-1.medium.com/max/1600/1*geMdmZcdU1bZbHIoh6KO3Q.png){: .invert-img}
+![Levenshtein distance](https://cdn-images-1.medium.com/max/1600/1*geMdmZcdU1bZbHIoh6KO3Q.png)
+
 
 
 ## References

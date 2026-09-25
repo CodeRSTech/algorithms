@@ -17,7 +17,8 @@ with far apart elements, it can move some out-of-place
 elements into position faster than a simple nearest neighbor
 exchange
 
-![Shellsort](https://upload.wikimedia.org/wikipedia/commons/d/d8/Sorting_shellsort_anim.gif){: .invert-img}
+![Shellsort](https://upload.wikimedia.org/wikipedia/commons/d/d8/Sorting_shellsort_anim.gif)
+
 
 
 ## How Shell Sort Works
@@ -27,26 +28,30 @@ of `4`. Make a virtual sub-list of all values located at the
 interval of 4 positions. Here these values are
 `{35, 14}`, `{33, 19}`, `{42, 27}` and `{10, 44}`
 
-![Shellsort](https://www.tutorialspoint.com/data_structures_algorithms/images/shell_sort_gap_4.jpg){: .invert-img}
+![Shellsort](https://www.tutorialspoint.com/data_structures_algorithms/images/shell_sort_gap_4.jpg)
+
 
 
 We compare values in each sub-list and swap them (if necessary)
 in the original array. After this step, the new array should
 look like this
 
-![Shellsort](https://www.tutorialspoint.com/data_structures_algorithms/images/shell_sort_step_1.jpg){: .invert-img}
+![Shellsort](https://www.tutorialspoint.com/data_structures_algorithms/images/shell_sort_step_1.jpg)
+
 
 
 Then, we take interval of 2 and this gap generates two sub-lists
 - `{14, 27, 35, 42}`, `{19, 10, 33, 44}`
 
-![Shellsort](https://www.tutorialspoint.com/data_structures_algorithms/images/shell_sort_gap_2.jpg){: .invert-img}
+![Shellsort](https://www.tutorialspoint.com/data_structures_algorithms/images/shell_sort_gap_2.jpg)
+
 
 
 We compare and swap the values, if required, in the original array.
 After this step, the array should look like this
 
-![Shellsort](https://www.tutorialspoint.com/data_structures_algorithms/images/shell_sort_step_2.jpg){: .invert-img}
+![Shellsort](https://www.tutorialspoint.com/data_structures_algorithms/images/shell_sort_step_2.jpg)
+
 
 
 > UPD: On the picture below there is a typo and result array is supposed to be `[14, 10, 27, 19, 35, 33, 42, 44]`.
@@ -54,7 +59,8 @@ After this step, the array should look like this
 Finally, we sort the rest of the array using interval of value 1.
 Shell sort uses insertion sort to sort the array.
 
-![Shellsort](https://www.tutorialspoint.com/data_structures_algorithms/images/shell_sort.jpg){: .invert-img}
+![Shellsort](https://www.tutorialspoint.com/data_structures_algorithms/images/shell_sort.jpg)
+
 
 
 ## Complexity

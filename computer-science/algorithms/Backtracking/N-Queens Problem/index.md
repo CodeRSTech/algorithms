@@ -17,7 +17,8 @@ numbers `n` with the exception of `n=2` and `n=3`.
 
 For example, following is a solution for 4 Queen problem.
 
-![N Queens](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/N_Queen_Problem.jpg){: .invert-img}
+![N Queens](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/N_Queen_Problem.jpg)
+
 
 
 The expected output is a binary matrix which has 1s for the blocks
@@ -111,7 +112,8 @@ row are already occupied by queens.
 
 Below is a visual aid for `leftDiagonal`, `column`, and `rightDiagonal`.
 
-![](http://gregtrowbridge.com/content/images/2014/Jul/Screenshot-from-2014-06-17-19-46-20.png){: .invert-img}
+![](http://gregtrowbridge.com/content/images/2014/Jul/Screenshot-from-2014-06-17-19-46-20.png)
+
 
 
 ## References

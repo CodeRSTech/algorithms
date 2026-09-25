@@ -18,10 +18,12 @@ minimized. If the graph is not connected, then it finds a
 minimum spanning forest (a minimum spanning tree for each
 connected component).
 
-![Kruskal Algorithm](https://upload.wikimedia.org/wikipedia/commons/5/5c/MST_kruskal_en.gif){: .invert-img}
+![Kruskal Algorithm](https://upload.wikimedia.org/wikipedia/commons/5/5c/MST_kruskal_en.gif)
 
 
-![Kruskal Demo](https://upload.wikimedia.org/wikipedia/commons/b/bb/KruskalDemo.gif){: .invert-img}
+
+![Kruskal Demo](https://upload.wikimedia.org/wikipedia/commons/b/bb/KruskalDemo.gif)
+
 
 
 A demo for Kruskal's algorithm based on Euclidean distance.
@@ -38,14 +40,16 @@ undirected graph (not necessarily connected) has a minimum
 spanning forest, which is a union of the minimum spanning
 trees for its connected components.
 
-![Minimum Spanning Tree](https://upload.wikimedia.org/wikipedia/commons/d/d2/Minimum_spanning_tree.svg){: .invert-img}
+![Minimum Spanning Tree](https://upload.wikimedia.org/wikipedia/commons/d/d2/Minimum_spanning_tree.svg)
+
 
 
 A planar graph and its minimum spanning tree. Each edge is
 labeled with its weight, which here is roughly proportional
 to its length.
 
-![Minimum Spanning Tree](https://upload.wikimedia.org/wikipedia/commons/c/c9/Multiple_minimum_spanning_trees.svg){: .invert-img}
+![Minimum Spanning Tree](https://upload.wikimedia.org/wikipedia/commons/c/c9/Multiple_minimum_spanning_trees.svg)
+
 
 
 This figure shows there may be more than one minimum spanning

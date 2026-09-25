@@ -26,12 +26,14 @@ general **Hamiltonian path problem** in graph theory. The problem of finding
 a closed knight's tour is similarly an instance of the Hamiltonian
 cycle problem.
 
-![Knight's Tour](https://upload.wikimedia.org/wikipedia/commons/d/da/Knight%27s_tour_anim_2.gif){: .invert-img}
+![Knight's Tour](https://upload.wikimedia.org/wikipedia/commons/d/da/Knight%27s_tour_anim_2.gif)
+
 
 
 An open knight's tour of a chessboard.
 
-![Knight's Tour](https://upload.wikimedia.org/wikipedia/commons/c/ca/Knights-Tour-Animation.gif){: .invert-img}
+![Knight's Tour](https://upload.wikimedia.org/wikipedia/commons/c/ca/Knights-Tour-Animation.gif)
+
 
 
 An animation of an open knight's tour on a 5 by 5 board.
